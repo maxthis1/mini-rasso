@@ -210,28 +210,57 @@ Deux limites à garder en tête en lisant les scores :
 - 16 annonces sur 81 n'affichent pas de prix, et repartent avec les 20 points
   forfaitaires de `score.py`. À surveiller si elles remontent trop haut.
 
+## Où en est la mise en ligne
+
+Fait le 3 septembre 2026 :
+
+- dépôt public **github.com/maxthis1/mini-rasso**, `SOURCE` renseignée ;
+- site en ligne sur **https://mini-rasso.netlify.app** (projet Netlify
+  `mini-rasso`, déploiement manuel par CLI, pas encore de publication continue) ;
+- secret `NTFY_TOPIC` créé, valeur dans `CONTEXTE-LOCAL.md` ;
+- workflow lancé une fois, run 33692059707.
+
+Le déploiement Netlify ne publie **que** `index.html` et `data/annonces.json`.
+C'est délibéré : `netlify.toml` publie `.`, donc un déploiement du dossier
+complet exposerait `CONTEXTE-LOCAL.md` à l'URL du site. Si un jour on branche la
+publication continue depuis GitHub, le problème disparaît de lui-même puisque ce
+fichier n'est pas suivi — mais **ne jamais faire un `netlify deploy --dir .`
+depuis le dossier de travail.**
+
+Le domaine minirasso.com est mis de côté : il n'est pas enregistré, et ce n'est
+pas la priorité.
+
+## La décision en attente
+
+Le propriétaire réfléchit à l'endroit d'où faire tourner la collecte, vu que
+GitHub Actions ne voit que 13 annonces sur 82. Rien n'est installé sur sa
+machine, c'est volontaire — **ne pas créer de tâche planifiée sans le lui
+redemander.**
+
+En attendant, la collecte se relance à la main depuis le dossier du projet :
+
+    py collector/collect.py --dry-run
+    git add data/annonces.json && git commit -m "annonces" && git push
+
+Le site se met à jour tout seul ensuite, avec jusqu'à cinq minutes de retard :
+`raw.githubusercontent.com` a un cache CDN d'environ cette durée, et le
+`cache: 'no-store'` du site ne l'atteint pas.
+
 ## À faire
 
-1. Pousser le projet à la racine du dépôt Netlify, après avoir déplacé le site
-   de sport dans `_archive-sport/`.
-2. Renseigner `SOURCE` dans `index.html` (pseudo GitHub + nom du dépôt).
-   C'est le seul réglage qui manque encore pour que le site affiche des données.
-3. Créer le secret GitHub `NTFY_TOPIC`, lancer le workflow une première fois,
-   et **regarder les logs** : c'est là qu'on saura si Cloudflare bloque le
-   runner (voir « Le risque qui reste »).
-4. Brancher minirasso.com côté Netlify.
-5. **Recalibrer les cotes** de `score.py` sur les prix observés. Le relevé
+1. Trancher la question ci-dessus — c'est ce qui conditionne l'utilité du radar.
+2. **Recalibrer les cotes** de `score.py` sur les prix observés. Le relevé
    ci-dessus suggère déjà que `projet_sain` à 4 800 € est trop haut pour
    l'Italie et à peu près juste pour la France : une cote par pays serait plus
    fidèle qu'une cote unique.
-6. Aller chercher l'état réel des candidats. Pour les annonces qui passent un
+3. Aller chercher l'état réel des candidats. Pour les annonces qui passent un
    certain score, ouvrir la page de détail et scorer sur son texte plutôt que
    sur la fiche technique — c'est ce qui rendrait le moteur de mots-clés utile
    sur leParking.
-7. Historiser les prix par annonce pour repérer les vendeurs qui baissent
+4. Historiser les prix par annonce pour repérer les vendeurs qui baissent
    progressivement — ce sont les plus négociables. La détection de baisse
    existe déjà (`baisse_prix`), il manque l'historique.
-8. Rebrancher eBay par l'API Browse officielle si le volume manque.
+5. Rebrancher eBay par l'API Browse officielle si le volume manque.
 
 ## Conventions
 
