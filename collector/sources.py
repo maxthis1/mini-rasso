@@ -237,16 +237,29 @@ def _iter_json_objects(bloc: str):
             continue
 
 
+def _verdict(nom: str, res: list, erreurs: list, tentatives: int):
+    """Une source dont toutes les requetes ont echoue n'est pas 'ok (0)', elle
+    est morte. Sans ca le pied de site affiche un voyant vert sur une source
+    qui ne remonte plus rien, et on ne s'en apercoit jamais."""
+    if erreurs and len(erreurs) == tentatives:
+        raise RuntimeError(f"{len(erreurs)}/{tentatives} requetes en echec — {erreurs[0]}")
+    if erreurs:
+        print(f"  ({len(erreurs)}/{tentatives} requetes en echec, {len(res)} annonces quand meme)")
+
+
 def leparking() -> list:
-    res = []
+    res, erreurs, tentatives = [], [], 0
     for slug in PARKING_SLUGS:
         for tri in PARKING_TRIS:
             url = f"{PARKING_BASE.format(slug)}?tri={tri}"
+            tentatives += 1
             try:
                 res += _parse_jsonld_vehicles(_get(url), "leParking")
             except Exception as e:
+                erreurs.append(str(e))
                 print(f"  ! leParking {slug}/{tri} : {e}")
             time.sleep(PAUSE)
+    _verdict("leParking", res, erreurs, tentatives)
     return res
 
 # --------------------------------------------------------------------------
@@ -266,7 +279,7 @@ ANCIENNES_URLS = [
 
 
 def lesanciennes() -> list:
-    out = []
+    out, erreurs = [], []
     for u in ANCIENNES_URLS:
         try:
             soup = BeautifulSoup(_get(u), "html.parser")
@@ -299,9 +312,12 @@ def lesanciennes() -> list:
                     "source": "lesAnciennes",
                 })
         except Exception as e:
+            erreurs.append(str(e))
             print(f"  ! lesAnciennes : {e}")
         time.sleep(PAUSE)
+    _verdict("lesAnciennes", out, erreurs, len(ANCIENNES_URLS))
     return out
+
 
 # --------------------------------------------------------------------------
 # 3. ParuVendu : beaucoup de particuliers en province, souvent sous-cote.
@@ -337,7 +353,7 @@ def _carte_paruvendu(texte: str) -> tuple[str, str]:
 
 
 def paruvendu() -> list:
-    out = []
+    out, erreurs = [], []
     for marque in PARUVENDU_MARQUES:
         u = f"https://www.paruvendu.fr/voiture-occasion/{marque}/"
         try:
@@ -373,8 +389,10 @@ def paruvendu() -> list:
                     "source": "ParuVendu",
                 })
         except Exception as e:
+            erreurs.append(str(e))
             print(f"  ! ParuVendu {marque} : {e}")
         time.sleep(PAUSE)
+    _verdict("ParuVendu", out, erreurs, len(PARUVENDU_MARQUES))
     return out
 
 # --------------------------------------------------------------------------

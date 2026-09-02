@@ -148,17 +148,34 @@ deux adaptateurs est conservé, simplement pas appelé.
 Hors radar volontairement : Facebook Marketplace et les groupes Facebook Mini,
 où passent les meilleures affaires. Pas d'API, scraping contraire aux CGU.
 
-### Le risque qui reste
+### Le blocage confirmé : leParking ne marche pas depuis GitHub Actions
 
-Ces 403 dépendent de l'adresse IP d'où part la requête. `leparking.be` répond
-depuis une connexion domestique ; rien ne garantit qu'il réponde depuis un
-runner GitHub, dont les IP de datacentre sont exactement ce que Cloudflare
-filtre. **À vérifier au premier passage réel du workflow.** Le collecteur est
-protégé : si aucune source ne répond alors qu'on avait déjà des annonces, il
-laisse `data/annonces.json` intact plutôt que de tout marquer comme disparu.
-Si le blocage se confirme, la sortie est de faire tourner la collecte ailleurs
-qu'en Actions (un petit VPS, ou une machine à la maison) et de ne garder GitHub
-que pour l'hébergement.
+**Vérifié au premier passage réel, run 33692059707 du 3 septembre 2026.**
+Les 403 dépendent de l'IP d'où part la requête. `leparking.be` répond depuis une
+connexion domestique et répond **403 sur les huit requêtes** depuis un runner
+GitHub, dont les IP de datacentre sont exactement ce que Cloudflare filtre.
+
+Conséquence chiffrée : la collecte en Actions ne voit plus que 13 annonces au
+lieu de 82. leParking apportait 69 des 82, soit 84 % de la couverture. Les deux
+sources qui survivent sont lesAnciennes — du prix marchand, quasiment tout
+au-dessus du plafond — et ParuVendu, qui n'en retient que deux.
+
+**Autrement dit, le radar en Actions ne sert presque à rien.** La sortie est de
+faire tourner la collecte depuis une IP domestique — la machine de la maison via
+le Planificateur de tâches, ou un petit VPS résidentiel — et de ne garder GitHub
+que pour héberger les données et le site. Le workflow peut rester en place : il
+ne casse rien, il rafraîchit juste les deux sources qui répondent.
+
+Ce qu'on ne fera pas : contourner la protection. Pas de rotation de proxies, pas
+de solveur de challenge. Une source qui refuse les robots refuse les robots.
+
+Deux garde-fous sont en place et ont fonctionné lors de ce passage :
+
+- une source dont **toutes** les requêtes échouent lève une erreur et s'affiche
+  en rouge en pied de site. Sans ça leParking apparaissait en `ok (0)`, voyant
+  vert sur une source morte ;
+- si plus aucune source ne répond alors qu'on avait des annonces, le collecteur
+  laisse `data/annonces.json` intact au lieu de tout marquer disparu.
 
 ## Design
 
