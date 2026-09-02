@@ -4,3 +4,6 @@ _backup/
 
 # contexte personnel : le depot est public
 CONTEXTE-LOCAL.md
+
+# etat local du CLI Netlify
+.netlify/
