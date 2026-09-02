@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mini Rasso — la chasse à la Mini classique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --nuit:#0C1A16;      /* vert nuit, base */
+  --capot:#132922;     /* panneau */
+  --acier:#204237;     /* traits */
+  --ivoire:#EFE9DA;    /* Old English White */
+  --almond:#8FA07E;    /* Almond Green, texte secondaire */
+  --tartan:#C7263B;    /* Tartan Red, alerte */
+  --ambre:#D9A441;     /* temoin tableau de bord */
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--nuit);color:var(--ivoire);
+  font-family:'Archivo',system-ui,sans-serif;font-size:15px;line-height:1.45;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px 64px}
+a{color:inherit;text-decoration:none}
+
+/* ---------- en-tete : le cadran ---------- */
+header{padding:28px 0 20px;display:flex;gap:18px;align-items:center}
+.dial{flex:0 0 108px}
+.titre h1{font-family:'Bebas Neue',sans-serif;font-size:44px;letter-spacing:.02em;
+  line-height:.92;margin:0 0 6px}
+.titre p{margin:0;color:var(--almond);font-size:13.5px}
+.maj{margin-top:6px;font-size:12px;color:#5F7364}
+
+/* ---------- barre budget ---------- */
+.budget{border-top:1px solid var(--acier);border-bottom:1px solid var(--acier);
+  padding:14px 0;display:flex;gap:20px;flex-wrap:wrap}
+.budget div{font-size:12.5px;color:var(--almond)}
+.budget b{display:block;font-family:'Bebas Neue',sans-serif;font-size:26px;
+  color:var(--ivoire);letter-spacing:.03em;line-height:1.1}
+
+/* ---------- filtres ---------- */
+.filtres{position:sticky;top:0;background:var(--nuit);padding:14px 0 12px;
+  z-index:5;border-bottom:1px solid var(--acier)}
+.chips{display:flex;gap:7px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{white-space:nowrap;border:1px solid var(--acier);background:transparent;
+  color:var(--almond);font:500 13px 'Archivo';padding:6px 12px;border-radius:2px;
+  cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ivoire);color:var(--nuit);border-color:var(--ivoire)}
+.chip:focus-visible{outline:2px solid var(--ambre);outline-offset:2px}
+.tri{margin-top:10px;display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--almond)}
+select{background:var(--capot);color:var(--ivoire);border:1px solid var(--acier);
+  border-radius:2px;padding:5px 8px;font:400 13px 'Archivo'}
+
+/* ---------- liste ---------- */
+.compte{padding:16px 0 4px;font-size:12.5px;color:var(--almond)}
+.annonce{display:grid;grid-template-columns:52px 1fr;gap:14px;
+  padding:18px 0;border-bottom:1px solid var(--acier);align-items:start}
+.annonce:hover{background:rgba(255,255,255,.02)}
+.prix{font-family:'Bebas Neue',sans-serif;font-size:31px;letter-spacing:.02em;
+  line-height:1;display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.tag{font:500 11px 'Archivo';letter-spacing:.04em;border:1px solid var(--acier);
+  padding:2px 7px;color:var(--almond);border-radius:2px;position:relative;top:-3px}
+.tag.now{border-color:var(--ambre);color:var(--ambre)}
+.tag.neuf{border-color:var(--tartan);color:var(--tartan)}
+.tag.baisse{border-color:var(--almond);color:var(--ivoire)}
+h2{font:600 15px 'Archivo';margin:7px 0 4px}
+.meta{font-size:12.5px;color:var(--almond)}
+.flags{margin-top:8px;display:flex;flex-direction:column;gap:3px;font-size:12.5px}
+.f-rouille{color:var(--tartan)}
+.f-epave{color:var(--tartan);font-weight:600}
+.f-bon{color:var(--almond)}
+.f-info{color:#6E8275}
+.morte{opacity:.38}
+
+/* ---------- checklist ---------- */
+details{margin-top:34px;border-top:1px solid var(--acier);padding-top:16px}
+summary{cursor:pointer;font:600 14px 'Archivo';list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:'+ ';color:var(--ambre)}
+details[open] summary::before{content:'– '}
+details ul{padding-left:18px;color:var(--almond);font-size:13.5px}
+details li{margin:5px 0}
+details li b{color:var(--ivoire);font-weight:600}
+
+footer{margin-top:30px;padding-top:14px;border-top:1px solid var(--acier);
+  font-size:12px;color:#5F7364}
+footer span{display:inline-block;margin-right:14px}
+.vide{padding:44px 0;text-align:center;color:var(--almond)}
+@media (max-width:420px){ .titre h1{font-size:36px} .dial{flex-basis:88px} }
+@media (prefers-reduced-motion:no-preference){
+  .needle{transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="dial">
+    <svg viewBox="0 0 120 120" width="100%" role="img" aria-label="Nombre de pépites">
+      <circle cx="60" cy="60" r="55" fill="#0F211B" stroke="#204237" stroke-width="2"/>
+      <g stroke="#8FA07E" stroke-width="2">
+        <line x1="60" y1="12" x2="60" y2="20"/><line x1="60" y1="100" x2="60" y2="108"/>
+        <line x1="12" y1="60" x2="20" y2="60"/><line x1="100" y1="60" x2="108" y2="60"/>
+        <line x1="26" y1="26" x2="32" y2="32"/><line x1="94" y1="26" x2="88" y2="32"/>
+        <line x1="26" y1="94" x2="32" y2="88"/>
+      </g>
+      <line class="needle" id="needle" x1="60" y1="60" x2="60" y2="22"
+            stroke="#C7263B" stroke-width="3" stroke-linecap="round"
+            transform="rotate(-120 60 60)"/>
+      <circle cx="60" cy="60" r="6" fill="#EFE9DA"/>
+      <text id="dialNum" x="60" y="92" text-anchor="middle" fill="#EFE9DA"
+            font-family="Bebas Neue" font-size="24">0</text>
+    </svg>
+  </div>
+  <div class="titre">
+    <h1>Mini Rasso</h1>
+    <p>Toutes les Austin, Rover, Morris et Innocenti Mini en vente, classées par rapport qualité-prix et par risque de rouille.</p>
+    <p class="maj" id="maj">Chargement…</p>
+  </div>
+</header>
+
+<section class="budget" id="budget"></section>
+
+<div class="filtres">
+  <div class="chips" id="chips"></div>
+  <div class="tri">
+    <label for="tri">Trier par</label>
+    <select id="tri">
+      <option value="score">score pépite</option>
+      <option value="prix">prix croissant</option>
+      <option value="recent">plus récentes</option>
+      <option value="ecart">écart à la cote</option>
+    </select>
+  </div>
+</div>
+
+<p class="compte" id="compte"></p>
+<div id="liste"></div>
+
+<details>
+  <summary>Ce qu'il faut regarder avant de sortir le chéquier</summary>
+  <ul>
+    <li><b>Tabliers avant (A-panels) et boîtiers de suspension arrière</b> — les deux zones qui coûtent le plus cher à refaire. Un tablier percé, c'est de la carrosserie lourde, pas du bricolage de garage.</li>
+    <li><b>Planchers et traverse avant</b> — soulève les tapis, tape au tournevis. Un plancher neuf se trouve à 60-90 €, mais la main-d'œuvre de soudure explose la facture si tu ne le fais pas toi-même.</li>
+    <li><b>Bas de caisse et arches</b> — les moins graves, souvent purement cosmétiques sur une caisse saine.</li>
+    <li><b>Coffre, gouttières, base de pare-brise</b> — la rouille par infiltration se voit mal en photo, exige des clichés sous plusieurs angles.</li>
+    <li><b>Sous-cadre avant</b> — s'il est piqué, compte une dépose complète du groupe motopropulseur.</li>
+    <li><b>Papiers</b> — carte grise au nom du vendeur, non barrée. Une Mini sans carte grise est un puzzle administratif, pas une affaire.</li>
+    <li><b>Cotes du marché 2026</b> — épave 0,6-1,5 k€ · projet roulant 2-3,5 k€ · projet sain 4-6 k€ · bon état roulant CT ok 8-12 k€ · restaurée dossier complet 15-25 k€.</li>
+  </ul>
+</details>
+
+<footer id="footer"></footer>
+</div>
+
+<script>
+// Le collecteur tourne sur GitHub Actions et reecrit data/annonces.json dans le
+// depot. Netlify ne redeploie pas a chaque passage (voir netlify.toml), donc le
+// site lit les donnees directement depuis GitHub, toujours fraiches.
+// Remplace <pseudo> et <depot> par les tiens apres la mise en ligne.
+const SOURCE = 'https://raw.githubusercontent.com/maxthis1/mini-rasso/main/data/annonces.json';
+
+const SEED = {genere_le:null, sources:{}, stats:{}, annonces:[]};
+let DATA = SEED, FILTRE = 'tout';
+
+const euros = n => n ? new Intl.NumberFormat('fr-FR').format(n) + ' €' : 'prix nc';
+
+const FILTRES = {
+  tout:      {label:'Tout',                 test:a=>true},
+  now:       {label:'Achat immédiat',       test:a=>a.prix>0 && a.prix<=(DATA.budget?.achat_immediat||2000)},
+  saines:    {label:'Rouille non annoncée', test:a=>a.risque_rouille==='non annonce'},
+  roulantes: {label:'Roulantes',            test:a=>['bon_etat','tres_bon','projet_sain'].includes(a.etat)},
+  neuves:    {label:'Nouvelles',            test:a=>a.nouvelle},
+  france:    {label:'France seule',         test:a=>a.pays==='France'},
+};
+
+function dial(score){
+  const angle = -120 + (score/100)*240;
+  const r = 20, cx = 26, cy = 26;
+  const a0 = (-120-90) * Math.PI/180, a1 = (angle-90) * Math.PI/180;
+  const grand = (angle - (-120)) > 180 ? 1 : 0;
+  const arc = `M ${cx+r*Math.cos(a0)} ${cy+r*Math.sin(a0)} A ${r} ${r} 0 ${grand} 1 ${cx+r*Math.cos(a1)} ${cy+r*Math.sin(a1)}`;
+  const col = score>=72 ? 'var(--ambre)' : score>=50 ? 'var(--almond)' : 'var(--tartan)';
+  return `<svg viewBox="0 0 52 52" width="52" height="52" aria-hidden="true">
+    <circle cx="26" cy="26" r="20" fill="none" stroke="#204237" stroke-width="4"/>
+    <path d="${arc}" fill="none" stroke="${col}" stroke-width="4" stroke-linecap="round"/>
+    <text x="26" y="31" text-anchor="middle" fill="var(--ivoire)"
+      font-family="Bebas Neue" font-size="17">${score}</text></svg>`;
+}
+
+function carte(a){
+  const tags = [];
+  if (a.nouvelle) tags.push('<span class="tag neuf">nouvelle</span>');
+  if (a.tag_budget === 'achat immediat') tags.push('<span class="tag now">dans le budget</span>');
+  if (a.baisse_prix) tags.push(`<span class="tag baisse">−${euros(a.baisse_prix)}</span>`);
+  if (a.disparue) tags.push('<span class="tag">annonce retirée</span>');
+
+  const flags = (a.drapeaux||[]).map(d =>
+    `<span class="f-${d.type}">${d.texte}</span>`).join('');
+
+  const meta = [a.annee||'année ?', a.km ? new Intl.NumberFormat('fr-FR').format(a.km)+' km' : null,
+                a.pays, a.source, a.ecart_cote!=null ? (a.ecart_cote>0?`${a.ecart_cote}% sous la cote`:`${-a.ecart_cote}% au-dessus`) : null]
+                .filter(Boolean).join('  ·  ');
+
+  return `<a class="annonce ${a.disparue?'morte':''}" href="${a.url}" target="_blank" rel="noopener">
+    <div>${dial(a.score)}</div>
+    <div>
+      <div class="prix">${euros(a.prix)} ${tags.join(' ')}</div>
+      <h2>${a.titre.replace(/</g,'&lt;')}</h2>
+      <div class="meta">${meta}</div>
+      <div class="flags">${flags}</div>
+    </div></a>`;
+}
+
+function rendre(){
+  const f = FILTRES[FILTRE].test;
+  let liste = DATA.annonces.filter(f);
+  const tri = document.getElementById('tri').value;
+  liste.sort((x,y) =>
+    tri==='prix'   ? (x.prix||99999)-(y.prix||99999) :
+    tri==='recent' ? (y.vue_le||'').localeCompare(x.vue_le||'') :
+    tri==='ecart'  ? (y.ecart_cote??-99)-(x.ecart_cote??-99) :
+                     y.score-x.score);
+
+  document.getElementById('compte').textContent =
+    `${liste.length} annonce${liste.length>1?'s':''}`;
+  document.getElementById('liste').innerHTML =
+    liste.length ? liste.map(carte).join('')
+    : `<p class="vide">Rien ici pour l'instant. Le collecteur tourne toutes les 30 minutes.</p>`;
+}
+
+function chips(){
+  document.getElementById('chips').innerHTML = Object.entries(FILTRES).map(([k,v]) =>
+    `<button class="chip" data-k="${k}" aria-pressed="${k===FILTRE}">${v.label}</button>`).join('');
+  document.querySelectorAll('.chip').forEach(b => b.onclick = () => {
+    FILTRE = b.dataset.k; chips(); rendre();
+  });
+}
+
+function entete(){
+  const s = DATA.stats||{}, b = DATA.budget||{};
+  document.getElementById('budget').innerHTML = `
+    <div>Achat immédiat<b>${euros(b.achat_immediat||2000)}</b></div>
+    <div>Dans le budget<b>${s.sous_2k??0}</b></div>
+    <div>Pépites<b>${s.pepites??0}</b></div>
+    <div>Suivies<b>${s.total??0}</b></div>`;
+
+  const n = Math.min(s.pepites??0, 10);
+  document.getElementById('needle').setAttribute('transform',
+    `rotate(${-120 + n/10*240} 60 60)`);
+  document.getElementById('dialNum').textContent = s.pepites??0;
+
+  document.getElementById('maj').textContent = DATA.genere_le
+    ? 'Dernier passage : ' + new Date(DATA.genere_le).toLocaleString('fr-FR',
+        {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'})
+    : 'Aucune collecte enregistrée pour le moment.';
+
+  document.getElementById('footer').innerHTML =
+    Object.entries(DATA.sources||{}).map(([k,v]) =>
+      `<span>${k} : ${v.startsWith('ok')?v:'hors service'}</span>`).join('');
+}
+
+const lire = url => fetch(url, {cache:'no-store'}).then(r => {
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+});
+
+lire(SOURCE.includes('<pseudo>') ? 'data/annonces.json' : SOURCE)
+  .catch(() => lire('data/annonces.json'))   // repli si GitHub ne repond pas
+  .then(d => { DATA = d; })
+  .catch(() => { DATA = SEED; })
+  .finally(() => { entete(); chips(); rendre();
+                   document.getElementById('tri').onchange = rendre; });
+</script>
+</body>
+</html>

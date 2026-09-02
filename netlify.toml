@@ -1,0 +1,16 @@
+# Mini Rasso — site statique, aucun build.
+[build]
+  publish = "."
+  command = ""
+  # Le collecteur reecrit data/annonces.json toutes les 30 min via GitHub Actions.
+  # Sans cette ligne, chaque passage declencherait un deploiement Netlify et
+  # ferait exploser le quota de 300 minutes de build par mois.
+  # Ici : on ne redeploie que si un fichier AUTRE que data/ a change.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':!data'"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

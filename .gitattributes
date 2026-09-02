@@ -1,0 +1,3 @@
+# Le collecteur tourne sur un runner Linux : un script bash avec des fins de
+# ligne CRLF echoue avec des erreurs illisibles. On force LF partout.
+* text=auto eol=lf

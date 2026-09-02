@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+_backup/
+
+# contexte personnel : le depot est public
+CONTEXTE-LOCAL.md
