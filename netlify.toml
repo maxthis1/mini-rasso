@@ -14,3 +14,12 @@
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Netlify sert les .webmanifest en application/octet-stream, et Chrome refuse
+# alors le manifeste : le raccourci Android retombe sur une icone de secours.
+# X-Content-Type-Options = nosniff, juste au-dessus, interdit au navigateur de
+# deviner le bon type — il faut donc le declarer.
+[[headers]]
+  for = "/*.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"
