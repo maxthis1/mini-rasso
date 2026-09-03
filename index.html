@@ -6,6 +6,19 @@
 <title>Mini Rasso — la chasse à la Mini classique</title>
 <meta name="description" content="Radar d'annonces pour Mini classique : Austin, Rover, Morris et Innocenti, classées par rapport qualité-prix et par risque de rouille.">
 <meta name="theme-color" content="#0C1A16">
+
+<!-- Raccourci sur l'ecran d'accueil. Sans ces lignes, iOS fabrique lui-meme une
+     icone : un carre sombre avec la premiere lettre du titre, et il tronque le
+     titre complet en "MiniRasso—lac...". apple-touch-icon doit etre un vrai PNG,
+     iOS ne lit pas le SVG du favicon ; et apple-mobile-web-app-title porte le
+     nom court, sinon c'est <title> qui est repris et coupe. -->
+<link rel="apple-touch-icon" href="/icone-180.png">
+<meta name="apple-mobile-web-app-title" content="Mini Rasso">
+<meta name="application-name" content="Mini Rasso">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="manifest" href="/manifeste.webmanifest">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 236 236'%3E%3Crect width='236' height='236' fill='%230C1A16'/%3E%3Cg transform='translate(0,62)'%3E%3Ccircle cx='44' cy='85' r='19' fill='%230F211B' stroke='%23EFE9DA' stroke-width='6'/%3E%3Ccircle cx='182' cy='85' r='19' fill='%230F211B' stroke='%23EFE9DA' stroke-width='6'/%3E%3Cpath d='M11 77 L9 54 Q9 46 18 42 L34 11 Q35 8 39 8 H143 Q147 8 148 11 L163 40 L207 44 Q220 45 222 54 L223 69 Q223 77 217 77 H203 A21 21 0 0 0 161 77 H65 A21 21 0 0 0 23 77 Z' fill='%23132922' stroke='%23EFE9DA' stroke-width='6' stroke-linejoin='round'/%3E%3Cpath d='M43 15 H86 q2 0 2 2 V38 H37 z' fill='%230C1A16'/%3E%3Cpath d='M94 15 H139 q2 0 3 2 l7 21 H94 z' fill='%230C1A16'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -49,7 +49,9 @@ Pas de framework, pas de build. HTML/CSS/JS vanilla + Python pour la collecte.
 ## Arborescence
 
     index.html              le site entier (styles et script inline, volontairement)
-    logo-mini.png           le logo, seul fichier externe que le site charge
+    logo-mini.png           le logo
+    icone-180/192/512.png   icones d'ecran d'accueil, fabriquees depuis le logo
+    manifeste.webmanifest   nom court, couleurs et icones pour Android
     netlify.toml            publication + règle anti-redéploiement
     config.json             tous les réglages : budget, pays, import, mots-clés, seuils
     data/annonces.json      sortie du collecteur, réécrite à chaque passage
@@ -219,6 +221,26 @@ compression n'est installé sur la machine : le redimensionnement passe par
 pour une image décorative sur un site dont les données pèsent 76 Ko, ce serait
 disproportionné.
 
+### Le raccourci sur l'écran d'accueil
+
+Ajouter le site à l'écran d'accueil donnait un carré sombre avec un « M » —
+l'icône de secours que fabrique iOS — et un nom tronqué en
+« MiniRasso—lac… ». Trois choses manquaient, elles sont maintenant dans
+l'en-tête :
+
+- **`apple-touch-icon` doit être un vrai PNG.** iOS ne lit pas le SVG du
+  favicon, d'où l'icône de secours. C'est `icone-180.png`.
+- **`apple-mobile-web-app-title`** porte le nom court. Sans lui, iOS reprend le
+  `<title>` complet et le coupe.
+- **un manifeste** (`manifeste.webmanifest`) pour Android, avec `icone-192.png`
+  et `icone-512.png`, `display: standalone` et les couleurs de fond.
+
+Les icônes sont fabriquées à partir de `logo-mini.png` sur fond `--nuit`. Deux
+cadrages, pour une raison précise : **88 % de la largeur pour iOS**, qui
+n'arrondit que les coins, et **78 % pour le manifeste**, parce que certains
+lanceurs Android appliquent un masque circulaire qui rognerait le nez et la
+malle de la voiture. Les régénérer si le logo change.
+
 Le **favicon et le filigrane des vignettes sans photo restent en SVG au trait**,
 et c'est volontaire : un rendu détaillé devient une bouillie verte à 16 px, et
 en filigrane derrière un cadre vide il attirerait l'œil au lieu de s'effacer.
@@ -375,6 +397,6 @@ Le site se met à jour tout seul ensuite, avec jusqu'à cinq minutes de retard :
 - Pas de dépendance nouvelle sans raison forte : `requests` et `beautifulsoup4`,
   c'est tout.
 - `index.html` reste un fichier unique et autonome. Sa seule dépendance
-  externe est `logo-mini.png` ; tout le reste — styles, script, icônes —
-  vit dans le fichier.
+  externes sont le logo, les icônes d'écran d'accueil et le manifeste ;
+  styles, script et favicon vivent dans le fichier.
 - Les réglages vont dans `config.json`, jamais en dur dans le code.
