@@ -50,7 +50,7 @@ Pas de framework, pas de build. HTML/CSS/JS vanilla + Python pour la collecte.
 
     index.html              le site entier (styles et script inline, volontairement)
     netlify.toml            publication + règle anti-redéploiement
-    config.json             tous les réglages : budget, pays, mots-clés, seuils
+    config.json             tous les réglages : budget, pays, import, mots-clés, seuils
     data/annonces.json      sortie du collecteur, réécrite à chaque passage
     collector/collect.py    orchestration, déduplication, détection des nouveautés, push
     collector/sources.py    un adaptateur par site, isolés les uns des autres
@@ -126,6 +126,14 @@ balises `<a>`, dont un lien vendeur au texte inutile (« Nîmes 22 »). On regro
 par URL et on garde le texte le plus long. Le prix **ferme** la carte, après une
 description tronquée : c'est la dernière occurrence qu'il faut prendre.
 
+Les trois sources remontent une **photo de couverture**, via `_image()`. Deux
+pièges, tous deux vérifiés : un `src` en `data:` est le pixel transparent qui
+tient la place avant que le JavaScript du site ne s'exécute, il ne faut jamais
+le retenir ; et sur lesAnciennes la vignette et le texte vivent dans deux `<a>`
+différents pointant la même annonce — il faut donc choisir le texte le plus long
+et la première image **indépendamment**, sinon on garde le lien textuel et on
+perd la photo à tous les coups.
+
 Règle valable pour les trois sources qui parsent du HTML : **ne jamais lire un
 nombre avec un motif large.** Les cartes collent bout à bout le compteur de
 photos, le prix, la date de publication et le kilométrage. Un motif permissif
@@ -183,10 +191,43 @@ Palette tirée des teintes d'usine Mini, pas générique : `--nuit #0C1A16`,
 `--capot #132922`, `--acier #204237`, `--ivoire #EFE9DA` (Old English White),
 `--almond #8FA07E` (Almond Green), `--tartan #C7263B` (Tartan Red),
 `--ambre #D9A441`. Typo : Bebas Neue pour les chiffres et les prix, Archivo pour
-le reste. L'élément fort et unique de la page est le cadran type Smiths en
-en-tête, repris en miniature comme jauge de score sur chaque annonce. Tout le
-reste est volontairement calme : filets d'un pixel, rayon de 2 px, aucune ombre,
-aucune animation d'entrée. Ne pas ajouter de cartes arrondies ni de dégradés.
+le reste.
+
+Deux marques visuelles, et seulement deux. La **calandre de Mini** en en-tête
+sert de logo — phares ronds, grille en D ambre, pare-chocs à butoirs, dessin au
+trait sans aplat — et se retrouve en favicon, ainsi qu'en filigrane dans le
+cadre des vignettes qui n'ont pas de photo. Le **cadran type Smiths** reste la
+jauge de score de chaque annonce, et se répète en petit sur le compteur de
+pépites. Ne pas en introduire une troisième.
+
+Tout le reste est volontairement calme : filets d'un pixel, rayon de 2 px,
+aucune ombre, aucune animation d'entrée. Ne pas ajouter de cartes arrondies ni
+de dégradés.
+
+## Ce que le site sait faire tout seul
+
+`index.html` n'est plus un simple afficheur. Ce qui suit vit **dans le
+navigateur**, sous la clé localStorage `minirasso.v1`, et ne remonte jamais au
+collecteur — qui réécrit `data/annonces.json` à chaque passage et n'a nulle part
+où garder un choix personnel :
+
+- **le budget est réglable** (curseur et champs). Il ne repositionne que
+  l'affichage : les tuiles, l'étiquette « dans le budget » et les filtres. La
+  collecte, elle, écarte toujours à `plafond_absolu`, et les notifications
+  suivent les seuils de `config.json`. Le bouton de remise à zéro revient aux
+  valeurs du collecteur ;
+- **suivre** et **écarter** une annonce. La puce « Écartées » n'apparaît que
+  s'il y a quelque chose dedans ;
+- **recherche plein texte**, **filtre par pays** construit sur les données ;
+- **le coût de rapatriement**, affiché en « ≈ X € rendu chez toi » sur les
+  annonces étrangères. Le barème vient du bloc `import` de `config.json`,
+  transmis tel quel par le collecteur. Quand la case est cochée — elle l'est par
+  défaut — ce prix rendu est celui qui sert aux filtres budget et au tri par
+  prix. Les pays de `import.hors_ue` sont signalés en rouge : droits de douane
+  et TVA à l'import s'ajoutent, et ne sont **pas** comptés dans l'estimation.
+
+Ces baremes sont des ordres de grandeur pour comparer deux annonces, pas un
+devis. Ils sont dans `config.json`, jamais en dur dans le HTML.
 
 ## Ce que le marché dit vraiment
 

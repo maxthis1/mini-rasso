@@ -122,6 +122,31 @@ def _propre(txt: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(txt or "")).strip()
 
 
+def _image(el) -> str:
+    """Premiere photo exploitable d'une carte d'annonce.
+
+    Les trois sites chargent leurs vignettes en differe : la vraie URL vit
+    tantot dans src, tantot dans data-src ou le premier candidat de srcset.
+    Un src en `data:` est le pixel transparent qui tient la place avant que le
+    JavaScript ne s'execute — il ne faut surtout pas le retenir, sinon la carte
+    affiche un carre vide en croyant avoir une image."""
+    if el is None:
+        return ""
+    img = el if getattr(el, "name", "") == "img" else el.find("img")
+    if img is None:
+        return ""
+    for attr in ("src", "data-src", "data-lazy-src", "data-original"):
+        v = (img.get(attr) or "").strip()
+        if v and not v.startswith("data:"):
+            return v
+    srcset = (img.get("srcset") or "").strip()
+    if srcset:
+        premier = srcset.split(",")[0].strip().split(" ")[0]
+        if premier and not premier.startswith("data:"):
+            return premier
+    return ""
+
+
 def _get(url: str) -> str:
     r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
     r.raise_for_status()
@@ -283,14 +308,19 @@ def lesanciennes() -> list:
     for u in ANCIENNES_URLS:
         try:
             soup = BeautifulSoup(_get(u), "html.parser")
+            # Chaque annonce apparait dans deux <a> : la vignette, qui porte
+            # la photo mais presque pas de texte, et le lien vendeur au texte
+            # long. On prend donc le texte le plus long ET la premiere image
+            # trouvee, chacun de son cote — les choisir ensemble revenait a
+            # garder le <a> textuel et a perdre la photo a tous les coups.
             cartes = {}
             for a in soup.select("a[href*='/annonce/']"):
                 href = a["href"]
                 texte = _propre(a.get_text(" ", strip=True))
-                img = a.find("img")
-                src = (img.get("src") or img.get("data-src") or "") if img else ""
-                if len(texte) > len(cartes.get(href, ("", ""))[0]):
-                    cartes[href] = (texte, src)
+                src = _image(a)
+                vu_texte, vu_src = cartes.get(href, ("", ""))
+                cartes[href] = (texte if len(texte) > len(vu_texte) else vu_texte,
+                                vu_src or src)
 
             for href, (texte, img) in cartes.items():
                 if len(texte) < 40:  # lien vendeur isole, pas une carte
@@ -385,7 +415,7 @@ def paruvendu() -> list:
                     "lieu": lieu,
                     "pays": "France",
                     "url": href,
-                    "image": "",
+                    "image": _image(carte),
                     "source": "ParuVendu",
                 })
         except Exception as e:

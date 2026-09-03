@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mini Rasso — la chasse à la Mini classique</title>
+<meta name="description" content="Radar d'annonces pour Mini classique : Austin, Rover, Morris et Innocenti, classées par rapport qualité-prix et par risque de rouille.">
+<meta name="theme-color" content="#0C1A16">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 100'%3E%3Crect width='140' height='100' fill='%230C1A16'/%3E%3Cpath d='M50 10 H90 L102 38 H38 Z' fill='none' stroke='%23EFE9DA' stroke-width='6' stroke-linejoin='round'/%3E%3Crect x='16' y='38' width='108' height='44' rx='10' fill='%23132922' stroke='%23EFE9DA' stroke-width='6'/%3E%3Crect x='46' y='51' width='48' height='25' rx='7' fill='none' stroke='%23D9A441' stroke-width='6'/%3E%3Ccircle cx='31' cy='60' r='11' fill='%23EFE9DA'/%3E%3Ccircle cx='109' cy='60' r='11' fill='%23EFE9DA'/%3E%3Crect x='12' y='81' width='116' height='8' rx='4' fill='%238FA07E'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
@@ -16,6 +19,7 @@
   --almond:#8FA07E;    /* Almond Green, texte secondaire */
   --tartan:#C7263B;    /* Tartan Red, alerte */
   --ambre:#D9A441;     /* temoin tableau de bord */
+  --sourdine:#6E8275;
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
@@ -24,23 +28,48 @@ body{
   font-family:'Archivo',system-ui,sans-serif;font-size:15px;line-height:1.45;
   -webkit-font-smoothing:antialiased;
 }
-.wrap{max-width:720px;margin:0 auto;padding:0 16px 64px}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px 64px}
 a{color:inherit;text-decoration:none}
+button{font-family:inherit}
 
-/* ---------- en-tete : le cadran ---------- */
+/* ---------- en-tete : la calandre ---------- */
 header{padding:28px 0 20px;display:flex;gap:18px;align-items:center}
-.dial{flex:0 0 108px}
+.logo{flex:0 0 104px}
 .titre h1{font-family:'Bebas Neue',sans-serif;font-size:44px;letter-spacing:.02em;
   line-height:.92;margin:0 0 6px}
 .titre p{margin:0;color:var(--almond);font-size:13.5px}
 .maj{margin-top:6px;font-size:12px;color:#5F7364}
 
 /* ---------- barre budget ---------- */
-.budget{border-top:1px solid var(--acier);border-bottom:1px solid var(--acier);
-  padding:14px 0;display:flex;gap:20px;flex-wrap:wrap}
-.budget div{font-size:12.5px;color:var(--almond)}
-.budget b{display:block;font-family:'Bebas Neue',sans-serif;font-size:26px;
+.budget{border-top:1px solid var(--acier);
+  padding:14px 0 12px;display:flex;gap:22px;flex-wrap:wrap;align-items:flex-start}
+.tuile{font-size:12.5px;color:var(--almond)}
+.tuile b{display:block;font-family:'Bebas Neue',sans-serif;font-size:26px;
   color:var(--ivoire);letter-spacing:.03em;line-height:1.1}
+.tuile.cadran{display:flex;gap:9px;align-items:center}
+
+/* ---------- reglage du budget ---------- */
+.reglage{border-bottom:1px solid var(--acier);padding-bottom:14px}
+.reglage summary{cursor:pointer;font:500 12.5px 'Archivo';color:var(--ambre);
+  list-style:none;padding:2px 0}
+.reglage summary::-webkit-details-marker{display:none}
+.reglage summary::before{content:'\2699  '}
+.reglage summary:focus-visible{outline:2px solid var(--ambre);outline-offset:2px}
+.champs{margin-top:12px;display:flex;gap:18px;flex-wrap:wrap;align-items:flex-end}
+.champ{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--almond)}
+.champ input[type=number]{width:112px;background:var(--capot);color:var(--ivoire);
+  border:1px solid var(--acier);border-radius:2px;padding:6px 8px;
+  font:400 17px 'Bebas Neue',sans-serif;letter-spacing:.05em}
+.champ input[type=range]{width:210px;accent-color:var(--ambre)}
+.champ input:focus-visible{outline:2px solid var(--ambre);outline-offset:1px}
+.bascule{display:flex;align-items:center;gap:7px;font-size:12.5px;color:var(--almond);
+  cursor:pointer}
+.bascule input{accent-color:var(--ambre);width:15px;height:15px}
+.raz{background:transparent;border:1px solid var(--acier);color:var(--almond);
+  border-radius:2px;padding:7px 11px;font-size:12.5px;cursor:pointer}
+.raz:hover{color:var(--ivoire);border-color:var(--almond)}
+.raz:focus-visible{outline:2px solid var(--ambre);outline-offset:1px}
+.note{width:100%;margin:10px 0 0;font-size:12px;color:var(--sourdine);max-width:62ch}
 
 /* ---------- filtres ---------- */
 .filtres{position:sticky;top:0;background:var(--nuit);padding:14px 0 12px;
@@ -52,46 +81,78 @@ header{padding:28px 0 20px;display:flex;gap:18px;align-items:center}
   cursor:pointer}
 .chip[aria-pressed=true]{background:var(--ivoire);color:var(--nuit);border-color:var(--ivoire)}
 .chip:focus-visible{outline:2px solid var(--ambre);outline-offset:2px}
-.tri{margin-top:10px;display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--almond)}
-select{background:var(--capot);color:var(--ivoire);border:1px solid var(--acier);
+.chip .n{opacity:.6;margin-left:6px}
+.outils{margin-top:10px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  font-size:12.5px;color:var(--almond)}
+select,.recherche{background:var(--capot);color:var(--ivoire);border:1px solid var(--acier);
   border-radius:2px;padding:5px 8px;font:400 13px 'Archivo'}
+.recherche{width:186px}
+.recherche::placeholder{color:var(--sourdine)}
+select:focus-visible,.recherche:focus-visible{outline:2px solid var(--ambre);outline-offset:1px}
 
 /* ---------- liste ---------- */
 .compte{padding:16px 0 4px;font-size:12.5px;color:var(--almond)}
-.annonce{display:grid;grid-template-columns:52px 1fr;gap:14px;
+.annonce{display:grid;grid-template-columns:124px 1fr;gap:15px;
   padding:18px 0;border-bottom:1px solid var(--acier);align-items:start}
 .annonce:hover{background:rgba(255,255,255,.02)}
+.vignette{display:block;width:124px;height:93px;border:1px solid var(--acier);
+  border-radius:2px;overflow:hidden;background-color:var(--capot);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 48' fill='none' stroke='%236E8275' stroke-width='2' stroke-linejoin='round'%3E%3Cpath d='M18 16 22 7h20l4 9'/%3E%3Crect x='6' y='16' width='52' height='22' rx='5'/%3E%3Crect x='24' y='22' width='16' height='10' rx='4'/%3E%3Ccircle cx='16' cy='27' r='4.5'/%3E%3Ccircle cx='48' cy='27' r='4.5'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:center;background-size:48px}
+.vignette img{width:100%;height:100%;object-fit:cover;display:block}
+.ligne1{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .prix{font-family:'Bebas Neue',sans-serif;font-size:31px;letter-spacing:.02em;
   line-height:1;display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.cadranet{flex:0 0 46px}
 .tag{font:500 11px 'Archivo';letter-spacing:.04em;border:1px solid var(--acier);
   padding:2px 7px;color:var(--almond);border-radius:2px;position:relative;top:-3px}
 .tag.now{border-color:var(--ambre);color:var(--ambre)}
 .tag.neuf{border-color:var(--tartan);color:var(--tartan)}
 .tag.baisse{border-color:var(--almond);color:var(--ivoire)}
 h2{font:600 15px 'Archivo';margin:7px 0 4px}
+h2 a:hover{text-decoration:underline;text-underline-offset:2px}
 .meta{font-size:12.5px;color:var(--almond)}
+.rendu{margin-top:5px;font-size:12.5px;color:var(--ambre)}
+.rendu.hors{color:var(--tartan)}
+.rendu span{opacity:.72}
 .flags{margin-top:8px;display:flex;flex-direction:column;gap:3px;font-size:12.5px}
 .f-rouille{color:var(--tartan)}
 .f-epave{color:var(--tartan);font-weight:600}
 .f-bon{color:var(--almond)}
-.f-info{color:#6E8275}
+.f-info{color:var(--sourdine)}
+.actions{margin-top:10px;display:flex;gap:7px;flex-wrap:wrap}
+.act{background:transparent;border:1px solid var(--acier);color:var(--almond);
+  border-radius:2px;padding:4px 10px;font-size:12px;cursor:pointer}
+.act:hover{color:var(--ivoire);border-color:var(--almond)}
+.act[aria-pressed=true]{border-color:var(--ambre);color:var(--ambre)}
+.act:focus-visible{outline:2px solid var(--ambre);outline-offset:1px}
 .morte{opacity:.38}
+.annonce.ecartee{opacity:.34}
 
 /* ---------- checklist ---------- */
-details{margin-top:34px;border-top:1px solid var(--acier);padding-top:16px}
-summary{cursor:pointer;font:600 14px 'Archivo';list-style:none}
-summary::-webkit-details-marker{display:none}
-summary::before{content:'+ ';color:var(--ambre)}
-details[open] summary::before{content:'– '}
-details ul{padding-left:18px;color:var(--almond);font-size:13.5px}
-details li{margin:5px 0}
-details li b{color:var(--ivoire);font-weight:600}
+details.aide{margin-top:34px;border-top:1px solid var(--acier);padding-top:16px}
+details.aide summary{cursor:pointer;font:600 14px 'Archivo';list-style:none}
+details.aide summary::-webkit-details-marker{display:none}
+details.aide summary::before{content:'+ ';color:var(--ambre)}
+details.aide[open] summary::before{content:'\2013  ';color:var(--ambre)}
+details.aide ul{padding-left:18px;color:var(--almond);font-size:13.5px}
+details.aide li{margin:5px 0}
+details.aide li b{color:var(--ivoire);font-weight:600}
 
 footer{margin-top:30px;padding-top:14px;border-top:1px solid var(--acier);
   font-size:12px;color:#5F7364}
 footer span{display:inline-block;margin-right:14px}
+footer .hs{color:var(--tartan)}
 .vide{padding:44px 0;text-align:center;color:var(--almond)}
-@media (max-width:420px){ .titre h1{font-size:36px} .dial{flex-basis:88px} }
+
+@media (max-width:460px){
+  .titre h1{font-size:36px} .logo{flex-basis:80px}
+  .annonce{grid-template-columns:92px 1fr;gap:12px}
+  .vignette{width:92px;height:69px;background-size:38px}
+  .prix{font-size:27px}
+  .champ input[type=range]{width:160px}
+  .recherche{width:100%}
+}
 @media (prefers-reduced-motion:no-preference){
   .needle{transition:transform .8s cubic-bezier(.2,.8,.2,1)}
 }
@@ -101,21 +162,42 @@ footer span{display:inline-block;margin-right:14px}
 <div class="wrap">
 
 <header>
-  <div class="dial">
-    <svg viewBox="0 0 120 120" width="100%" role="img" aria-label="Nombre de pépites">
-      <circle cx="60" cy="60" r="55" fill="#0F211B" stroke="#204237" stroke-width="2"/>
-      <g stroke="#8FA07E" stroke-width="2">
-        <line x1="60" y1="12" x2="60" y2="20"/><line x1="60" y1="100" x2="60" y2="108"/>
-        <line x1="12" y1="60" x2="20" y2="60"/><line x1="100" y1="60" x2="108" y2="60"/>
-        <line x1="26" y1="26" x2="32" y2="32"/><line x1="94" y1="26" x2="88" y2="32"/>
-        <line x1="26" y1="94" x2="32" y2="88"/>
+  <div class="logo">
+    <!-- Calandre de Mini classique : deux phares ronds, la grille en D, le
+         pare-chocs a butoirs. Dessin au trait, aucun aplat ni degrade, pour
+         rester dans la meme langue graphique que les cadrans de score. -->
+    <svg viewBox="0 0 140 100" width="100%" role="img" aria-label="Mini Rasso">
+      <!-- pavillon et pare-brise -->
+      <path d="M50 10 H90 L102 38 H38 Z" fill="#0F211B" stroke="#EFE9DA"
+            stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M55 15 H85 L94 34 H46 Z" fill="#132922" stroke="#204237" stroke-width="1.5"/>
+      <!-- caisse -->
+      <rect x="16" y="38" width="108" height="44" rx="10" fill="#132922"
+            stroke="#EFE9DA" stroke-width="2.6"/>
+      <!-- levre de capot -->
+      <line x1="28" y1="47" x2="112" y2="47" stroke="#204237" stroke-width="1.6"/>
+      <!-- calandre : large, elle court presque jusqu'aux phares -->
+      <path d="M50 51 H90 a4 4 0 0 1 4 4 v15 a6 6 0 0 1 -6 6 H52 a6 6 0 0 1 -6 -6 V55 a4 4 0 0 1 4 -4 z"
+            fill="#0F211B" stroke="#D9A441" stroke-width="2.3"/>
+      <g stroke="#8FA07E" stroke-width="1.6" stroke-linecap="round">
+        <line x1="53" y1="57" x2="87" y2="57"/><line x1="53" y1="61.5" x2="87" y2="61.5"/>
+        <line x1="53" y1="66" x2="87" y2="66"/><line x1="55" y1="70.5" x2="85" y2="70.5"/>
       </g>
-      <line class="needle" id="needle" x1="60" y1="60" x2="60" y2="22"
-            stroke="#C7263B" stroke-width="3" stroke-linecap="round"
-            transform="rotate(-120 60 60)"/>
-      <circle cx="60" cy="60" r="6" fill="#EFE9DA"/>
-      <text id="dialNum" x="60" y="92" text-anchor="middle" fill="#EFE9DA"
-            font-family="Bebas Neue" font-size="24">0</text>
+      <!-- phares -->
+      <circle cx="31" cy="60" r="11.5" fill="#0F211B" stroke="#EFE9DA" stroke-width="2.6"/>
+      <circle cx="31" cy="60" r="4.8" fill="#EFE9DA"/>
+      <circle cx="109" cy="60" r="11.5" fill="#0F211B" stroke="#EFE9DA" stroke-width="2.6"/>
+      <circle cx="109" cy="60" r="4.8" fill="#EFE9DA"/>
+      <!-- clignotants -->
+      <rect x="23" y="74" width="13" height="5.5" rx="2.7" fill="#D9A441" opacity=".85"/>
+      <rect x="104" y="74" width="13" height="5.5" rx="2.7" fill="#D9A441" opacity=".85"/>
+      <!-- butoirs et pare-chocs -->
+      <rect x="53" y="75" width="9" height="19" rx="3.5" fill="#0F211B"
+            stroke="#8FA07E" stroke-width="1.9"/>
+      <rect x="78" y="75" width="9" height="19" rx="3.5" fill="#0F211B"
+            stroke="#8FA07E" stroke-width="1.9"/>
+      <rect x="12" y="81" width="116" height="8" rx="4" fill="#0F211B"
+            stroke="#8FA07E" stroke-width="2.1"/>
     </svg>
   </div>
   <div class="titre">
@@ -127,9 +209,39 @@ footer span{display:inline-block;margin-right:14px}
 
 <section class="budget" id="budget"></section>
 
+<details class="reglage">
+  <summary>Régler mon budget</summary>
+  <div class="champs">
+    <label class="champ">Ce que je peux sortir aujourd'hui
+      <input type="range" id="bImmediatRange" min="500" max="15000" step="100"
+             aria-label="Budget disponible aujourd'hui, curseur">
+    </label>
+    <label class="champ">Montant exact
+      <input type="number" id="bImmediat" min="0" step="100" inputmode="numeric">
+    </label>
+    <label class="champ">Budget visé d'ici quelques mois
+      <input type="number" id="bCible" min="0" step="100" inputmode="numeric">
+    </label>
+    <label class="champ">Ne rien afficher au-dessus de
+      <input type="number" id="bPlafond" min="0" step="100" inputmode="numeric">
+    </label>
+    <button class="raz" id="raz" type="button">Revenir aux valeurs du collecteur</button>
+    <label class="bascule">
+      <input type="checkbox" id="avecImport">
+      Compter le rapatriement dans le prix
+    </label>
+    <p class="note" id="noteBudget"></p>
+  </div>
+</details>
+
 <div class="filtres">
   <div class="chips" id="chips"></div>
-  <div class="tri">
+  <div class="outils">
+    <input class="recherche" id="recherche" type="search"
+           placeholder="Chercher : cooper, mayfair, grange…"
+           aria-label="Chercher dans les annonces">
+    <label for="pays">Pays</label>
+    <select id="pays"><option value="tous">tous</option></select>
     <label for="tri">Trier par</label>
     <select id="tri">
       <option value="score">score pépite</option>
@@ -143,7 +255,7 @@ footer span{display:inline-block;margin-right:14px}
 <p class="compte" id="compte"></p>
 <div id="liste"></div>
 
-<details>
+<details class="aide">
   <summary>Ce qu'il faut regarder avant de sortir le chéquier</summary>
   <ul>
     <li><b>Tabliers avant (A-panels) et boîtiers de suspension arrière</b> — les deux zones qui coûtent le plus cher à refaire. Un tablier percé, c'est de la carrosserie lourde, pas du bricolage de garage.</li>
@@ -152,6 +264,7 @@ footer span{display:inline-block;margin-right:14px}
     <li><b>Coffre, gouttières, base de pare-brise</b> — la rouille par infiltration se voit mal en photo, exige des clichés sous plusieurs angles.</li>
     <li><b>Sous-cadre avant</b> — s'il est piqué, compte une dépose complète du groupe motopropulseur.</li>
     <li><b>Papiers</b> — carte grise au nom du vendeur, non barrée. Une Mini sans carte grise est un puzzle administratif, pas une affaire.</li>
+    <li><b>Achat à l'étranger</b> — exige le quitus fiscal et un certificat de conformité. Hors UE (Royaume-Uni, Suisse), ajoute droits de douane et TVA à l'import : l'estimation de rapatriement affichée ne les compte pas.</li>
     <li><b>Cotes du marché 2026</b> — épave 0,6-1,5 k€ · projet roulant 2-3,5 k€ · projet sain 4-6 k€ · bon état roulant CT ok 8-12 k€ · restaurée dossier complet 15-25 k€.</li>
   </ul>
 </details>
@@ -163,107 +276,321 @@ footer span{display:inline-block;margin-right:14px}
 // Le collecteur tourne sur GitHub Actions et reecrit data/annonces.json dans le
 // depot. Netlify ne redeploie pas a chaque passage (voir netlify.toml), donc le
 // site lit les donnees directement depuis GitHub, toujours fraiches.
-// Remplace <pseudo> et <depot> par les tiens apres la mise en ligne.
 const SOURCE = 'https://raw.githubusercontent.com/maxthis1/mini-rasso/main/data/annonces.json';
 
-const SEED = {genere_le:null, sources:{}, stats:{}, annonces:[]};
-let DATA = SEED, FILTRE = 'tout';
+const SEED = {genere_le:null, sources:{}, stats:{}, budget:{}, import:{}, annonces:[]};
+let DATA = SEED, FILTRE = 'tout', RECHERCHE = '', PAYS = 'tous';
 
-const euros = n => n ? new Intl.NumberFormat('fr-FR').format(n) + ' €' : 'prix nc';
+const euros = n => (n || n === 0) ? new Intl.NumberFormat('fr-FR').format(n) + ' €' : 'prix nc';
+const nombre = n => new Intl.NumberFormat('fr-FR').format(n);
+const echapper = s => String(s == null ? '' : s).replace(/[&<>"]/g,
+  c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
+/* ---------------------------------------------------------------------------
+   Memoire locale. Le budget, les annonces suivies et celles ecartees vivent
+   dans le navigateur : le collecteur reecrit data/annonces.json a chaque
+   passage, il n'a aucun endroit ou garder un choix personnel. localStorage
+   peut lever (navigation privee, cookies bloques), d'ou les try/catch.
+--------------------------------------------------------------------------- */
+const CLE = 'minirasso.v1';
+const memDefaut = () => ({favoris:[], ecartees:[], budget:null, avecImport:true});
+let MEM = memDefaut();
+
+function lireMem(){
+  try {
+    const brut = localStorage.getItem(CLE);
+    if (brut) MEM = Object.assign(memDefaut(), JSON.parse(brut));
+  } catch(e) { MEM = memDefaut(); }
+  if (!Array.isArray(MEM.favoris)) MEM.favoris = [];
+  if (!Array.isArray(MEM.ecartees)) MEM.ecartees = [];
+}
+function ecrireMem(){
+  try { localStorage.setItem(CLE, JSON.stringify(MEM)); } catch(e) {}
+}
+const suivie  = id => MEM.favoris.includes(id);
+const ecartee = id => MEM.ecartees.includes(id);
+function bascule(liste, id){
+  const i = liste.indexOf(id);
+  if (i < 0) liste.push(id); else liste.splice(i, 1);
+  ecrireMem();
+}
+
+/* ---------------------------------------------------------------------------
+   Budget : celui du collecteur sert de base, le reglage local le remplace.
+--------------------------------------------------------------------------- */
+function budget(){
+  const b = DATA.budget || {};
+  return Object.assign({
+    immediat: b.achat_immediat ?? 2000,
+    cible:    b.budget_cible ?? 4500,
+    plafond:  b.plafond_absolu ?? 7000,
+  }, MEM.budget || {});
+}
+
+/* Rapatriement : une Mini italienne a 3 000 € n'arrive pas a 3 000 € chez toi.
+   Les baremes viennent de config.json, transmis par le collecteur. */
+const bareme = () => DATA.import || {};
+const horsUE = pays => (bareme().hors_ue || []).includes(pays);
+function fraisImport(a){
+  const v = bareme()[a.pays];
+  return typeof v === 'number' ? v : 0;
+}
+function prixRendu(a){
+  if (!a.prix) return 0;
+  return a.prix + (MEM.avecImport ? fraisImport(a) : 0);
+}
+
+/* ---------------------------------------------------------------------------
+   Filtres
+--------------------------------------------------------------------------- */
 const FILTRES = {
-  tout:      {label:'Tout',                 test:a=>true},
-  now:       {label:'Achat immédiat',       test:a=>a.prix>0 && a.prix<=(DATA.budget?.achat_immediat||2000)},
-  saines:    {label:'Rouille non annoncée', test:a=>a.risque_rouille==='non annonce'},
-  roulantes: {label:'Roulantes',            test:a=>['bon_etat','tres_bon','projet_sain'].includes(a.etat)},
-  neuves:    {label:'Nouvelles',            test:a=>a.nouvelle},
-  france:    {label:'France seule',         test:a=>a.pays==='France'},
+  tout:      {label:'Tout',                 test:() => true},
+  now:       {label:'Dans mon budget',      test:a => {const p = prixRendu(a); return p > 0 && p <= budget().immediat;}},
+  cible:     {label:'Budget visé',          test:a => {const p = prixRendu(a); return p > 0 && p <= budget().cible;}},
+  favoris:   {label:'Suivies',              test:a => suivie(a.id)},
+  saines:    {label:'Rouille non annoncée', test:a => a.risque_rouille === 'non annonce'},
+  roulantes: {label:'Roulantes',            test:a => ['bon_etat','tres_bon','projet_sain'].includes(a.etat)},
+  neuves:    {label:'Nouvelles',            test:a => a.nouvelle},
+  ecartees:  {label:'Écartées',             test:a => ecartee(a.id)},
 };
 
-function dial(score){
-  const angle = -120 + (score/100)*240;
-  const r = 20, cx = 26, cy = 26;
-  const a0 = (-120-90) * Math.PI/180, a1 = (angle-90) * Math.PI/180;
-  const grand = (angle - (-120)) > 180 ? 1 : 0;
-  const arc = `M ${cx+r*Math.cos(a0)} ${cy+r*Math.sin(a0)} A ${r} ${r} 0 ${grand} 1 ${cx+r*Math.cos(a1)} ${cy+r*Math.sin(a1)}`;
-  const col = score>=72 ? 'var(--ambre)' : score>=50 ? 'var(--almond)' : 'var(--tartan)';
-  return `<svg viewBox="0 0 52 52" width="52" height="52" aria-hidden="true">
-    <circle cx="26" cy="26" r="20" fill="none" stroke="#204237" stroke-width="4"/>
-    <path d="${arc}" fill="none" stroke="${col}" stroke-width="4" stroke-linecap="round"/>
-    <text x="26" y="31" text-anchor="middle" fill="var(--ivoire)"
-      font-family="Bebas Neue" font-size="17">${score}</text></svg>`;
-}
-
-function carte(a){
-  const tags = [];
-  if (a.nouvelle) tags.push('<span class="tag neuf">nouvelle</span>');
-  if (a.tag_budget === 'achat immediat') tags.push('<span class="tag now">dans le budget</span>');
-  if (a.baisse_prix) tags.push(`<span class="tag baisse">−${euros(a.baisse_prix)}</span>`);
-  if (a.disparue) tags.push('<span class="tag">annonce retirée</span>');
-
-  const flags = (a.drapeaux||[]).map(d =>
-    `<span class="f-${d.type}">${d.texte}</span>`).join('');
-
-  const meta = [a.annee||'année ?', a.km ? new Intl.NumberFormat('fr-FR').format(a.km)+' km' : null,
-                a.pays, a.source, a.ecart_cote!=null ? (a.ecart_cote>0?`${a.ecart_cote}% sous la cote`:`${-a.ecart_cote}% au-dessus`) : null]
-                .filter(Boolean).join('  ·  ');
-
-  return `<a class="annonce ${a.disparue?'morte':''}" href="${a.url}" target="_blank" rel="noopener">
-    <div>${dial(a.score)}</div>
-    <div>
-      <div class="prix">${euros(a.prix)} ${tags.join(' ')}</div>
-      <h2>${a.titre.replace(/</g,'&lt;')}</h2>
-      <div class="meta">${meta}</div>
-      <div class="flags">${flags}</div>
-    </div></a>`;
-}
-
-function rendre(){
-  const f = FILTRES[FILTRE].test;
-  let liste = DATA.annonces.filter(f);
-  const tri = document.getElementById('tri').value;
-  liste.sort((x,y) =>
-    tri==='prix'   ? (x.prix||99999)-(y.prix||99999) :
-    tri==='recent' ? (y.vue_le||'').localeCompare(x.vue_le||'') :
-    tri==='ecart'  ? (y.ecart_cote??-99)-(x.ecart_cote??-99) :
-                     y.score-x.score);
-
-  document.getElementById('compte').textContent =
-    `${liste.length} annonce${liste.length>1?'s':''}`;
-  document.getElementById('liste').innerHTML =
-    liste.length ? liste.map(carte).join('')
-    : `<p class="vide">Rien ici pour l'instant. Le collecteur tourne toutes les 30 minutes.</p>`;
-}
-
-function chips(){
-  document.getElementById('chips').innerHTML = Object.entries(FILTRES).map(([k,v]) =>
-    `<button class="chip" data-k="${k}" aria-pressed="${k===FILTRE}">${v.label}</button>`).join('');
-  document.querySelectorAll('.chip').forEach(b => b.onclick = () => {
-    FILTRE = b.dataset.k; chips(); rendre();
+function visibles(cle){
+  const f = FILTRES[cle].test;
+  const q = RECHERCHE.trim().toLowerCase();
+  const plafond = budget().plafond;
+  return DATA.annonces.filter(a => {
+    if (cle !== 'ecartees' && ecartee(a.id)) return false;
+    if (a.prix && prixRendu(a) > plafond) return false;
+    if (PAYS !== 'tous' && a.pays !== PAYS) return false;
+    if (q) {
+      const foin = (a.titre || '') + ' ' + (a.description || '') + ' ' +
+                   (a.pays || '') + ' ' + (a.lieu || '');
+      if (!foin.toLowerCase().includes(q)) return false;
+    }
+    return f(a);
   });
 }
 
-function entete(){
-  const s = DATA.stats||{}, b = DATA.budget||{};
-  document.getElementById('budget').innerHTML = `
-    <div>Achat immédiat<b>${euros(b.achat_immediat||2000)}</b></div>
-    <div>Dans le budget<b>${s.sous_2k??0}</b></div>
-    <div>Pépites<b>${s.pepites??0}</b></div>
-    <div>Suivies<b>${s.total??0}</b></div>`;
+/* ---------------------------------------------------------------------------
+   Rendu
+--------------------------------------------------------------------------- */
+function cadran(score, taille){
+  const t = taille || 46, c = t/2, r = t/2 - 5;
+  const angle = -120 + (score/100)*240;
+  const a0 = (-120-90) * Math.PI/180, a1 = (angle-90) * Math.PI/180;
+  const grand = (angle - (-120)) > 180 ? 1 : 0;
+  const arc = `M ${c+r*Math.cos(a0)} ${c+r*Math.sin(a0)} A ${r} ${r} 0 ${grand} 1 ` +
+              `${c+r*Math.cos(a1)} ${c+r*Math.sin(a1)}`;
+  const col = score >= 72 ? 'var(--ambre)' : score >= 50 ? 'var(--almond)' : 'var(--tartan)';
+  return `<svg viewBox="0 0 ${t} ${t}" width="${t}" height="${t}" role="img"
+      aria-label="score ${score} sur 100">
+    <circle cx="${c}" cy="${c}" r="${r}" fill="none" stroke="#204237" stroke-width="4"/>
+    <path d="${arc}" fill="none" stroke="${col}" stroke-width="4" stroke-linecap="round"/>
+    <text x="${c}" y="${c+5}" text-anchor="middle" fill="#EFE9DA"
+      font-family="Bebas Neue" font-size="16">${score}</text></svg>`;
+}
 
-  const n = Math.min(s.pepites??0, 10);
-  document.getElementById('needle').setAttribute('transform',
-    `rotate(${-120 + n/10*240} 60 60)`);
-  document.getElementById('dialNum').textContent = s.pepites??0;
+function carte(a){
+  const b = budget(), p = prixRendu(a);
+  const tags = [];
+  if (a.nouvelle) tags.push('<span class="tag neuf">nouvelle</span>');
+  if (p > 0 && p <= b.immediat) tags.push('<span class="tag now">dans le budget</span>');
+  if (a.baisse_prix) tags.push(`<span class="tag baisse">−${euros(a.baisse_prix)}</span>`);
+  if (a.disparue) tags.push('<span class="tag">annonce retirée</span>');
+
+  const flags = (a.drapeaux || []).map(d =>
+    `<span class="f-${echapper(d.type)}">${echapper(d.texte)}</span>`).join('');
+
+  const meta = [a.annee || 'année ?',
+                a.km ? nombre(a.km) + ' km' : null,
+                a.lieu || a.pays,
+                a.source,
+                a.ecart_cote != null
+                  ? (a.ecart_cote > 0 ? `${a.ecart_cote}% sous la cote`
+                                      : `${-a.ecart_cote}% au-dessus`)
+                  : null].filter(Boolean).map(echapper).join('  ·  ');
+
+  const frais = fraisImport(a);
+  const rendu = (frais > 0 && a.prix)
+    ? `<div class="rendu${horsUE(a.pays) ? ' hors' : ''}">≈ ${euros(a.prix + frais)} rendu chez toi
+       <span>(+${euros(frais)} de rapatriement${horsUE(a.pays)
+         ? ', hors droits de douane et TVA' : ''})</span></div>`
+    : '';
+
+  const url = echapper(a.url);
+  const img = a.image
+    ? `<img src="${echapper(a.image)}" alt="" loading="lazy" decoding="async">` : '';
+
+  return `<article class="annonce${a.disparue ? ' morte' : ''}${ecartee(a.id) ? ' ecartee' : ''}"
+      data-id="${echapper(a.id)}">
+    <a class="vignette" href="${url}" target="_blank" rel="noopener"
+       aria-label="Voir l'annonce sur ${echapper(a.source)}">${img}</a>
+    <div class="corps">
+      <div class="ligne1">
+        <div class="prix">${euros(a.prix)} ${tags.join(' ')}</div>
+        <div class="cadranet">${cadran(a.score)}</div>
+      </div>
+      <h2><a href="${url}" target="_blank" rel="noopener">${echapper(a.titre)}</a></h2>
+      <div class="meta">${meta}</div>
+      ${rendu}
+      <div class="flags">${flags}</div>
+      <div class="actions">
+        <button class="act" type="button" data-act="fav" aria-pressed="${suivie(a.id)}"
+        >${suivie(a.id) ? '★ suivie' : '☆ suivre'}</button>
+        <button class="act" type="button" data-act="hide"
+        >${ecartee(a.id) ? '↩ remettre' : '✕ écarter'}</button>
+      </div>
+    </div></article>`;
+}
+
+function rendre(){
+  const liste = visibles(FILTRE);
+  const tri = document.getElementById('tri').value;
+  liste.sort((x, y) =>
+    tri === 'prix'   ? (prixRendu(x) || 9e9) - (prixRendu(y) || 9e9) :
+    tri === 'recent' ? String(y.vue_le || '').localeCompare(String(x.vue_le || '')) :
+    tri === 'ecart'  ? (y.ecart_cote ?? -99) - (x.ecart_cote ?? -99) :
+                       y.score - x.score);
+
+  document.getElementById('compte').textContent =
+    liste.length ? `${liste.length} annonce${liste.length > 1 ? 's' : ''}` : '';
+  document.getElementById('liste').innerHTML = liste.length
+    ? liste.map(carte).join('')
+    : `<p class="vide">Rien ne correspond. Élargis le budget, ou retire un filtre.</p>`;
+  chips();
+}
+
+function chips(){
+  document.getElementById('chips').innerHTML = Object.entries(FILTRES).map(([k, v]) => {
+    const n = visibles(k).length;
+    // "Écartées" ne s'affiche que s'il y a quelque chose dedans : tant qu'on
+    // n'a rien ecarte, la puce ne sert a rien et encombre la barre.
+    if (k === 'ecartees' && n === 0 && FILTRE !== 'ecartees') return '';
+    return `<button class="chip" type="button" data-k="${k}" aria-pressed="${k === FILTRE}"
+      >${v.label}<span class="n">${n}</span></button>`;
+  }).join('');
+}
+
+function listePays(){
+  const sel = document.getElementById('pays');
+  const pays = [...new Set(DATA.annonces.map(a => a.pays).filter(Boolean))].sort();
+  sel.innerHTML = '<option value="tous">tous</option>' +
+    pays.map(p => `<option value="${echapper(p)}">${echapper(p)}</option>`).join('');
+  sel.value = PAYS;
+}
+
+function entete(){
+  const s = DATA.stats || {}, b = budget();
+  const dansBudget = DATA.annonces.filter(a => {
+    const p = prixRendu(a);
+    return !ecartee(a.id) && p > 0 && p <= b.immediat;
+  }).length;
+  const pepites = s.pepites ?? 0;
+  const n = Math.min(pepites, 10);
+
+  document.getElementById('budget').innerHTML = `
+    <div class="tuile">Je peux sortir<b>${euros(b.immediat)}</b></div>
+    <div class="tuile">Dans mon budget<b>${dansBudget}</b></div>
+    <div class="tuile cadran">
+      <svg viewBox="0 0 46 46" width="38" height="38" aria-hidden="true">
+        <circle cx="23" cy="23" r="18" fill="none" stroke="#204237" stroke-width="4"/>
+        <line class="needle" x1="23" y1="23" x2="23" y2="9"
+              stroke="#C7263B" stroke-width="2.5" stroke-linecap="round"
+              transform="rotate(${-120 + n/10*240} 23 23)"/>
+        <circle cx="23" cy="23" r="3.5" fill="#EFE9DA"/>
+      </svg>
+      <span>Pépites<b>${pepites}</b></span>
+    </div>
+    <div class="tuile">Suivies<b>${MEM.favoris.length}</b></div>
+    <div class="tuile">Au radar<b>${s.total ?? DATA.annonces.length}</b></div>`;
 
   document.getElementById('maj').textContent = DATA.genere_le
     ? 'Dernier passage : ' + new Date(DATA.genere_le).toLocaleString('fr-FR',
-        {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'})
+        {day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit'})
     : 'Aucune collecte enregistrée pour le moment.';
 
   document.getElementById('footer').innerHTML =
-    Object.entries(DATA.sources||{}).map(([k,v]) =>
-      `<span>${k} : ${v.startsWith('ok')?v:'hors service'}</span>`).join('');
+    Object.entries(DATA.sources || {}).map(([k, v]) => {
+      const ok = v.startsWith('ok'), off = v === 'desactivee';
+      return `<span class="${ok || off ? '' : 'hs'}">${echapper(k)} : ` +
+             `${echapper(ok ? v : off ? 'désactivée' : 'hors service')}</span>`;
+    }).join('');
+}
+
+/* ---------------------------------------------------------------------------
+   Reglage du budget
+--------------------------------------------------------------------------- */
+function poserChamps(){
+  const b = budget(), d = DATA.budget || {};
+  document.getElementById('bImmediat').value = b.immediat;
+  document.getElementById('bImmediatRange').value = Math.min(Math.max(b.immediat, 500), 15000);
+  document.getElementById('bCible').value = b.cible;
+  document.getElementById('bPlafond').value = b.plafond;
+  document.getElementById('avecImport').checked = !!MEM.avecImport;
+
+  const plafondCollecte = euros(d.plafond_absolu ?? 7000);
+  document.getElementById('noteBudget').textContent = MEM.budget
+    ? `Réglage gardé dans ce navigateur, sur cet appareil seulement. Il ne change que l'affichage : la collecte écarte déjà tout ce qui dépasse ${plafondCollecte}, et les notifications suivent les seuils de config.json.`
+    : `Valeurs issues du collecteur. Les modifier ici ne touche qu'à l'affichage : la collecte écarte déjà tout ce qui dépasse ${plafondCollecte}, et les notifications suivent les seuils de config.json.`;
+}
+
+function majBudget(champ, valeur){
+  const v = Math.max(0, Math.round(Number(valeur) || 0));
+  MEM.budget = Object.assign({}, budget(), {[champ]: v});
+  ecrireMem(); poserChamps(); entete(); rendre();
+}
+
+function brancherReglages(){
+  const im = document.getElementById('bImmediat');
+  const rg = document.getElementById('bImmediatRange');
+  im.oninput = () => {
+    rg.value = Math.min(Math.max(Number(im.value) || 0, 500), 15000);
+    majBudget('immediat', im.value);
+  };
+  rg.oninput = () => { im.value = rg.value; majBudget('immediat', rg.value); };
+  document.getElementById('bCible').oninput   = e => majBudget('cible', e.target.value);
+  document.getElementById('bPlafond').oninput = e => majBudget('plafond', e.target.value);
+  document.getElementById('avecImport').onchange = e => {
+    MEM.avecImport = e.target.checked; ecrireMem(); poserChamps(); entete(); rendre();
+  };
+  document.getElementById('raz').onclick = () => {
+    MEM.budget = null; ecrireMem(); poserChamps(); entete(); rendre();
+  };
+}
+
+/* ---------------------------------------------------------------------------
+   Evenements
+--------------------------------------------------------------------------- */
+function brancher(){
+  document.getElementById('chips').addEventListener('click', e => {
+    const b = e.target.closest('.chip');
+    if (b) { FILTRE = b.dataset.k; rendre(); }
+  });
+
+  const liste = document.getElementById('liste');
+  liste.addEventListener('click', e => {
+    const b = e.target.closest('button[data-act]');
+    if (!b) return;
+    e.preventDefault();
+    const id = b.closest('[data-id]').dataset.id;
+    bascule(b.dataset.act === 'fav' ? MEM.favoris : MEM.ecartees, id);
+    entete(); rendre();
+  });
+  // Vignette cassee : on retire l'image et le cadre laisse voir la calandre
+  // dessinee en fond. Les evenements error ne remontent pas, d'ou la capture.
+  liste.addEventListener('error', e => {
+    if (e.target.tagName === 'IMG') e.target.remove();
+  }, true);
+
+  document.getElementById('tri').onchange = rendre;
+  document.getElementById('pays').onchange = e => { PAYS = e.target.value; entete(); rendre(); };
+  let t;
+  document.getElementById('recherche').oninput = e => {
+    clearTimeout(t);
+    const v = e.target.value;
+    t = setTimeout(() => { RECHERCHE = v; rendre(); }, 140);
+  };
+  brancherReglages();
 }
 
 const lire = url => fetch(url, {cache:'no-store'}).then(r => {
@@ -271,12 +598,12 @@ const lire = url => fetch(url, {cache:'no-store'}).then(r => {
   return r.json();
 });
 
-lire(SOURCE.includes('<pseudo>') ? 'data/annonces.json' : SOURCE)
+lireMem();
+lire(SOURCE)
   .catch(() => lire('data/annonces.json'))   // repli si GitHub ne repond pas
   .then(d => { DATA = d; })
   .catch(() => { DATA = SEED; })
-  .finally(() => { entete(); chips(); rendre();
-                   document.getElementById('tri').onchange = rendre; });
+  .finally(() => { listePays(); poserChamps(); entete(); rendre(); brancher(); });
 </script>
 </body>
 </html>

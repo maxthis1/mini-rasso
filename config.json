@@ -5,7 +5,6 @@
     "plafond_absolu": 7000,
     "commentaire": "achat_immediat = ce que tu peux sortir aujourd'hui. budget_cible = dans quelques mois. plafond_absolu = au-dela on n'affiche plus."
   },
-
   "sources": {
     "leParking": true,
     "lesAnciennes": true,
@@ -14,7 +13,6 @@
     "Car & Classic": false,
     "commentaire": "eBay (Akamai) et Car & Classic (Cloudflare) repondent 403 a toute requete automatisee. On ne contourne pas une protection anti-robot : eBay se rebranchera par son API Browse officielle, Car & Classic reste hors radar."
   },
-
   "pays": {
     "France": 1.0,
     "Belgique": 0.9,
@@ -29,70 +27,178 @@
     "Royaume-Uni": 0.6,
     "commentaire": "coefficient applique au score : penalise la distance et la complexite d'import. UK = volant a droite + import post-Brexit. Un pays absent de cette liste est exclu : leParking remonte aussi des annonces hors d'Europe."
   },
-
   "retention": {
     "jours_apres_disparition": 10,
     "commentaire": "une annonce qui ne remonte plus reste affichee, barree, ce nombre de jours : le temps de voir si elle revient ou si elle est vendue."
   },
-
   "notifications": {
     "ntfy_topic": "minirasso-CHANGEMOI",
     "score_minimum": 72,
     "toujours_notifier_si_prix_max": 2500,
     "commentaire": "ntfy.sh : installe l'app, abonne-toi au topic, zero compte a creer. Change le topic pour un truc que personne ne devinera."
   },
-
   "mots_cles": {
     "bonus_fort": {
-      "coque neuve": 14, "chassis neuf": 14, "restauration complete": 12,
-      "restauree": 10, "restaure": 10, "carte grise francaise": 8,
-      "ct ok": 9, "ct vierge": 10, "controle technique ok": 9,
-      "moteur refait": 10, "moteur neuf": 10, "refection moteur": 9,
-      "traitement anticorrosion": 10, "planchers neufs": 11,
-      "factures": 6, "carnet entretien": 5, "historique complet": 6
+      "coque neuve": 14,
+      "chassis neuf": 14,
+      "restauration complete": 12,
+      "restauree": 10,
+      "restaure": 10,
+      "carte grise francaise": 8,
+      "ct ok": 9,
+      "ct vierge": 10,
+      "controle technique ok": 9,
+      "moteur refait": 10,
+      "moteur neuf": 10,
+      "refection moteur": 9,
+      "traitement anticorrosion": 10,
+      "planchers neufs": 11,
+      "factures": 6,
+      "carnet entretien": 5,
+      "historique complet": 6
     },
     "bonus_leger": {
-      "1275": 5, "cooper": 4, "mpi": 4, "injection": 3, "spi": 2,
-      "mayfair": 2, "british open": 3, "sprite": 2, "cabriolet": 2,
-      "roulante": 6, "roule parfaitement": 8, "demarre au quart de tour": 6,
-      "espagne": 4, "portugal": 4, "sud de la france": 5, "italie": 3,
-      "toujours garee": 3, "jamais roule hiver": 4, "garage": 2,
-      "collection": 2, "premiere main": 4, "2eme main": 2
+      "1275": 5,
+      "cooper": 4,
+      "mpi": 4,
+      "injection": 3,
+      "spi": 2,
+      "mayfair": 2,
+      "british open": 3,
+      "sprite": 2,
+      "cabriolet": 2,
+      "roulante": 6,
+      "roule parfaitement": 8,
+      "demarre au quart de tour": 6,
+      "espagne": 4,
+      "portugal": 4,
+      "sud de la france": 5,
+      "italie": 3,
+      "toujours garee": 3,
+      "jamais roule hiver": 4,
+      "garage": 2,
+      "collection": 2,
+      "premiere main": 4,
+      "2eme main": 2
     },
     "malus_rouille": {
-      "rouille": -18, "corrosion": -16, "a souder": -20, "soudure": -12,
-      "tolerie": -14, "bas de caisse": -12, "planchers perces": -25,
-      "plancher perce": -25, "tabliers": -14, "chassis perce": -30,
-      "coque a refaire": -30, "trous": -14, "percee": -20, "perce": -16,
-      "traverse": -10, "arche": -8, "cloque": -10, "mastic": -12
+      "rouille": -18,
+      "corrosion": -16,
+      "a souder": -20,
+      "soudure": -12,
+      "tolerie": -14,
+      "bas de caisse": -12,
+      "planchers perces": -25,
+      "plancher perce": -25,
+      "tabliers": -14,
+      "chassis perce": -30,
+      "coque a refaire": -30,
+      "trous": -14,
+      "percee": -20,
+      "perce": -16,
+      "traverse": -10,
+      "arche": -8,
+      "cloque": -10,
+      "mastic": -12
     },
     "malus_epave": {
-      "epave": -60, "pour pieces": -55, "sans moteur": -40,
-      "ne demarre pas": -30, "ne roule pas": -30, "moteur hs": -35,
-      "boite hs": -30, "accidentee": -45, "vgе": -40, "gage": -40,
-      "sans carte grise": -35, "carte grise barree": -50,
-      "demontee": -35, "en pieces detachees": -45, "projet abandonne": -25,
-      "immobilisee depuis": -18, "cale": -12
+      "epave": -60,
+      "pour pieces": -55,
+      "sans moteur": -40,
+      "ne demarre pas": -30,
+      "ne roule pas": -30,
+      "moteur hs": -35,
+      "boite hs": -30,
+      "accidentee": -45,
+      "vgе": -40,
+      "gage": -40,
+      "sans carte grise": -35,
+      "carte grise barree": -50,
+      "demontee": -35,
+      "en pieces detachees": -45,
+      "projet abandonne": -25,
+      "immobilisee depuis": -18,
+      "cale": -12
     },
     "malus_leger": {
-      "automatique": -6, "bva": -6, "volant a droite": -8, "rhd": -8,
-      "sans ct": -10, "ct a faire": -8, "moteur a revoir": -14,
-      "embrayage a faire": -6, "freins a refaire": -6,
-      "import": -4, "non roulant": -25
+      "automatique": -6,
+      "bva": -6,
+      "volant a droite": -8,
+      "rhd": -8,
+      "sans ct": -10,
+      "ct a faire": -8,
+      "moteur a revoir": -14,
+      "embrayage a faire": -6,
+      "freins a refaire": -6,
+      "import": -4,
+      "non roulant": -25
     }
   },
-
   "exclusions": {
-    "titres_interdits": ["miniature", "1/18", "1/43", "maquette", "jouet", "moke replica plastique", "clubman estate pieces", "lot de pieces", "piece detachee", "capot seul", "moteur seul", "boite de vitesse seule"],
-    "modeles_modernes": ["r50", "r53", "r56", "r57", "f55", "f56", "f57", "f60", "countryman", "paceman", "bmw mini", "mini one", "john cooper works", "jcw", "electric"],
+    "titres_interdits": [
+      "miniature",
+      "1/18",
+      "1/43",
+      "maquette",
+      "jouet",
+      "moke replica plastique",
+      "clubman estate pieces",
+      "lot de pieces",
+      "piece detachee",
+      "capot seul",
+      "moteur seul",
+      "boite de vitesse seule"
+    ],
+    "modeles_modernes": [
+      "r50",
+      "r53",
+      "r56",
+      "r57",
+      "f55",
+      "f56",
+      "f57",
+      "f60",
+      "countryman",
+      "paceman",
+      "bmw mini",
+      "mini one",
+      "john cooper works",
+      "jcw",
+      "electric"
+    ],
     "commentaire": "titres_interdits vire les miniatures Solido et les lots de pieces. modeles_modernes vire la MINI de BMW, qui partage le nom mais rien d'autre."
   },
-
   "recherche": {
-    "termes": ["austin mini", "mini classic", "rover mini", "morris mini", "innocenti mini", "mini 1000", "mini 1275"],
+    "termes": [
+      "austin mini",
+      "mini classic",
+      "rover mini",
+      "morris mini",
+      "innocenti mini",
+      "mini 1000",
+      "mini 1275"
+    ],
     "annee_min": 1959,
     "annee_max": 2000,
     "annee_obligatoire": true,
     "commentaire": "annee_max 2000 : la Mini classique s'arrete en octobre 2000, la MINI de BMW commence en 2001. Laisser 2001 faisait entrer des R50 a 650 €. annee_obligatoire : une annonce sans millesime n'est pas verifiable et c'est presque toujours une BMW recente."
+  },
+  "import": {
+    "France": 0,
+    "Belgique": 450,
+    "Luxembourg": 500,
+    "Pays-Bas": 650,
+    "Allemagne": 700,
+    "Suisse": 900,
+    "Italie": 900,
+    "Espagne": 950,
+    "Autriche": 950,
+    "Portugal": 1150,
+    "Royaume-Uni": 1300,
+    "hors_ue": [
+      "Suisse",
+      "Royaume-Uni"
+    ],
+    "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
   }
 }

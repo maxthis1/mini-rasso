@@ -191,11 +191,16 @@ def main():
         "genere_le": maintenant(),
         "sources": etat,
         "budget": cfg["budget"],
+        # Le site laisse regler le budget dans le navigateur et chiffre le
+        # rapatriement des annonces etrangeres : il lui faut ces baremes, il ne
+        # lit que ce fichier.
+        "import": cfg.get("import", {}),
         "stats": {
             "total": len(retenues),
             "nouvelles": len(nouvelles),
             "pepites": len(pepites),
-            "sous_2k": len([a for a in retenues if 0 < (a.get("prix") or 0) <= cfg["budget"]["achat_immediat"]]),
+            "sous_2k": len([a for a in retenues
+                            if 0 < (a.get("prix") or 0) <= cfg["budget"]["achat_immediat"]]),
         },
         "annonces": retenues,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
