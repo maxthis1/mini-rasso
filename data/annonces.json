@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-03T09:58:21+00:00",
+ "genere_le": "2026-09-03T14:05:47+00:00",
  "sources": {
   "leParking": "erreur : 8/8 requetes en echec — 403 Client Error: Forbidden for url: https://www.leparking.be/voiture-occasion/austin-mini.html?tri=prix_croissant",
-  "lesAnciennes": "ok (41)",
+  "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (24)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -1889,7 +1889,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T14:05:47+00:00"
   },
   {
    "id": "88dc2547f3b5f1fd",
