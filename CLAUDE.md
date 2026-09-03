@@ -183,7 +183,14 @@ Deux garde-fous sont en place et ont fonctionné lors de ce passage :
   en rouge en pied de site. Sans ça leParking apparaissait en `ok (0)`, voyant
   vert sur une source morte ;
 - si plus aucune source ne répond alors qu'on avait des annonces, le collecteur
-  laisse `data/annonces.json` intact au lieu de tout marquer disparu.
+  laisse `data/annonces.json` intact au lieu de tout marquer disparu ;
+- **une annonce n'est déclarée disparue que si sa source a répondu.** Le garde-fou
+  précédent ne couvrait que le cas où *toutes* les sources tombaient. Quand une
+  seule tombe — exactement le cas de leParking en Actions — ses annonces
+  n'apparaissaient plus dans la collecte et se faisaient marquer « retirée » à
+  chaque passage alors qu'elles étaient en ligne. Le site affichait un cimetière :
+  70 annonces sur 82 barrées, dont 69 parfaitement vivantes. Sans nouvelle d'une
+  source, on ne touche ni au drapeau `disparue` ni au compteur de rétention.
 
 ## Design
 

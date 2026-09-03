@@ -158,10 +158,21 @@ def main():
 
     # On garde les annonces disparues quelques jours, marquees, puis on les
     # oublie. Sans cette purge le fichier ne fait que grossir.
+    #
+    # Mais on ne declare disparue qu'une annonce dont la source a repondu. Une
+    # source tombee ne prouve rien sur ses annonces : quand leParking renvoyait
+    # 403 depuis le runner GitHub, ses 69 annonces se faisaient marquer
+    # "retiree" a chaque passage alors qu'elles etaient bien en ligne — le site
+    # affichait un cimetiere. Sans nouvelle d'une source, on ne touche pas a
+    # ses annonces, ni au drapeau ni au compteur de retention.
     jours = cfg.get("retention", {}).get("jours_apres_disparition", 10)
     ids_actifs = {a["id"] for a in retenues}
+    vivantes = {nom for nom, e in etat.items() if e.startswith("ok")}
     for id_, a in connus.items():
         if id_ in ids_actifs:
+            continue
+        if a.get("source") not in vivantes:
+            retenues.append(a)          # source muette : on garde en l'etat
             continue
         a["disparue"] = True
         a.setdefault("disparue_le", maintenant())
