@@ -360,7 +360,12 @@ function visibles(cle){
   const plafond = budget().plafond;
   return DATA.annonces.filter(a => {
     if (cle !== 'ecartees' && ecartee(a.id)) return false;
-    if (a.prix && prixRendu(a) > plafond) return false;
+    // Le plafond porte sur le prix demande, jamais sur le prix rendu : sinon
+    // le rapatriement fait disparaitre des annonces en silence, et la puce
+    // "Tout" annonce un total plus petit que celui du collecteur sans dire
+    // pourquoi. Le rapatriement compte la ou il decide vraiment quelque chose,
+    // dans les filtres budget et le tri par prix.
+    if (a.prix && a.prix > plafond) return false;
     if (PAYS !== 'tous' && a.pays !== PAYS) return false;
     if (q) {
       const foin = (a.titre || '') + ' ' + (a.description || '') + ' ' +
