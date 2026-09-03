@@ -201,12 +201,22 @@ Palette tirée des teintes d'usine Mini, pas générique : `--nuit #0C1A16`,
 `--ambre #D9A441`. Typo : Bebas Neue pour les chiffres et les prix, Archivo pour
 le reste.
 
-Deux marques visuelles, et seulement deux. La **calandre de Mini** en en-tête
-sert de logo — phares ronds, grille en D ambre, pare-chocs à butoirs, dessin au
-trait sans aplat — et se retrouve en favicon, ainsi qu'en filigrane dans le
-cadre des vignettes qui n'ont pas de photo. Le **cadran type Smiths** reste la
-jauge de score de chaque annonce, et se répète en petit sur le compteur de
-pépites. Ne pas en introduire une troisième.
+Deux marques visuelles, et seulement deux. La **Mini de profil** en en-tête
+sert de logo, et se retrouve en filigrane dans le cadre des vignettes sans
+photo. Le **cadran type Smiths** reste la jauge de score de chaque annonce, et
+se répète en petit sur le compteur de pépites. Ne pas en introduire une
+troisième.
+
+Le profil est dessiné sur les cotes réelles, et c'est ce qui le rend
+identifiable : 3 054 mm de long pour 1 346 de haut, empattement à 67 % de la
+longueur, porte-à-faux quasi nuls, roues de 10 pouces aux quatre coins, toit
+plat, vitrage droit. Une première version en face avant avait été essayée puis
+abandonnée : à ces proportions-là une calandre générique ressemble à n'importe
+quel utilitaire, et elle tirait franchement vers le Defender.
+
+Le **favicon garde cette face avant**, volontairement : une icône de 16 px est
+carrée, et un profil de ratio 2,1:1 s'y réduit à un trait. C'est la même
+voiture sous deux angles, pas une troisième marque.
 
 Tout le reste est volontairement calme : filets d'un pixel, rayon de 2 px,
 aucune ombre, aucune animation d'entrée. Ne pas ajouter de cartes arrondies ni
