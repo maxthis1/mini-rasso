@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-03T20:24:49+00:00",
+ "genere_le": "2026-09-03T20:54:49+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (40)",
+  "lesAnciennes": "erreur : 2/2 requetes en echec — 525 Server Error: <none> for url: https://www.lesanciennes.com/annonces/voiture-collection/mini-mini-austin/",
   "ParuVendu": "ok (24)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 82,
-  "nouvelles": 0,
+  "total": 86,
+  "nouvelles": 4,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -550,6 +550,28 @@
    "nouvelle": false
   },
   {
+   "id": "417e8b0fa9998aa3",
+   "titre": "austin mini 1000 speciale",
+   "description": "austin mini 1000 speciale Année 1987 Kilomètre(s) 72185 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5500,
+   "annee": 1987,
+   "km": 72185,
+   "lieu": "BOURGOGNE-FRANCHE-COMTE 21000",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-1000-speciale/B1X69G5P.html",
+   "image": "https://cloud.leparking.fr/2026/09/03/18/33/austin-mini-austin-mini-1000-speciale-noir_9662187816.jpg",
+   "source": "leParking",
+   "score": 50,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 42,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-03T20:54:49+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "14f0c39cfdc845a7",
    "titre": "mini mayfair 1000",
    "description": "mini mayfair 1000 Année 1988 Kilomètre(s) 68000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -682,6 +704,28 @@
    "nouvelle": false
   },
   {
+   "id": "ccf7888e9f1bdf39",
+   "titre": "mini austin 1990",
+   "description": "mini austin 1990 Année 1990 Kilomètre(s) 160000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5900,
+   "annee": 1990,
+   "km": 160000,
+   "lieu": "NORMANDIE 50100",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin-1990/OLNU3W0S.html",
+   "image": "https://cloud.leparking.fr/2026/09/03/19/03/austin-mini-mini-austin-1990-noir_9662198642.jpg",
+   "source": "leParking",
+   "score": 48,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 38,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-03T20:54:49+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "66bfedb4b74b2aa3",
    "titre": "austin mini 1000 – 1986 – 94 007 km – nombreuses pièces / dossier de factures",
    "description": "austin mini 1000 – 1986 – 94 007 km – nombreuses pièces / dossier de factures Année 1986 Kilomètre(s) 94007 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -706,7 +750,9 @@
    ],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T20:54:49+00:00"
   },
   {
    "id": "d0a5c6057fe78a4f",
@@ -1149,6 +1195,50 @@
    "nouvelle": false
   },
   {
+   "id": "33beb147de8814a7",
+   "titre": "austin mini",
+   "description": "austin mini Année 1991 Kilomètre(s) 102500 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1991,
+   "km": 102500,
+   "lieu": "OCCITANIE 34540",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/ETHD9QUB.html",
+   "image": "https://cloud.leparking.fr/2026/09/03/19/03/austin-mini-austin-mini-vert_9662198401.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-03T20:54:49+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "81ea4740b0717940",
+   "titre": "mini austin",
+   "description": "mini austin Année 1989 Kilomètre(s) 96335 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1989,
+   "km": 96335,
+   "lieu": "OCCITANIE 65800",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/ZWSL1HH4.html",
+   "image": "https://cloud.leparking.fr/2026/09/03/18/33/austin-mini-mini-austin-gris_9662188329.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-03T20:54:49+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "5dd337b4eed81584",
    "titre": "mini italian job 1.3 del 1993 (iscritta asi)",
    "description": "mini italian job 1.3 del 1993 (iscritta asi) Année 1993 Kilomètre(s) 90000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1300,7 +1390,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T20:54:49+00:00"
   },
   {
    "id": "c896c42a7ed16f26",
@@ -1459,7 +1551,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T20:54:49+00:00"
   },
   {
    "id": "fdf6afd9f699367c",
@@ -1801,9 +1895,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-03T17:55:12+00:00"
+   "nouvelle": false
   },
   {
    "id": "a7e44db43be5833f",
