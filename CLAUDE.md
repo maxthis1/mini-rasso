@@ -49,6 +49,7 @@ Pas de framework, pas de build. HTML/CSS/JS vanilla + Python pour la collecte.
 ## Arborescence
 
     index.html              le site entier (styles et script inline, volontairement)
+    logo-mini.png           le logo, seul fichier externe que le site charge
     netlify.toml            publication + règle anti-redéploiement
     config.json             tous les réglages : budget, pays, import, mots-clés, seuils
     data/annonces.json      sortie du collecteur, réécrite à chaque passage
@@ -202,20 +203,32 @@ Palette tirée des teintes d'usine Mini, pas générique : `--nuit #0C1A16`,
 le reste.
 
 Deux marques visuelles, et seulement deux. La **Mini de profil** en en-tête
-sert de logo, et se retrouve en filigrane dans le cadre des vignettes sans
-photo. Le **cadran type Smiths** reste la jauge de score de chaque annonce, et
-se répète en petit sur le compteur de pépites. Ne pas en introduire une
-troisième.
+sert de logo. Le **cadran type Smiths** reste la jauge de score de chaque
+annonce, et se répète en petit sur le compteur de pépites. Ne pas en introduire
+une troisième.
 
-Le profil est dessiné sur les cotes réelles : 3 054 mm de long pour 1 346 de
-haut, empattement à 67 % de la longueur, porte-à-faux quasi nuls, roues de 10
-pouces aux quatre coins. Deux versions en face avant ont été essayées puis
-abandonnées — à ces proportions une calandre générique ressemble à un
-utilitaire, ça tirait vers le Defender.
+Le logo est **`logo-mini.png`, un rendu fourni par le propriétaire** : Mini
+classique British Racing Green, toit ivoire, filet ambre, plaque de rallye
+numéro 7, sur fond transparent. C'est son image, pas un dessin à refaire — ne
+pas la remplacer par une reconstitution.
 
-**Quatre détails font la Mini, et les rater suffit à la rendre méconnaissable.**
-Ils ont tous les quatre été manqués avant d'être corrigés, donc ne pas les
-défaire :
+L'original faisait 1 672 px pour 1,16 Mo. Il est servi à 440 px et 121 Ko,
+affiché à 200, ce qui reste net sur les écrans à forte densité. Aucun outil de
+compression n'est installé sur la machine : le redimensionnement passe par
+`System.Drawing` en PowerShell. Si le logo change, refaire ce passage — 1 Mo
+pour une image décorative sur un site dont les données pèsent 76 Ko, ce serait
+disproportionné.
+
+Le **favicon et le filigrane des vignettes sans photo restent en SVG au trait**,
+et c'est volontaire : un rendu détaillé devient une bouillie verte à 16 px, et
+en filigrane derrière un cadre vide il attirerait l'œil au lieu de s'effacer.
+Ce tracé au trait est dessiné sur les cotes réelles — 3 054 mm de long pour
+1 346 de haut, empattement à 67 % de la longueur, roues de 10 pouces aux quatre
+coins.
+
+**Quatre détails font la Mini**, et les rater suffit à la rendre méconnaissable.
+Ils ont tous les quatre été manqués avant d'être corrigés, donc si un jour on
+retouche ce tracé, ne pas les défaire :
 
 1. **De profil on ne voit pas les pare-brise**, mais les deux vitres latérales —
    une custode arrière et une vitre de porte au montant penché. Dessiner les
@@ -227,9 +240,6 @@ défaire :
 4. **Le capot est quasi plat**, à peine sous la ligne de ceinture. C'est lui qui
    donne l'aile avant haute où se loge le phare ; le faire plonger écrase
    l'avant et sort la roue du museau.
-
-Le favicon reprend le même profil centré dans un carré, et le filigrane des
-vignettes sans photo aussi : une seule voiture, un seul dessin.
 
 Tout le reste est volontairement calme : filets d'un pixel, rayon de 2 px,
 aucune ombre, aucune animation d'entrée. Ne pas ajouter de cartes arrondies ni
@@ -364,5 +374,7 @@ Le site se met à jour tout seul ensuite, avec jusqu'à cinq minutes de retard :
 - Interface, commentaires et commits en français.
 - Pas de dépendance nouvelle sans raison forte : `requests` et `beautifulsoup4`,
   c'est tout.
-- `index.html` reste un fichier unique et autonome.
+- `index.html` reste un fichier unique et autonome. Sa seule dépendance
+  externe est `logo-mini.png` ; tout le reste — styles, script, icônes —
+  vit dans le fichier.
 - Les réglages vont dans `config.json`, jamais en dur dans le code.

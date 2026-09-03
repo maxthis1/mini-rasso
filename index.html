@@ -34,7 +34,8 @@ button{font-family:inherit}
 
 /* ---------- en-tete : la calandre ---------- */
 header{padding:28px 0 20px;display:flex;gap:18px;align-items:center}
-.logo{flex:0 0 152px}
+.logo{flex:0 0 200px}
+.logo img{display:block;width:100%;height:auto}
 .titre h1{font-family:'Bebas Neue',sans-serif;font-size:44px;letter-spacing:.02em;
   line-height:.92;margin:0 0 6px}
 .titre p{margin:0;color:var(--almond);font-size:13.5px}
@@ -146,7 +147,7 @@ footer .hs{color:var(--tartan)}
 .vide{padding:44px 0;text-align:center;color:var(--almond)}
 
 @media (max-width:460px){
-  .titre h1{font-size:36px} .logo{flex-basis:118px}
+  .titre h1{font-size:36px} .logo{flex-basis:132px}
   .annonce{grid-template-columns:92px 1fr;gap:12px}
   .vignette{width:92px;height:69px;background-size:60px}
   .prix{font-size:27px}
@@ -163,43 +164,13 @@ footer .hs{color:var(--tartan)}
 
 <header>
   <div class="logo">
-    <!-- Calandre de Mini classique : deux phares ronds, la grille en D, le
-         pare-chocs a butoirs. Dessin au trait, aucun aplat ni degrade, pour
-         rester dans la meme langue graphique que les cadrans de score. -->
-    <svg viewBox="0 0 236 112" width="100%" role="img" aria-label="Mini Rasso">
-      <!-- Mini classique de profil, sur les cotes reelles : 3 054 mm de long
-           pour 1 346 de haut, empattement a 67 % de la longueur, roues de 10
-           pouces aux quatre coins.
-           Trois choses font la difference entre une Mini et une petite voiture
-           quelconque, et les trois ont ete ratees avant d'etre corrigees :
-           de profil on ne voit pas les pare-brise mais les deux vitres
-           laterales ; l'arriere tombe a la verticale ; et les passages de roue
-           sont de grands demi-cercles qui remontent a mi-caisse. Le capot est
-           quasi plat, a peine sous la ligne de ceinture — c'est ce qui donne
-           l'aile avant haute ou se loge le phare. -->
-      <circle cx="44" cy="85" r="19" fill="#0F211B" stroke="#EFE9DA" stroke-width="2.4"/>
-      <circle cx="44" cy="85" r="10" fill="none" stroke="#8FA07E" stroke-width="2"/>
-      <circle cx="44" cy="85" r="3" fill="#8FA07E"/>
-      <circle cx="182" cy="85" r="19" fill="#0F211B" stroke="#EFE9DA" stroke-width="2.4"/>
-      <circle cx="182" cy="85" r="10" fill="none" stroke="#8FA07E" stroke-width="2"/>
-      <circle cx="182" cy="85" r="3" fill="#8FA07E"/>
-      <path d="M11 77 L9 54 Q9 46 18 42 L34 11 Q35 8 39 8 H143 Q147 8 148 11 L163 40 L207 44 Q220 45 222 54 L223 69 Q223 77 217 77 H203 A21 21 0 0 0 161 77 H65 A21 21 0 0 0 23 77 Z" fill="#132922" stroke="#EFE9DA" stroke-width="2.5" stroke-linejoin="round"/>
-      <path d="M43 15 H86 q2 0 2 2 V38 H37 z" fill="#0F211B" stroke="#204237" stroke-width="1.6"/>
-      <path d="M94 15 H139 q2 0 3 2 l7 21 H94 z" fill="#0F211B" stroke="#204237" stroke-width="1.6"/>
-      <path d="M35 13 H146" stroke="#204237" stroke-width="1.7" fill="none" stroke-linecap="round"/>
-      <path d="M90 41 V76" stroke="#204237" stroke-width="1.6" fill="none"/>
-      <path d="M157 42 V76" stroke="#204237" stroke-width="1.6" fill="none"/>
-      <path d="M96 50 h11" stroke="#8FA07E" stroke-width="2.2" stroke-linecap="round"/>
-      <path d="M67 71 H160" stroke="#204237" stroke-width="1.6" fill="none"/>
-      <path d="M164 44 q20 0 40 1" stroke="#204237" stroke-width="1.4" fill="none"/>
-      <circle cx="206" cy="53" r="7" fill="#0F211B" stroke="#D9A441" stroke-width="2"/>
-      <g stroke="#8FA07E" stroke-width="1.5" stroke-linecap="round">
-        <path d="M213 61 h8"/><path d="M213 65 h8"/><path d="M214 69 h7"/>
-      </g>
-      <path d="M213 74 h10" stroke="#8FA07E" stroke-width="2.4" stroke-linecap="round"/>
-      <rect x="8" y="55" width="5" height="9" rx="2" fill="#C7263B" opacity=".9"/>
-      <path d="M6 71 h9" stroke="#8FA07E" stroke-width="2.4" stroke-linecap="round"/>
-    </svg>
+    <!-- Rendu fourni par le proprietaire : Mini classique British Racing Green,
+         toit ivoire, filet ambre, plaque de rallye numero 7. Le PNG d'origine
+         faisait 1672 px pour 1,16 Mo ; ramene a 440 px et 121 Ko, affiche a
+         200, ce qui reste net sur les ecrans a forte densite.
+         Alt vide et volontaire : le titre h1 juste a cote porte deja le nom,
+         le repeter ferait doublon pour un lecteur d'ecran. -->
+    <img src="logo-mini.png" width="440" height="248" alt="" decoding="async">
   </div>
   <div class="titre">
     <h1>Mini Rasso</h1>
