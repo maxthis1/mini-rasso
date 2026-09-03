@@ -7,3 +7,9 @@ CONTEXTE-LOCAL.md
 
 # etat local du CLI Netlify
 .netlify/
+
+# secrets locaux (topic ntfy)
+.env.local
+
+# journal de la tache planifiee
+collector/dernier-passage.log

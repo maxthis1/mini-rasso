@@ -1,8 +1,17 @@
 name: Mini Rasso
 
+# Le cron est volontairement debranche depuis le 3 septembre 2026.
+#
+# Deux raisons. D'abord il ne voyait presque rien : leParking, qui porte 84 %
+# de la couverture, repond 403 depuis les IP de datacentre de GitHub, et il ne
+# restait que 13 annonces sur 82. Ensuite, la collecte tourne desormais sur la
+# machine de la maison (tache planifiee, collector/collecte-auto.ps1) et ecrit
+# dans le meme data/annonces.json : deux ecrivains sur un fichier reecrit en
+# entier a chaque passage, c'est un conflit toutes les demi-heures.
+#
+# Le declenchement manuel reste, il sert a verifier que le collecteur tourne
+# encore sur une machine propre apres une modification.
 on:
-  schedule:
-    - cron: "*/30 * * * *"   # toutes les 30 minutes (heure UTC)
   workflow_dispatch:          # bouton "Run workflow" pour lancer a la main
 
 permissions:

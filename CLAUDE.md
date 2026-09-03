@@ -53,6 +53,7 @@ Pas de framework, pas de build. HTML/CSS/JS vanilla + Python pour la collecte.
     config.json             tous les réglages : budget, pays, import, mots-clés, seuils
     data/annonces.json      sortie du collecteur, réécrite à chaque passage
     collector/collect.py    orchestration, déduplication, détection des nouveautés, push
+    collector/collecte-auto.ps1  ce que lance la tâche planifiée de la maison
     collector/sources.py    un adaptateur par site, isolés les uns des autres
     collector/score.py      moteur de notation
     collector/fixture.json  jeu d'essai hors ligne
@@ -278,17 +279,43 @@ depuis le dossier de travail.**
 Le domaine minirasso.com est mis de côté : il n'est pas enregistré, et ce n'est
 pas la priorité.
 
-## La décision en attente
+## D'où part la collecte
 
-Le propriétaire réfléchit à l'endroit d'où faire tourner la collecte, vu que
-GitHub Actions ne voit que 13 annonces sur 82. Rien n'est installé sur sa
-machine, c'est volontaire — **ne pas créer de tâche planifiée sans le lui
-redemander.**
+**Tranché le 3 septembre 2026 : la collecte tourne sur la machine de la maison,
+et GitHub ne sert plus qu'à héberger les données et le site.**
 
-En attendant, la collecte se relance à la main depuis le dossier du projet :
+Le raisonnement en une phrase : Cloudflare filtre les plages d'IP de datacentre,
+donc leParking — 84 % de la couverture — répond depuis une connexion
+résidentielle et renvoie 403 depuis un runner GitHub. Un VPS ne changerait rien,
+OVH, Hetzner ou Scaleway étant exactement les plages filtrées ; il n'existe pas
+de « VPS résidentiel » en produit courant.
 
-    py collector/collect.py --dry-run
-    git add data/annonces.json && git commit -m "annonces" && git push
+Le montage :
+
+- **tâche planifiée Windows « Mini Rasso - collecte »**, toutes les 30 minutes,
+  uniquement session ouverte. Elle appelle `collector/collecte-auto.ps1`, qui
+  collecte, commit `data/annonces.json` s'il a bougé, et pousse. Journal dans
+  `collector/dernier-passage.log`, non suivi ;
+- **le cron GitHub Actions est débranché.** Il ne voyait que 13 annonces sur 82,
+  et surtout il écrivait dans le même fichier que la tâche locale : deux
+  écrivains sur un fichier réécrit en entier à chaque passage, c'est un conflit
+  toutes les demi-heures. Le déclenchement manuel reste, pour vérifier que le
+  collecteur tourne encore sur une machine propre après une modification ;
+- le topic ntfy vit dans **`.env.local`**, non suivi, lu par le script. Il reste
+  aussi dans le secret GitHub `NTFY_TOPIC` pour les lancements manuels.
+
+Ce que ça implique et qu'il faut assumer : **rien ne tourne quand le PC est
+éteint.** Les annonces parues pendant ce temps arrivent au réveil de la machine.
+C'est le prix à payer pour voir leParking, et c'est un bon prix.
+
+Pour lancer un passage à la main, sans attendre :
+
+    powershell -ExecutionPolicy Bypass -File collector/collecte-auto.ps1
+
+Pour suspendre ou reprendre la tâche :
+
+    Disable-ScheduledTask -TaskName "Mini Rasso - collecte"
+    Enable-ScheduledTask  -TaskName "Mini Rasso - collecte"
 
 Le site se met à jour tout seul ensuite, avec jusqu'à cinq minutes de retard :
 `raw.githubusercontent.com` a un cache CDN d'environ cette durée, et le
@@ -296,19 +323,18 @@ Le site se met à jour tout seul ensuite, avec jusqu'à cinq minutes de retard :
 
 ## À faire
 
-1. Trancher la question ci-dessus — c'est ce qui conditionne l'utilité du radar.
-2. **Recalibrer les cotes** de `score.py` sur les prix observés. Le relevé
+1. **Recalibrer les cotes** de `score.py` sur les prix observés. Le relevé
    ci-dessus suggère déjà que `projet_sain` à 4 800 € est trop haut pour
    l'Italie et à peu près juste pour la France : une cote par pays serait plus
    fidèle qu'une cote unique.
-3. Aller chercher l'état réel des candidats. Pour les annonces qui passent un
+2. Aller chercher l'état réel des candidats. Pour les annonces qui passent un
    certain score, ouvrir la page de détail et scorer sur son texte plutôt que
    sur la fiche technique — c'est ce qui rendrait le moteur de mots-clés utile
    sur leParking.
-4. Historiser les prix par annonce pour repérer les vendeurs qui baissent
+3. Historiser les prix par annonce pour repérer les vendeurs qui baissent
    progressivement — ce sont les plus négociables. La détection de baisse
    existe déjà (`baisse_prix`), il manque l'historique.
-5. Rebrancher eBay par l'API Browse officielle si le volume manque.
+4. Rebrancher eBay par l'API Browse officielle si le volume manque.
 
 ## Conventions
 
