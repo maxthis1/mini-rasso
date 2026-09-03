@@ -207,16 +207,29 @@ photo. Le **cadran type Smiths** reste la jauge de score de chaque annonce, et
 se répète en petit sur le compteur de pépites. Ne pas en introduire une
 troisième.
 
-Le profil est dessiné sur les cotes réelles, et c'est ce qui le rend
-identifiable : 3 054 mm de long pour 1 346 de haut, empattement à 67 % de la
-longueur, porte-à-faux quasi nuls, roues de 10 pouces aux quatre coins, toit
-plat, vitrage droit. Une première version en face avant avait été essayée puis
-abandonnée : à ces proportions-là une calandre générique ressemble à n'importe
-quel utilitaire, et elle tirait franchement vers le Defender.
+Le profil est dessiné sur les cotes réelles : 3 054 mm de long pour 1 346 de
+haut, empattement à 67 % de la longueur, porte-à-faux quasi nuls, roues de 10
+pouces aux quatre coins. Deux versions en face avant ont été essayées puis
+abandonnées — à ces proportions une calandre générique ressemble à un
+utilitaire, ça tirait vers le Defender.
 
-Le **favicon garde cette face avant**, volontairement : une icône de 16 px est
-carrée, et un profil de ratio 2,1:1 s'y réduit à un trait. C'est la même
-voiture sous deux angles, pas une troisième marque.
+**Quatre détails font la Mini, et les rater suffit à la rendre méconnaissable.**
+Ils ont tous les quatre été manqués avant d'être corrigés, donc ne pas les
+défaire :
+
+1. **De profil on ne voit pas les pare-brise**, mais les deux vitres latérales —
+   une custode arrière et une vitre de porte au montant penché. Dessiner les
+   pare-brise comme des panneaux vitrés donne une voiture qui n'existe pas.
+2. **L'arrière tombe à la verticale.** Un hayon fuyant donne une Golf 1.
+3. **Les passages de roue sont de grands demi-cercles** qui remontent à
+   mi-caisse — 45 % de la hauteur entre ceinture et bas de caisse — pas des
+   encoches.
+4. **Le capot est quasi plat**, à peine sous la ligne de ceinture. C'est lui qui
+   donne l'aile avant haute où se loge le phare ; le faire plonger écrase
+   l'avant et sort la roue du museau.
+
+Le favicon reprend le même profil centré dans un carré, et le filigrane des
+vignettes sans photo aussi : une seule voiture, un seul dessin.
 
 Tout le reste est volontairement calme : filets d'un pixel, rayon de 2 px,
 aucune ombre, aucune animation d'entrée. Ne pas ajouter de cartes arrondies ni
