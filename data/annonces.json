@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-03T00:48:42+00:00",
+ "genere_le": "2026-09-03T05:17:16+00:00",
  "sources": {
   "leParking": "erreur : 8/8 requetes en echec — 403 Client Error: Forbidden for url: https://www.leparking.be/voiture-occasion/austin-mini.html?tri=prix_croissant",
   "lesAnciennes": "ok (41)",
