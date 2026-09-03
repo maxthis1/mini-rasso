@@ -1,7 +1,7 @@
 {
- "genere_le": "2026-09-03T17:48:45+00:00",
+ "genere_le": "2026-09-03T17:55:12+00:00",
  "sources": {
-  "leParking": "ok (212)",
+  "leParking": "erreur : 8/8 requetes en echec — 403 Client Error: Forbidden for url: https://www.leparking.be/voiture-occasion/austin-mini.html?tri=prix_croissant",
   "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (24)",
   "eBay": "desactivee",
@@ -129,7 +129,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "c6ccd84a304c536b",
@@ -151,7 +153,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "017d639d79765d80",
@@ -173,7 +177,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "d93de1248d1b97eb",
@@ -195,7 +201,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "48956375d863f11c",
@@ -217,7 +225,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "ba711f0418eeca01",
@@ -239,7 +249,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "f8a7ae0e9a65546e",
@@ -261,7 +273,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "85ea8ca82f3942c5",
@@ -283,7 +297,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "23ef34bbd26dfdcd",
@@ -305,7 +321,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "34de9e9168dd71ef",
@@ -327,7 +345,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "06a9a2768ac5da26",
@@ -349,7 +369,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "6bf7d0fb19f98732",
@@ -371,7 +393,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "1b9644ff8bb08284",
@@ -393,7 +417,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "b3289d2490c228d5",
@@ -415,7 +441,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "e08efa8404290c5c",
@@ -437,7 +465,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "3c60215fcbfd82b5",
@@ -459,7 +489,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "d1a6324520cbe6b4",
@@ -481,7 +513,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "3eb8c3d839846581",
@@ -503,7 +537,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "573a2cdc72ac7037",
@@ -525,7 +561,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "0654ff83f18a690b",
@@ -547,7 +585,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "14f0c39cfdc845a7",
@@ -569,7 +609,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "b8aead8a153c948c",
@@ -591,7 +633,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "8959ca059a89922d",
@@ -613,7 +657,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "eb2cb912a6d52ebf",
@@ -635,7 +681,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "9476fbf798ea2ae4",
@@ -657,7 +705,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "2d4ba5f266598fec",
@@ -679,7 +729,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "66bfedb4b74b2aa3",
@@ -706,7 +758,9 @@
    ],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "d0a5c6057fe78a4f",
@@ -728,7 +782,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "f8f8f315ab0837b6",
@@ -750,7 +806,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "bb5feb4624a35664",
@@ -772,7 +830,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "b4092bff447a8c80",
@@ -794,7 +854,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "3a0098bf9b3788ee",
@@ -816,7 +878,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "d7e436819661442a",
@@ -838,7 +902,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "93645fbe886222d7",
@@ -860,7 +926,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "e3469c4b4ade7c12",
@@ -882,7 +950,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "062f171cf7ed9a3b",
@@ -904,7 +974,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "3df965a7e4a1e2cd",
@@ -926,7 +998,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "913534db8ef57cd2",
@@ -948,7 +1022,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "ed6d81d5c1868d96",
@@ -970,7 +1046,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "d3359742b436b459",
@@ -993,7 +1071,9 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false,
-   "baisse_prix": 251
+   "baisse_prix": 251,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "d330255dc89be371",
@@ -1015,7 +1095,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "cac05bd99259f69e",
@@ -1037,7 +1119,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "3d822391e5075d36",
@@ -1059,7 +1143,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "b1524263b993fbf9",
@@ -1081,7 +1167,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "196a2a2e70139dab",
@@ -1103,7 +1191,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "4f14a7d361155296",
@@ -1125,7 +1215,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "c3ca6f0ae66b45a7",
@@ -1147,7 +1239,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "5dd337b4eed81584",
@@ -1169,7 +1263,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "f83f9e4c47d184dd",
@@ -1191,7 +1287,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "38762107368dcc8b",
@@ -1213,7 +1311,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "bed97bfe2b8f7224",
@@ -1235,7 +1335,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "63cd6e37154d4336",
@@ -1257,7 +1359,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "323314ad89ed840a",
@@ -1301,7 +1405,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "c896c42a7ed16f26",
@@ -1323,7 +1429,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "2007feb53de5b098",
@@ -1345,7 +1453,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "3d96f88e46f52646",
@@ -1367,7 +1477,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "318e08f6d8a34415",
@@ -1389,7 +1501,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "690348911412c5e5",
@@ -1412,7 +1526,9 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false,
-   "baisse_prix": 12
+   "baisse_prix": 12,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "41cabe6a5b6c680a",
@@ -1461,7 +1577,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "fdf6afd9f699367c",
@@ -1489,7 +1607,9 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false,
-   "baisse_prix": 13
+   "baisse_prix": 13,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "95a4c68f758c2597",
@@ -1511,7 +1631,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "e16a5a05dab6376c",
@@ -1607,28 +1729,6 @@
    "nouvelle": false
   },
   {
-   "id": "772931f0fae8b04a",
-   "titre": "austin mini austin 1275 weber",
-   "description": "austin mini austin 1275 weber Année 1982 Kilomètre(s) 94755 Energie ESSENCE Couleur ROUGE Boite Inconnu Portes 2 PORTES Catégorie CITADINE",
-   "prix": 0,
-   "annee": 1982,
-   "km": 94755,
-   "lieu": "FLANDRE-ORIENTALE 9160",
-   "pays": "Belgique",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-austin-1275-weber/0JH73RF8.html",
-   "image": "https://cloud.leparking.fr/2024/09/10/03/17/austin-mini-austin-mini-austin-1275-weber-rouge_9169346804.jpg",
-   "source": "leParking",
-   "score": 14,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": null,
-   "tag_budget": "hors budget",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "1864d0fd918b3cac",
    "titre": "1964 AUSTIN Mini Cooper S Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vous pr",
    "description": "1964 AUSTIN Mini Cooper S Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vous proposons à la vente cette exceptionnelle Austin Mini Cooper S Mk1 dans sa ravissante teinte Almond Green. Livrée neuve en France le 28 mars... POA",
@@ -1695,6 +1795,30 @@
    "nouvelle": false
   },
   {
+   "id": "772931f0fae8b04a",
+   "titre": "austin mini austin 1275 weber",
+   "description": "austin mini austin 1275 weber Année 1982 Kilomètre(s) 94755 Energie ESSENCE Couleur ROUGE Boite Inconnu Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1982,
+   "km": 94755,
+   "lieu": "FLANDRE-ORIENTALE 9160",
+   "pays": "Belgique",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-austin-1275-weber/0JH73RF8.html",
+   "image": "https://cloud.leparking.fr/2024/09/10/03/17/austin-mini-austin-mini-austin-1275-weber-rouge_9169346804.jpg",
+   "source": "leParking",
+   "score": 14,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-02T22:03:20+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
+  },
+  {
    "id": "f795e6e07a70ad0f",
    "titre": "1972 innocenti mini a vendre",
    "description": "1972 innocenti mini a vendre Année 1972 Kilomètre(s) Inconnu Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
@@ -1714,7 +1838,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "015362d9ec073b2a",
@@ -1736,7 +1862,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "95e59b5ef43fc90f",
@@ -1758,7 +1886,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "7ee0fc988d905edf",
@@ -1804,7 +1934,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "a7e44db43be5833f",
@@ -1826,7 +1958,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "d345245e6d06c9ac",
@@ -1848,7 +1982,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   },
   {
    "id": "e9e7fc28067519d1",
@@ -1870,7 +2006,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-03T17:55:12+00:00"
   }
  ]
 }
