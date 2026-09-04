@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-03T22:24:50+00:00",
+ "genere_le": "2026-09-04T17:24:55+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (41)",
+  "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (24)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 86,
-  "nouvelles": 0,
+  "total": 89,
+  "nouvelles": 3,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -660,6 +660,28 @@
    "nouvelle": false
   },
   {
+   "id": "f5ff18d96a55c025",
+   "titre": "mini rover 1300 cc",
+   "description": "mini rover 1300 cc Année 1994 Kilomètre(s) 70000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5000,
+   "annee": 1994,
+   "km": 70000,
+   "lieu": "LAZIO 04100",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-rover-1300-cc/I90HQXWH.html",
+   "image": "https://cloud.leparking.fr/2025/09/01/05/04/rover-mini-mini-rover-1300-cc_9418770567.jpg",
+   "source": "leParking",
+   "score": 49,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 47,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-04T17:24:55+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "9476fbf798ea2ae4",
    "titre": "mini 1.0 35th anniversario",
    "description": "mini 1.0 35th anniversario Année 1991 Kilomètre(s) 5000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1085,28 +1107,6 @@
    "nouvelle": false
   },
   {
-   "id": "3d822391e5075d36",
-   "titre": "austin mini",
-   "description": "austin mini Année 1983 Kilomètre(s) 20000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 5800,
-   "annee": 1983,
-   "km": 20000,
-   "lieu": "TOSCANA 58017",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/2XKQ7BAB.html",
-   "image": "https://cloud.leparking.fr/2026/09/02/08/07/austin-mini-austin-mini-grigio_9660589270.jpg",
-   "source": "leParking",
-   "score": 45,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 39,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "b1524263b993fbf9",
    "titre": "1.0 jetblack",
    "description": "1.0 jetblack Année 1988 Kilomètre(s) 1000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1127,6 +1127,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "3d822391e5075d36",
+   "titre": "austin mini",
+   "description": "austin mini Année 1983 Kilomètre(s) 20000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5800,
+   "annee": 1983,
+   "km": 20000,
+   "lieu": "TOSCANA 58017",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/2XKQ7BAB.html",
+   "image": "https://cloud.leparking.fr/2026/09/02/08/07/austin-mini-austin-mini-grigio_9660589270.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 39,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-02T22:03:20+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-04T17:24:55+00:00"
   },
   {
    "id": "196a2a2e70139dab",
@@ -1346,7 +1370,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-04T17:24:55+00:00"
   },
   {
    "id": "323314ad89ed840a",
@@ -1480,7 +1506,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-04T17:24:55+00:00"
   },
   {
    "id": "690348911412c5e5",
@@ -1786,6 +1814,50 @@
    "nouvelle": false
   },
   {
+   "id": "14c560719171050e",
+   "titre": "cooper s",
+   "description": "cooper s Année 1965 Kilomètre(s) 10 Energie ESSENCE Couleur BLANC Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1965,
+   "km": 10,
+   "lieu": "",
+   "pays": "Portugal",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/cooper-s/HCGKKHYC.html",
+   "image": "",
+   "source": "leParking",
+   "score": 13,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-04T17:24:55+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "d43ef073ca5c56c1",
+   "titre": "1961 | austin mini cooper 997",
+   "description": "1961 | austin mini cooper 997 Année 1961 Kilomètre(s) Inconnu Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1961,
+   "km": 0,
+   "lieu": "PROVINCIE NOORD-BRABANT 5140",
+   "pays": "Pays-Bas",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1961-austin-mini-cooper-997/VP7KA248.html",
+   "image": "https://cloud.leparking.fr/2026/09/04/03/38/austin-mini-1961-austin-mini-cooper-997-inconnu_9662422087.jpg",
+   "source": "leParking",
+   "score": 12,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-04T17:24:55+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "f795e6e07a70ad0f",
    "titre": "1972 innocenti mini a vendre",
    "description": "1972 innocenti mini a vendre Année 1972 Kilomètre(s) Inconnu Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
@@ -1805,7 +1877,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-04T17:24:55+00:00"
   },
   {
    "id": "015362d9ec073b2a",
@@ -1941,7 +2015,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-04T17:24:55+00:00"
   },
   {
    "id": "e9e7fc28067519d1",
@@ -1963,7 +2039,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-04T17:24:55+00:00"
   }
  ]
 }
