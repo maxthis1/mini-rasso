@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-06T18:55:09+00:00",
+ "genere_le": "2026-09-06T19:26:02+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (40)",
-  "ParuVendu": "ok (24)",
+  "lesAnciennes": "ok (41)",
+  "ParuVendu": "erreur : 3/3 requetes en echec — HTTPSConnectionPool(host='www.paruvendu.fr', port=443): Read timed out. (read timeout=25)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
