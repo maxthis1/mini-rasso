@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-06T20:24:53+00:00",
+ "genere_le": "2026-09-06T20:54:53+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (40)",
+  "lesAnciennes": "ok (41)",
   "ParuVendu": "ok (24)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 97,
-  "nouvelles": 0,
+  "total": 98,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1465,6 +1465,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "314f69f056bfadfb",
+   "titre": "rover mini 1000 spécial",
+   "description": "rover mini 1000 spécial Année 1989 Kilomètre(s) 50000 Energie ESSENCE Couleur BLEU Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 7000,
+   "annee": 1989,
+   "km": 50000,
+   "lieu": "PAYS DE LA LOIRE 85540",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-1000-special/2XKCS2PB.html",
+   "image": "https://cloud.leparking.fr/2026/09/06/18/09/rover-mini-rover-mini-1000-special-bleu_9664089298.jpg",
+   "source": "leParking",
+   "score": 41,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 26,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-06T20:54:53+00:00",
+   "nouvelle": true
   },
   {
    "id": "323314ad89ed840a",
