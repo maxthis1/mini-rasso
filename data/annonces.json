@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-08T17:24:54+00:00",
+ "genere_le": "2026-09-08T17:54:54+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (40)",
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 111,
-  "nouvelles": 0,
+  "total": 112,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -965,6 +965,28 @@
    "nouvelle": false
   },
   {
+   "id": "74246b5cc1731751",
+   "titre": "rover mini special",
+   "description": "rover mini special Année 1990 Kilomètre(s) 39000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6000,
+   "annee": 1990,
+   "km": 39000,
+   "lieu": "BOURGOGNE-FRANCHE-COMTE 25480",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-special/K5LNT3JQ.html",
+   "image": "https://cloud.leparking.fr/2026/09/08/14/47/rover-mini-rover-mini-special-gris_9665367257.jpg",
+   "source": "leParking",
+   "score": 47,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 37,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-08T17:54:54+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "b4092bff447a8c80",
    "titre": "special",
    "description": "special Année 1990 Kilomètre(s) 39000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -984,7 +1006,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-08T17:54:54+00:00"
   },
   {
    "id": "e222c30f3bec452e",
