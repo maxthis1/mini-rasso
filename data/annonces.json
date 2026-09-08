@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-08T17:54:54+00:00",
+ "genere_le": "2026-09-08T18:24:54+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (40)",
+  "lesAnciennes": "ok (41)",
   "ParuVendu": "ok (23)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -33,7 +33,7 @@
  },
  "stats": {
   "total": 112,
-  "nouvelles": 1,
+  "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -984,7 +984,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T17:54:54+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "b4092bff447a8c80",
@@ -2455,7 +2455,7 @@
    "lieu": "",
    "pays": "France",
    "url": "https://www.lesanciennes.com/annonce/austin-mini-pick-up-1973-a874416",
-   "image": "",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2075617/1973-mini-mini-6a155ced3449c.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=891c7f94a101d0e12912f0752cbd3d54",
    "source": "lesAnciennes",
    "score": 10,
    "etat": "bon_etat",
@@ -2465,9 +2465,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-03T17:48:45+00:00"
+   "nouvelle": false
   },
   {
    "id": "d91e8b223eae1e4b",
