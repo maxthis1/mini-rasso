@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-08T16:59:28+00:00",
+ "genere_le": "2026-09-08T17:24:54+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (40)",
@@ -33,7 +33,7 @@
  },
  "stats": {
   "total": 111,
-  "nouvelles": 13,
+  "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -151,7 +151,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "017d639d79765d80",
@@ -641,7 +641,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "b8aead8a153c948c",
@@ -797,7 +797,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "2d4ba5f266598fec",
@@ -1006,7 +1006,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "3a0098bf9b3788ee",
@@ -1408,7 +1408,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "de038fc5236ffdf1",
@@ -1430,7 +1430,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "33beb147de8814a7",
@@ -1632,7 +1632,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "314f69f056bfadfb",
@@ -1788,7 +1788,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "773f6e87e4c240e0",
@@ -1909,7 +1909,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "bcdda9f72f64cee3",
@@ -2008,7 +2008,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "c6db5dbc00eb5b11",
@@ -2076,7 +2076,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "e16a5a05dab6376c",
@@ -2191,7 +2191,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "772931f0fae8b04a",
@@ -2465,7 +2465,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "88dc2547f3b5f1fd",
