@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-09T20:24:51+00:00",
+ "genere_le": "2026-09-09T20:54:50+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (40)",
+  "lesAnciennes": "ok (41)",
   "ParuVendu": "ok (22)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 117,
-  "nouvelles": 0,
+  "total": 118,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -329,7 +329,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-09T20:54:50+00:00"
   },
   {
    "id": "23ef34bbd26dfdcd",
@@ -1527,6 +1529,28 @@
    "nouvelle": false
   },
   {
+   "id": "fca892e8f5aa6e83",
+   "titre": "rover mini ancienne",
+   "description": "rover mini ancienne Année 1993 Kilomètre(s) 87000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1993,
+   "km": 87000,
+   "lieu": "NOUVELLE-AQUITAINE 33700",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-ancienne/3A3HZUD1.html",
+   "image": "https://cloud.leparking.fr/2026/08/28/16/03/rover-mini-rover-mini-ancienne-noir_9657648408.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-09T20:54:50+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "33beb147de8814a7",
    "titre": "austin mini",
    "description": "austin mini Année 1991 Kilomètre(s) 102500 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -2569,9 +2593,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-09T18:54:56+00:00"
+   "nouvelle": false
   },
   {
    "id": "d91e8b223eae1e4b",
