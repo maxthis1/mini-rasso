@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-09T17:24:51+00:00",
+ "genere_le": "2026-09-09T17:54:56+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (40)",
+  "lesAnciennes": "ok (41)",
   "ParuVendu": "ok (22)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 116,
-  "nouvelles": 0,
+  "total": 117,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1597,6 +1597,28 @@
    "nouvelle": false
   },
   {
+   "id": "c816b56d5f8f6243",
+   "titre": "austin rover mini bügelcabrio mit h zulassung",
+   "description": "austin rover mini bügelcabrio mit h zulassung Année 1986 Kilomètre(s) 130000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5400,
+   "annee": 1986,
+   "km": 130000,
+   "lieu": "NIEDERSACHSEN 26446",
+   "pays": "Allemagne",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-rover-mini-bugelcabrio-mit-h-zulassung/0J4Q46T8.html",
+   "image": "https://cloud.leparking.fr/2026/08/25/13/26/austin-mini-austin-rover-mini-bugelcabrio-mit-h-zulassung_9655151504.jpg",
+   "source": "leParking",
+   "score": 43,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 43,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-09T17:54:56+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "f83f9e4c47d184dd",
    "titre": "austin rover mini bügelcabrio mit h zulassung",
    "description": "austin rover mini bügelcabrio mit h zulassung Année 1986 Kilomètre(s) 130000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -1616,7 +1638,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-09T17:54:56+00:00"
   },
   {
    "id": "cd449fd6d512d0eb",
@@ -2545,9 +2569,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-08T18:54:50+00:00"
+   "nouvelle": false
   },
   {
    "id": "d91e8b223eae1e4b",
