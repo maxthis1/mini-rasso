@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-09T20:54:50+00:00",
+ "genere_le": "2026-09-09T21:24:49+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (41)",
@@ -33,7 +33,7 @@
  },
  "stats": {
   "total": 118,
-  "nouvelles": 1,
+  "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1548,7 +1548,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-09T20:54:50+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "33beb147de8814a7",
