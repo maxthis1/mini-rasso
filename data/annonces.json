@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-12T14:24:49+00:00",
+ "genere_le": "2026-09-12T14:55:38+00:00",
  "sources": {
   "leParking": "ok (208)",
-  "lesAnciennes": "ok (41)",
-  "ParuVendu": "ok (22)",
+  "lesAnciennes": "ok (40)",
+  "ParuVendu": "ok (11)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 129,
-  "nouvelles": 0,
+  "total": 131,
+  "nouvelles": 2,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -58,7 +58,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T14:55:38+00:00"
   },
   {
    "id": "015556a4966b27ef",
@@ -778,6 +780,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "16595ed2ae4e48b3",
+   "titre": "mini 30 anniversario",
+   "description": "mini 30 anniversario Année 1989 Kilomètre(s) 40000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5000,
+   "annee": 1989,
+   "km": 40000,
+   "lieu": "PUGLIA 70100",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-30-anniversario/R282X9R8.html",
+   "image": "https://cloud.leparking.fr/2026/07/08/08/14/austin-mini-mini-30-anniversario_9621350403.jpg",
+   "source": "leParking",
+   "score": 49,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 47,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T14:55:38+00:00",
+   "nouvelle": true
   },
   {
    "id": "9476fbf798ea2ae4",
@@ -1806,7 +1830,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-06T18:34:15+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T14:55:38+00:00"
   },
   {
    "id": "38762107368dcc8b",
@@ -2626,6 +2652,28 @@
    "disparue_le": "2026-09-08T16:59:28+00:00"
   },
   {
+   "id": "71c5444396f2f94f",
+   "titre": "mini cooper 1.3i",
+   "description": "mini cooper 1.3i Année 1995 Kilomètre(s) 157000 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1995,
+   "km": 157000,
+   "lieu": "KANTON LUZERN 6123",
+   "pays": "Suisse",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-cooper-1-3i/MELD9USM.html",
+   "image": "https://cloud.leparking.fr/2026/09/12/01/02/rover-mini-mini-cooper-1-3i-vert_9668381251.jpg",
+   "source": "leParking",
+   "score": 12,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T14:55:38+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "d43ef073ca5c56c1",
    "titre": "1961 | austin mini cooper 997",
    "description": "1961 | austin mini cooper 997 Année 1961 Kilomètre(s) Inconnu Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -2761,7 +2809,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T14:55:38+00:00"
   },
   {
    "id": "b1db7df70bb6dec8",
