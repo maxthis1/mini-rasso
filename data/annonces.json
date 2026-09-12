@@ -1,7 +1,7 @@
 {
- "genere_le": "2026-09-09T21:54:49+00:00",
+ "genere_le": "2026-09-12T13:53:29+00:00",
  "sources": {
-  "leParking": "ok (212)",
+  "leParking": "ok (208)",
   "lesAnciennes": "ok (41)",
   "ParuVendu": "ok (22)",
   "eBay": "desactivee",
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 118,
-  "nouvelles": 0,
+  "total": 129,
+  "nouvelles": 11,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -62,8 +62,8 @@
   },
   {
    "id": "015556a4966b27ef",
-   "titre": "1988 AUSTIN Mini 1000 Mayfair Cuir 61 / Publiée le 28/04/2026 84 000 km Manuel Essence Ver",
-   "description": "1988 AUSTIN Mini 1000 Mayfair Cuir 61 / Publiée le 28/04/2026 84 000 km Manuel Essence Vert MINI AUSTIN 1000cc Mayfair Cuir Connolly complet 84000 Km Restaurée mais immobilisée pendant 15 ans ATTENTION! Bien lire l’annonce jusqu’au bout ! Ven... 5 500 €",
+   "titre": "1988 AUSTIN Mini 1000 Mayfair Cuir 50 / Publiée le 28/04/2026 84 000 km Manuel Essence Ver",
+   "description": "1988 AUSTIN Mini 1000 Mayfair Cuir 50 / Publiée le 28/04/2026 84 000 km Manuel Essence Vert MINI AUSTIN 1000cc Mayfair Cuir Connolly complet 84000 Km Restaurée mais immobilisée pendant 15 ans ATTENTION! Bien lire l’annonce jusqu’au bout ! Ven... 5 500 €",
    "prix": 5500,
    "annee": 1988,
    "km": 84000,
@@ -141,7 +141,7 @@
    "lieu": "Mini 1000 special Égriselles-le-Bocage (89500)",
    "pays": "France",
    "url": "https://www.paruvendu.fr/a/voiture-occasion/austin/mini/1295093007A1KVVOANMIN",
-   "image": "",
+   "image": "https://img.paruvendu.fr/media_ext/_https_/media.paruvendu.fr/3f/3c/L21lZGlhLXBhL1dWMTcvNy85L1dWMTc3OTA3NDY1XzEucG5nPzIwMjYwOTA3MTEyMjEx_rct?func=crop&w=480&gravity=auto",
    "source": "ParuVendu",
    "score": 63,
    "etat": "bon_etat",
@@ -402,6 +402,28 @@
    "nouvelle": false
   },
   {
+   "id": "2ee3866667739f68",
+   "titre": "austin mini mayfair",
+   "description": "austin mini mayfair Année 1988 Kilomètre(s) 86026 Energie ESSENCE Couleur BLEU Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5000,
+   "annee": 1988,
+   "km": 86026,
+   "lieu": "HAUTS-DE-FRANCE 62580",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-mayfair/XSF4STM7.html",
+   "image": "https://cloud.leparking.fr/2026/09/11/13/07/austin-mini-austin-mini-mayfair-bleu_9668096035.jpg",
+   "source": "leParking",
+   "score": 55,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 47,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "06a9a2768ac5da26",
    "titre": "mini rover mk ii",
    "description": "mini rover mk ii Année 1988 Kilomètre(s) 88000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -531,7 +553,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
   },
   {
    "id": "d1a6324520cbe6b4",
@@ -775,7 +799,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
   },
   {
    "id": "f5ff18d96a55c025",
@@ -800,6 +826,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-06T18:34:15+00:00"
+  },
+  {
+   "id": "91a2476b7200cc20",
+   "titre": "1991 rover mini mayfair 1000 | car & classic",
+   "description": "1991 rover mini mayfair 1000 | car & classic Année 1991 Kilomètre(s) 68036 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5400,
+   "annee": 1991,
+   "km": 68036,
+   "lieu": "",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1991-rover-mini-mayfair-1000-car-classic/WAOASO81.html",
+   "image": "https://cloud.leparking.fr/2025/10/03/11/38/rover-mini-1991-rover-mini-mayfair-1000-car-classic_9440391714.jpg",
+   "source": "leParking",
+   "score": 48,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 43,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
   },
   {
    "id": "2d4ba5f266598fec",
@@ -870,6 +918,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-09T16:52:07+00:00"
+  },
+  {
+   "id": "7479a25e40718c6c",
+   "titre": "rover mini 1.3 cat british open classic",
+   "description": "rover mini 1.3 cat british open classic Année 1992 Kilomètre(s) 73000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5700,
+   "annee": 1992,
+   "km": 73000,
+   "lieu": "CALABRIA 89052",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-1-3-cat-british-open-classic/ETHYZ0LB.html",
+   "image": "https://cloud.leparking.fr/2026/09/11/08/07/rover-mini-rover-mini-1-3-cat-british-open-classic_9667845973.jpg",
+   "source": "leParking",
+   "score": 48,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 40,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
   },
   {
    "id": "570218ad2611548f",
@@ -1015,16 +1085,16 @@
    "nouvelle": false
   },
   {
-   "id": "2ba98801c57a3980",
-   "titre": "austin mini 1000",
-   "description": "austin mini 1000 Année 1981 Kilomètre(s) 80000 Energie ESSENCE Couleur ORANGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "id": "ee607eb9fe563742",
+   "titre": "mini austin",
+   "description": "mini austin Année 1988 Kilomètre(s) 99211 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
    "prix": 6000,
-   "annee": 1981,
-   "km": 80000,
-   "lieu": "AUVERGNE-RHONE-ALPES 26000",
+   "annee": 1988,
+   "km": 99211,
+   "lieu": "OCCITANIE 31160",
    "pays": "France",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-1000/R28B91N8.html",
-   "image": "https://cloud.leparking.fr/2026/09/09/12/32/austin-mini-austin-mini-1000-orange_9666079503.jpg",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/DF3QSIXZ.html",
+   "image": "https://cloud.leparking.fr/2026/09/10/14/28/austin-mini-mini-austin-noir_9667322471.jpg",
    "source": "leParking",
    "score": 47,
    "etat": "bon_etat",
@@ -1033,8 +1103,8 @@
    "tag_budget": "hors budget court terme",
    "drapeaux": [],
    "risque_rouille": "non annonce",
-   "vue_le": "2026-09-09T16:52:07+00:00",
-   "nouvelle": false
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
   },
   {
    "id": "74246b5cc1731751",
@@ -1057,6 +1127,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T17:54:54+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "2ba98801c57a3980",
+   "titre": "austin mini 1000",
+   "description": "austin mini 1000 Année 1981 Kilomètre(s) 80000 Energie ESSENCE Couleur ORANGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6000,
+   "annee": 1981,
+   "km": 80000,
+   "lieu": "AUVERGNE-RHONE-ALPES 26000",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-1000/R28B91N8.html",
+   "image": "https://cloud.leparking.fr/2026/09/09/12/32/austin-mini-austin-mini-1000-orange_9666079503.jpg",
+   "source": "leParking",
+   "score": 47,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 37,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-09T16:52:07+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
   },
   {
    "id": "b4092bff447a8c80",
@@ -1485,6 +1579,28 @@
    "nouvelle": false
   },
   {
+   "id": "537f2ae032bfdac9",
+   "titre": "austin mini",
+   "description": "austin mini Année 1986 Kilomètre(s) 1500 Energie ESSENCE Couleur BLEU Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1986,
+   "km": 1500,
+   "lieu": "AUVERGNE-RHONE-ALPES 74300",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/ETHCTOWB.html",
+   "image": "https://cloud.leparking.fr/2026/09/11/13/07/austin-mini-austin-mini-bleu_9668096029.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "98a5eb6fa9952ead",
    "titre": "mini 1.3 cat cooper",
    "description": "mini 1.3 cat cooper Année 1991 Kilomètre(s) 118857 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1526,7 +1642,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
   },
   {
    "id": "fca892e8f5aa6e83",
@@ -1548,7 +1666,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-09T20:54:50+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
   },
   {
    "id": "33beb147de8814a7",
@@ -1779,9 +1899,31 @@
    "disparue_le": "2026-09-09T16:52:07+00:00"
   },
   {
+   "id": "a5a35031a0fd9ec7",
+   "titre": "mini austin",
+   "description": "mini austin Année 1979 Kilomètre(s) 28000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 7000,
+   "annee": 1979,
+   "km": 28000,
+   "lieu": "BOURGOGNE-FRANCHE-COMTE 21200",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/DF3QSD5Z.html",
+   "image": "https://cloud.leparking.fr/2026/09/10/14/22/austin-mini-mini-austin-noir_9667319123.jpg",
+   "source": "leParking",
+   "score": 41,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 26,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "323314ad89ed840a",
-   "titre": "1972 AUSTIN Mini Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro v",
-   "description": "1972 AUSTIN Mini Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro vous propose: Austin Mini 8 000 € 1ère immatriculation : 17/10/1972. 19162 kms au compteur. Vert Anglais. Volant bois. Grosse révi... 7 000 €",
+   "titre": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Ré",
+   "description": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro vous propose: Austin Mini 8 000 € 1ère immatriculation : 17/10/1972. 19162 kms au compteur. Vert Anglais. Volant bois. Grosse révi... 7 000 €",
    "prix": 7000,
    "annee": 1972,
    "km": 19162,
@@ -2012,8 +2154,8 @@
   },
   {
    "id": "41cabe6a5b6c680a",
-   "titre": "1998 Mini Classic Cooper Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Cooper ",
-   "description": "1998 Mini Classic Cooper Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Cooper 1.3 MPI Look Mk1 ! Restaurée intégralement et préparée Stage 4, une obsession totale du détail pour recréer une véritable Coope... POA",
+   "titre": "1998 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Co",
+   "description": "1998 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Cooper 1.3 MPI Look Mk1 ! Restaurée intégralement et préparée Stage 4, une obsession totale du détail pour recréer une véritable Coope... POA",
    "prix": 0,
    "annee": 1998,
    "km": 0,
@@ -2057,7 +2199,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
   },
   {
    "id": "bcdda9f72f64cee3",
@@ -2156,7 +2300,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
   },
   {
    "id": "c6db5dbc00eb5b11",
@@ -2230,8 +2376,8 @@
   },
   {
    "id": "e16a5a05dab6376c",
-   "titre": "1964 AUSTIN Mini Pick Up Publiée le 11/05/2026 Manuel Essence Gris Voici un splendide Aust",
-   "description": "1964 AUSTIN Mini Pick Up Publiée le 11/05/2026 Manuel Essence Gris Voici un splendide Austin Mini pickup mk1 intégralement restauré ! Le 12 février 1964, cette auto quitte les chaînes de Longbridge. Cinq jours plus ta... POA",
+   "titre": "1964 AUSTIN Mini Pick Up 78 / Publiée le 11/05/2026 Manuel Essence Gris Voici un splendide",
+   "description": "1964 AUSTIN Mini Pick Up 78 / Publiée le 11/05/2026 Manuel Essence Gris Voici un splendide Austin Mini pickup mk1 intégralement restauré ! Le 12 février 1964, cette auto quitte les chaînes de Longbridge. Cinq jours plus ta... POA",
    "prix": 0,
    "annee": 1964,
    "km": 0,
@@ -2257,8 +2403,8 @@
   },
   {
    "id": "0620b1ef50a346c6",
-   "titre": "1998 ROVER Mini MPI Brooklands Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origine",
-   "description": "1998 ROVER Mini MPI Brooklands Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origines de la Mini Cooper Sportspack “Brooklands” À la fin des années 90, la Cooper Sportspack s’impose comme la version la plus aboutie de la Mini c... POA",
+   "titre": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Or",
+   "description": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origines de la Mini Cooper Sportspack “Brooklands” À la fin des années 90, la Cooper Sportspack s’impose comme la version la plus aboutie de la Mini c... POA",
    "prix": 0,
    "annee": 1998,
    "km": 55000,
@@ -2279,8 +2425,8 @@
   },
   {
    "id": "06fae4ce44d347b5",
-   "titre": "1999 ROVER Mini 1.3 MPI Sportspack Publiée le 29/07/2026 64 500 km Manuel Essence Blanc Vo",
-   "description": "1999 ROVER Mini 1.3 MPI Sportspack Publiée le 29/07/2026 64 500 km Manuel Essence Blanc Voici la dernière évolution de la Mini classique dans une configuration profondément élégante ! Cette jolie Mini 1.3 MPI Cooper Sportspack arbore une... POA",
+   "titre": "1999 ROVER Mini 1.3 MPI Sportspack 78 / Publiée le 29/07/2026 64 500 km Manuel Essence Bla",
+   "description": "1999 ROVER Mini 1.3 MPI Sportspack 78 / Publiée le 29/07/2026 64 500 km Manuel Essence Blanc Voici la dernière évolution de la Mini classique dans une configuration profondément élégante ! Cette jolie Mini 1.3 MPI Cooper Sportspack arbore une... POA",
    "prix": 0,
    "annee": 1999,
    "km": 64500,
@@ -2301,8 +2447,8 @@
   },
   {
    "id": "b43a3bf14ed0605d",
-   "titre": "2000 Mini Classic Cooper Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de sé",
-   "description": "2000 Mini Classic Cooper Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de série mythique dans un état de conservation clinique ! Nous avons le plaisir de proposer à la vente cette magnifique Mini 1.3 MPI Cooper Sp... POA",
+   "titre": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin ",
+   "description": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de série mythique dans un état de conservation clinique ! Nous avons le plaisir de proposer à la vente cette magnifique Mini 1.3 MPI Cooper Sp... POA",
    "prix": 0,
    "annee": 2000,
    "km": 40600,
@@ -2319,9 +2465,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-09T16:52:07+00:00"
+   "nouvelle": false
   },
   {
    "id": "f9c436f9068dfd8a",
@@ -2343,7 +2487,31 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
+  },
+  {
+   "id": "18762a9b79581121",
+   "titre": "innocenti - mini cooper mk2 - no reserve - 1968",
+   "description": "innocenti - mini cooper mk2 - no reserve - 1968 Année 1968 Kilomètre(s) 23413 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
+   "prix": 0,
+   "annee": 1968,
+   "km": 23413,
+   "lieu": "",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/innocenti-mini/innocenti-mini-cooper-mk2-no-reserve-1968/JYMEXD5F.html",
+   "image": "https://cloud.leparking.fr/2026/09/11/18/01/innocenti-mini-innocenti-mini-cooper-mk2-no-reserve-1968-rosso_9668251792.jpg",
+   "source": "leParking",
+   "score": 15,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
   },
   {
    "id": "772931f0fae8b04a",
@@ -2369,8 +2537,8 @@
   },
   {
    "id": "1864d0fd918b3cac",
-   "titre": "1964 AUSTIN Mini Cooper S Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vous pr",
-   "description": "1964 AUSTIN Mini Cooper S Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vous proposons à la vente cette exceptionnelle Austin Mini Cooper S Mk1 dans sa ravissante teinte Almond Green. Livrée neuve en France le 28 mars... POA",
+   "titre": "1964 AUSTIN Mini Cooper S 75 / Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vo",
+   "description": "1964 AUSTIN Mini Cooper S 75 / Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vous proposons à la vente cette exceptionnelle Austin Mini Cooper S Mk1 dans sa ravissante teinte Almond Green. Livrée neuve en France le 28 mars... POA",
    "prix": 0,
    "annee": 1964,
    "km": 37390,
@@ -2391,8 +2559,8 @@
   },
   {
    "id": "d45490910b6754a8",
-   "titre": "1999 Mini Classic Cooper Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40th Ann",
-   "description": "1999 Mini Classic Cooper Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40th Anniversaire Island Blue avec seulement 23 000 miles d’origine ! Sortie en 1999 pour célébrer les 40 années de production, cette v... POA",
+   "titre": "1999 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40t",
+   "description": "1999 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40th Anniversaire Island Blue avec seulement 23 000 miles d’origine ! Sortie en 1999 pour célébrer les 40 années de production, cette v... POA",
    "prix": 0,
    "annee": 1999,
    "km": 0,
@@ -2413,8 +2581,8 @@
   },
   {
    "id": "24b853362a1705ad",
-   "titre": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe Publiée le 11/06/2026 128 000 km Manuel Essenc",
-   "description": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe Publiée le 11/06/2026 128 000 km Manuel Essence Noir Voici l’une des plus belles Arc de Triomphe passées entre nos mains depuis près de 20 ans. En 1994, un propriétaire entre dans la concession parisienn... POA",
+   "titre": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe 78 / Publiée le 11/06/2026 128 000 km Manuel E",
+   "description": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe 78 / Publiée le 11/06/2026 128 000 km Manuel Essence Noir Voici l’une des plus belles Arc de Triomphe passées entre nos mains depuis près de 20 ans. En 1994, un propriétaire entre dans la concession parisienn... POA",
    "prix": 0,
    "annee": 1994,
    "km": 0,
@@ -2575,8 +2743,8 @@
   },
   {
    "id": "7ee0fc988d905edf",
-   "titre": "1973 AUSTIN Mini Pick Up Publiée le 26/05/2026 Manuel Essence Blanc Voici un superbe Mini ",
-   "description": "1973 AUSTIN Mini Pick Up Publiée le 26/05/2026 Manuel Essence Blanc Voici un superbe Mini Pick-Up en Glacier White, cette teinte lumineuse qui n’appartient qu’à une certaine époque. Soixante ans plus tard, il se présen... POA",
+   "titre": "1973 AUSTIN Mini Pick Up 78 / Publiée le 26/05/2026 Manuel Essence Blanc Voici un superbe ",
+   "description": "1973 AUSTIN Mini Pick Up 78 / Publiée le 26/05/2026 Manuel Essence Blanc Voici un superbe Mini Pick-Up en Glacier White, cette teinte lumineuse qui n’appartient qu’à une certaine époque. Soixante ans plus tard, il se présen... POA",
    "prix": 0,
    "annee": 1973,
    "km": 0,
@@ -2594,6 +2762,50 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "b1db7df70bb6dec8",
+   "titre": "rover - mini open british - no reserve - 1996",
+   "description": "rover - mini open british - no reserve - 1996 Année 1996 Kilomètre(s) 33462 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1996,
+   "km": 33462,
+   "lieu": "",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-open-british-no-reserve-1996/5D69LPL4.html",
+   "image": "https://cloud.leparking.fr/2026/09/12/05/01/rover-mini-rover-mini-open-british-no-reserve-1996_9668545436.jpg",
+   "source": "leParking",
+   "score": 9,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "cf7763f141cef780",
+   "titre": "rover - mini balmoral open 1.3i - no reserve - 1995",
+   "description": "rover - mini balmoral open 1.3i - no reserve - 1995 Année 1995 Kilomètre(s) 40945 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1995,
+   "km": 40945,
+   "lieu": "",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-balmoral-open-1-3i-no-reserve-1995/LXLI1288.html",
+   "image": "https://cloud.leparking.fr/2026/09/11/18/01/rover-mini-rover-mini-balmoral-open-1-3i-no-reserve-1995-verde_9668251830.jpg",
+   "source": "leParking",
+   "score": 9,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
   },
   {
    "id": "d91e8b223eae1e4b",
@@ -2615,7 +2827,53 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
+  },
+  {
+   "id": "4dcd55603de01970",
+   "titre": "1991 rover mini cooper",
+   "description": "1991 rover mini cooper Année Inconnu Kilomètre(s) Inconnu Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1991,
+   "km": 0,
+   "lieu": "STIRLING FK8",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1991-rover-mini-cooper/NE70PWDK.html",
+   "image": "https://cloud.leparking.fr/2026/09/12/03/02/rover-mini-1991-rover-mini-cooper-rouge_9668451929.jpg",
+   "source": "leParking",
+   "score": 8,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "cbe239407350eefa",
+   "titre": "1991 rover mini cooper à vendre par enchère",
+   "description": "1991 rover mini cooper à vendre par enchère Année 1991 Kilomètre(s) 108335 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1991,
+   "km": 108335,
+   "lieu": "",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1991-rover-mini-cooper-a-vendre-par-enchere/GSGBRFY5.html",
+   "image": "https://cloud.leparking.fr/2026/09/12/00/05/rover-mini-1991-rover-mini-cooper-a-vendre-par-enchere-rouge_9668346123.jpg",
+   "source": "leParking",
+   "score": 8,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": true
   },
   {
    "id": "88dc2547f3b5f1fd",
@@ -2661,7 +2919,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
   },
   {
    "id": "0b3d514399e37076",
@@ -2683,7 +2943,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-09T16:52:07+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:53:29+00:00"
   },
   {
    "id": "d345245e6d06c9ac",
