@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-12T13:53:29+00:00",
+ "genere_le": "2026-09-12T13:54:54+00:00",
  "sources": {
   "leParking": "ok (208)",
-  "lesAnciennes": "ok (41)",
+  "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (22)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -33,7 +33,7 @@
  },
  "stats": {
   "total": 129,
-  "nouvelles": 11,
+  "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -421,7 +421,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "06a9a2768ac5da26",
@@ -847,7 +847,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "2d4ba5f266598fec",
@@ -939,7 +939,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "570218ad2611548f",
@@ -1104,7 +1104,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "74246b5cc1731751",
@@ -1598,7 +1598,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "98a5eb6fa9952ead",
@@ -1918,7 +1918,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "323314ad89ed840a",
@@ -2511,7 +2511,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "772931f0fae8b04a",
@@ -2761,7 +2761,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T13:54:54+00:00"
   },
   {
    "id": "b1db7df70bb6dec8",
@@ -2783,7 +2785,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "cf7763f141cef780",
@@ -2805,7 +2807,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "d91e8b223eae1e4b",
@@ -2851,7 +2853,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "cbe239407350eefa",
@@ -2873,7 +2875,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "88dc2547f3b5f1fd",
