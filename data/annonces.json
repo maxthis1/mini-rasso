@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-12T14:55:38+00:00",
+ "genere_le": "2026-09-12T20:54:55+00:00",
  "sources": {
   "leParking": "ok (208)",
   "lesAnciennes": "ok (40)",
-  "ParuVendu": "ok (11)",
+  "ParuVendu": "ok (22)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,7 +32,7 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 131,
+  "total": 133,
   "nouvelles": 2,
   "pepites": 0,
   "sous_2k": 1
@@ -58,9 +58,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-12T14:55:38+00:00"
+   "nouvelle": false
   },
   {
    "id": "015556a4966b27ef",
@@ -801,7 +799,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T14:55:38+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "9476fbf798ea2ae4",
@@ -1267,28 +1265,6 @@
    "nouvelle": false
   },
   {
-   "id": "93645fbe886222d7",
-   "titre": "austin mini",
-   "description": "austin mini Année 1988 Kilomètre(s) 81000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 5500,
-   "annee": 1988,
-   "km": 81000,
-   "lieu": "LAZIO 00038",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/4VTLC05T.html",
-   "image": "https://cloud.leparking.fr/2026/01/15/01/10/austin-mini-austin-mini-grigio_9505248889.jpg",
-   "source": "leParking",
-   "score": 46,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 42,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "e3469c4b4ade7c12",
    "titre": "mini 1000cc",
    "description": "mini 1000cc Année 1990 Kilomètre(s) 95000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1331,6 +1307,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "93645fbe886222d7",
+   "titre": "austin mini",
+   "description": "austin mini Année 1988 Kilomètre(s) 81000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5500,
+   "annee": 1988,
+   "km": 81000,
+   "lieu": "LAZIO 00038",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/4VTLC05T.html",
+   "image": "https://cloud.leparking.fr/2026/01/15/01/10/austin-mini-austin-mini-grigio_9505248889.jpg",
+   "source": "leParking",
+   "score": 46,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 42,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-02T22:03:20+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-12T20:54:55+00:00"
   },
   {
    "id": "7ac8134d3c198613",
@@ -2017,6 +2017,28 @@
    "disparue_le": "2026-09-03T20:54:49+00:00"
   },
   {
+   "id": "39453fae0729830d",
+   "titre": "austin rover xl2 mini mayfair",
+   "description": "austin rover xl2 mini mayfair Année 1990 Kilomètre(s) 106000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 7000,
+   "annee": 1990,
+   "km": 106000,
+   "lieu": "LAZIO 00033",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-rover-xl2-mini-mayfair/T604E4W2.html",
+   "image": "https://cloud.leparking.fr/2026/09/12/16/02/austin-mini-austin-rover-xl2-mini-mayfair-rosso_9668845205.jpg",
+   "source": "leParking",
+   "score": 40,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 26,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T20:54:55+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "c896c42a7ed16f26",
    "titre": "innocenti mini minor mk3",
    "description": "innocenti mini minor mk3 Année 1972 Kilomètre(s) 64997 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
@@ -2329,6 +2351,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-12T13:53:29+00:00"
+  },
+  {
+   "id": "39e9dc97cdcc98c7",
+   "titre": "1989 mini classic",
+   "description": "1989 mini classic Année 1989 Kilomètre(s) 61155 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5239,
+   "annee": 1989,
+   "km": 61155,
+   "lieu": "SOUTH YORKSHIRE DN1",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1989-mini-classic/R28H4YU8.html",
+   "image": "https://cloud.leparking.fr/2026/09/06/18/01/austin-mini-1989-mini-classic-rouge_9664080207.jpg",
+   "source": "leParking",
+   "score": 31,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 45,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T20:54:55+00:00",
+   "nouvelle": true
   },
   {
    "id": "c6db5dbc00eb5b11",
@@ -2671,7 +2715,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T14:55:38+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "d43ef073ca5c56c1",
