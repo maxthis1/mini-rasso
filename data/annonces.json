@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-13T19:54:48+00:00",
+ "genere_le": "2026-09-13T20:25:15+00:00",
  "sources": {
   "leParking": "ok (216)",
-  "lesAnciennes": "ok (40)",
-  "ParuVendu": "ok (22)",
+  "lesAnciennes": "ok (41)",
+  "ParuVendu": "ok (11)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -58,7 +58,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-13T20:25:15+00:00"
   },
   {
    "id": "015556a4966b27ef",
