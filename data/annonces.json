@@ -1,7 +1,7 @@
 {
- "genere_le": "2026-09-12T22:54:52+00:00",
+ "genere_le": "2026-09-13T14:13:18+00:00",
  "sources": {
-  "leParking": "ok (208)",
+  "leParking": "ok (216)",
   "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (22)",
   "eBay": "desactivee",
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 133,
-  "nouvelles": 0,
+  "total": 135,
+  "nouvelles": 2,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -891,7 +891,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-13T14:13:18+00:00"
   },
   {
    "id": "c82b851383a6de9b",
@@ -1039,6 +1041,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-03T20:54:49+00:00"
+  },
+  {
+   "id": "87aa56c35dda368d",
+   "titre": "mini rover rood-wit (m2432428871) — oldtimers & ancêtres — 2ememain",
+   "description": "mini rover rood-wit (m2432428871) — oldtimers & ancêtres — 2ememain Année 1988 Kilomètre(s) 71648 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5250,
+   "annee": 1988,
+   "km": 71648,
+   "lieu": "FLANDRE-OCCIDENTALE 8581",
+   "pays": "Belgique",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-rover-rood-wit-m2432428871-oldtimers-ancetres-2ememain/8VH6FL84.html",
+   "image": "https://cloud.leparking.fr/2026/08/19/12/02/rover-mini-mini-rover-rood-wit-m2432428871-oldtimers-ancetres-2ememain_9651120503.jpg",
+   "source": "leParking",
+   "score": 47,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 45,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-13T14:13:18+00:00",
+   "nouvelle": true
   },
   {
    "id": "d0a5c6057fe78a4f",
@@ -1218,7 +1242,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-13T14:13:18+00:00"
   },
   {
    "id": "3a0098bf9b3788ee",
@@ -1285,6 +1311,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "908fde6422b9174d",
+   "titre": "mini minor rover 1000 asi",
+   "description": "mini minor rover 1000 asi Année 1992 Kilomètre(s) 54000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5500,
+   "annee": 1992,
+   "km": 54000,
+   "lieu": "UMBRIA 06046",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-minor-rover-1000-asi/QCMG7B4G.html",
+   "image": "https://cloud.leparking.fr/2026/07/31/08/52/rover-mini-mini-minor-rover-1000-asi_9637978586.jpg",
+   "source": "leParking",
+   "score": 46,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 42,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-13T14:13:18+00:00",
+   "nouvelle": true
   },
   {
    "id": "062f171cf7ed9a3b",
@@ -1925,28 +1973,6 @@
    "disparue_le": "2026-09-09T16:52:07+00:00"
   },
   {
-   "id": "a5a35031a0fd9ec7",
-   "titre": "mini austin",
-   "description": "mini austin Année 1979 Kilomètre(s) 28000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 7000,
-   "annee": 1979,
-   "km": 28000,
-   "lieu": "BOURGOGNE-FRANCHE-COMTE 21200",
-   "pays": "France",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/DF3QSD5Z.html",
-   "image": "https://cloud.leparking.fr/2026/09/10/14/22/austin-mini-mini-austin-noir_9667319123.jpg",
-   "source": "leParking",
-   "score": 41,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 26,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "323314ad89ed840a",
    "titre": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Ré",
    "description": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro vous propose: Austin Mini 8 000 € 1ère immatriculation : 17/10/1972. 19162 kms au compteur. Vert Anglais. Volant bois. Grosse révi... 7 000 €",
@@ -1967,6 +1993,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "a5a35031a0fd9ec7",
+   "titre": "mini austin",
+   "description": "mini austin Année 1979 Kilomètre(s) 28000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 7000,
+   "annee": 1979,
+   "km": 28000,
+   "lieu": "BOURGOGNE-FRANCHE-COMTE 21200",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/DF3QSD5Z.html",
+   "image": "https://cloud.leparking.fr/2026/09/10/14/22/austin-mini-mini-austin-noir_9667319123.jpg",
+   "source": "leParking",
+   "score": 41,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 26,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-13T14:13:18+00:00"
   },
   {
    "id": "314f69f056bfadfb",
@@ -2048,7 +2098,7 @@
    "lieu": "ABRUZZI 66041",
    "pays": "Italie",
    "url": "https://www.leparking.be/voiture-occasion-detail/innocenti-mini/innocenti-mini-minor-mk3/7JEE1VS9.html",
-   "image": "https://cloud.leparking.fr/2024/08/12/23/31/innocenti-mini-innocenti-mini-minor-mk3_8707977994.jpg",
+   "image": "https://cloud.leparking.fr/2025/03/12/23/12/innocenti-mini-innocenti-mini-minor-mk3_8707977994.jpg",
    "source": "leParking",
    "score": 40,
    "etat": "bon_etat",
@@ -2593,7 +2643,7 @@
    "lieu": "FLANDRE-ORIENTALE 9160",
    "pays": "Belgique",
    "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-austin-1275-weber/0JH73RF8.html",
-   "image": "https://cloud.leparking.fr/2024/09/10/03/17/austin-mini-austin-mini-austin-1275-weber-rouge_9169346804.jpg",
+   "image": "https://cloud.leparking.fr/2025/03/12/23/12/austin-mini-austin-mini-austin-1275-weber-rouge_9169346804.jpg",
    "source": "leParking",
    "score": 14,
    "etat": "bon_etat",
