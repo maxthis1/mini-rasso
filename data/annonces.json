@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-13T14:24:54+00:00",
+ "genere_le": "2026-09-13T14:54:54+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (40)",
@@ -1131,28 +1131,6 @@
    "nouvelle": false
   },
   {
-   "id": "ee607eb9fe563742",
-   "titre": "mini austin",
-   "description": "mini austin Année 1988 Kilomètre(s) 99211 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 6000,
-   "annee": 1988,
-   "km": 99211,
-   "lieu": "OCCITANIE 31160",
-   "pays": "France",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/DF3QSIXZ.html",
-   "image": "https://cloud.leparking.fr/2026/09/10/14/28/austin-mini-mini-austin-noir_9667322471.jpg",
-   "source": "leParking",
-   "score": 47,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 37,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "74246b5cc1731751",
    "titre": "rover mini special",
    "description": "rover mini special Année 1990 Kilomètre(s) 39000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1173,6 +1151,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T17:54:54+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "ee607eb9fe563742",
+   "titre": "mini austin",
+   "description": "mini austin Année 1988 Kilomètre(s) 99211 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6000,
+   "annee": 1988,
+   "km": 99211,
+   "lieu": "OCCITANIE 31160",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/DF3QSIXZ.html",
+   "image": "https://cloud.leparking.fr/2026/09/10/14/28/austin-mini-mini-austin-noir_9667322471.jpg",
+   "source": "leParking",
+   "score": 47,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 37,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-12T13:53:29+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-13T14:54:54+00:00"
   },
   {
    "id": "2ba98801c57a3980",
