@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-13T20:25:15+00:00",
+ "genere_le": "2026-09-13T21:24:59+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (41)",
-  "ParuVendu": "ok (11)",
+  "ParuVendu": "ok (22)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,7 +32,7 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 135,
+  "total": 131,
   "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
@@ -58,9 +58,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-13T20:25:15+00:00"
+   "nouvelle": false
   },
   {
    "id": "015556a4966b27ef",
@@ -1014,35 +1012,6 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-08T16:59:28+00:00"
-  },
-  {
-   "id": "66bfedb4b74b2aa3",
-   "titre": "austin mini 1000 – 1986 – 94 007 km – nombreuses pièces / dossier de factures",
-   "description": "austin mini 1000 – 1986 – 94 007 km – nombreuses pièces / dossier de factures Année 1986 Kilomètre(s) 94007 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 6800,
-   "annee": 1986,
-   "km": 94007,
-   "lieu": "GRAND EST 54730",
-   "pays": "France",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-1000-1986-94-007-km-nombreuses-pieces-dossier-de-factures/7J6M0KE9.html",
-   "image": "https://cloud.leparking.fr/2026/09/01/14/58/austin-mini-austin-mini-1000-1986-94-007-km-nombreuses-pieces-dossier-de-factures-noir_9660076870.jpg",
-   "source": "leParking",
-   "score": 48,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 28,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [
-    {
-     "type": "bon",
-     "texte": "factures"
-    }
-   ],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-03T20:54:49+00:00"
   },
   {
    "id": "87aa56c35dda368d",
@@ -2047,30 +2016,6 @@
    "disparue_le": "2026-09-09T16:52:07+00:00"
   },
   {
-   "id": "c98563250a7ba6cf",
-   "titre": "rover austin mini l&h cabrio",
-   "description": "rover austin mini l&h cabrio Année 1986 Kilomètre(s) 98233 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 6000,
-   "annee": 1986,
-   "km": 98233,
-   "lieu": "RHEINLAND-PFALZ 56332",
-   "pays": "Allemagne",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/rover-austin-mini-l-h-cabrio/B1X4KYJP.html",
-   "image": "https://cloud.leparking.fr/2026/09/01/14/03/austin-mini-rover-austin-mini-l-h-cabrio-schwarz_9660054024.jpg",
-   "source": "leParking",
-   "score": 40,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 37,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-03T20:54:49+00:00"
-  },
-  {
    "id": "39453fae0729830d",
    "titre": "austin rover xl2 mini mayfair",
    "description": "austin rover xl2 mini mayfair Année 1990 Kilomètre(s) 106000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -2304,30 +2249,6 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-12T13:53:29+00:00"
-  },
-  {
-   "id": "bcdda9f72f64cee3",
-   "titre": "mini mini austin rover 1000 hl bj 1985 britischer mini mit r",
-   "description": "mini mini austin rover 1000 hl bj 1985 britischer mini mit r Année 1985 Kilomètre(s) 99999 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 5900,
-   "annee": 1985,
-   "km": 99999,
-   "lieu": "POLITISCHER BEZIRK AMSTETTEN 4300",
-   "pays": "Autriche",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-mini-austin-rover-1000-hl-bj-1985-britischer-mini-mit-r/ETHX2F4B.html",
-   "image": "https://cloud.leparking.fr/2026/09/01/10/44/austin-mini-mini-mini-austin-rover-1000-hl-bj-1985-britischer-mini-mit-r_9659901313.jpg",
-   "source": "leParking",
-   "score": 36,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 38,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-03T20:54:49+00:00"
   },
   {
    "id": "fdf6afd9f699367c",
@@ -3022,30 +2943,6 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
    "nouvelle": false
-  },
-  {
-   "id": "88dc2547f3b5f1fd",
-   "titre": "1999 rover mini cooper - one owner",
-   "description": "1999 rover mini cooper - one owner Année 1999 Kilomètre(s) 60769 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
-   "prix": 0,
-   "annee": 1999,
-   "km": 60769,
-   "lieu": "BRIGHTON AND HOVE BN1",
-   "pays": "Royaume-Uni",
-   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1999-rover-mini-cooper-one-owner/1SNRSLPW.html",
-   "image": "https://cloud.leparking.fr/2026/08/19/18/02/rover-mini-1999-rover-mini-cooper-one-owner-vert_9651295833.jpg",
-   "source": "leParking",
-   "score": 8,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": null,
-   "tag_budget": "hors budget",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-03T21:24:49+00:00"
   },
   {
    "id": "a7e44db43be5833f",
