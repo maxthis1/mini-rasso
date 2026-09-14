@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-14T20:24:48+00:00",
+ "genere_le": "2026-09-14T20:54:49+00:00",
  "sources": {
   "leParking": "ok (216)",
-  "lesAnciennes": "ok (39)",
+  "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (21)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 132,
-  "nouvelles": 0,
+  "total": 133,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1536,6 +1536,28 @@
    "nouvelle": false
   },
   {
+   "id": "72f02f31c2c48e1e",
+   "titre": "rover mini british open classic",
+   "description": "rover mini british open classic Année 1993 Kilomètre(s) 83000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6000,
+   "annee": 1993,
+   "km": 83000,
+   "lieu": "LOMBARDIA 22077",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-british-open-classic/SAD5PWJ4.html",
+   "image": "https://cloud.leparking.fr/2026/09/14/19/36/rover-mini-rover-mini-british-open-classic_9669998788.jpg",
+   "source": "leParking",
+   "score": 46,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 37,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-14T20:54:49+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "cac05bd99259f69e",
    "titre": "1991 | rover mini cooper 1,3",
    "description": "1991 | rover mini cooper 1,3 Année 1991 Kilomètre(s) 51000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1646,28 +1668,6 @@
    "nouvelle": false
   },
   {
-   "id": "98a5eb6fa9952ead",
-   "titre": "mini 1.3 cat cooper",
-   "description": "mini 1.3 cat cooper Année 1991 Kilomètre(s) 118857 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
-   "prix": 6500,
-   "annee": 1991,
-   "km": 118857,
-   "lieu": "LAZIO 00060",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-1-3-cat-cooper/COKB8VKL.html",
-   "image": "https://cloud.leparking.fr/2025/02/12/23/13/rover-mini-mini-1-3-cat-cooper-grigio_9127821538.jpg",
-   "source": "leParking",
-   "score": 45,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 32,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "740dd91b71da7096",
    "titre": "mini rover 1000 cc",
    "description": "mini rover 1000 cc Année 1992 Kilomètre(s) 70000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1688,6 +1688,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-14T17:03:18+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "98a5eb6fa9952ead",
+   "titre": "mini 1.3 cat cooper",
+   "description": "mini 1.3 cat cooper Année 1991 Kilomètre(s) 118857 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1991,
+   "km": 118857,
+   "lieu": "LAZIO 00060",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-1-3-cat-cooper/COKB8VKL.html",
+   "image": "https://cloud.leparking.fr/2025/02/12/23/13/rover-mini-mini-1-3-cat-cooper-grigio_9127821538.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-08T16:59:28+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-14T20:54:49+00:00"
   },
   {
    "id": "537f2ae032bfdac9",
@@ -2785,7 +2809,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T14:55:38+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-14T20:54:49+00:00"
   },
   {
    "id": "d43ef073ca5c56c1",
@@ -2995,7 +3021,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-14T20:54:49+00:00"
   },
   {
    "id": "cbe239407350eefa",
