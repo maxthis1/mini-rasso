@@ -351,6 +351,12 @@ Le montage :
   uniquement session ouverte. Elle appelle `collector/collecte-auto.ps1`, qui
   collecte, commit `data/annonces.json` s'il a bougé, et pousse. Journal dans
   `collector/dernier-passage.log`, non suivi ;
+- la tâche lance **`conhost.exe --headless powershell.exe …`**, pas
+  `powershell.exe -WindowStyle Hidden`. Ce dernier ne cache la console qu'une
+  fois PowerShell démarré : elle s'ouvre d'abord, clignote et vole le focus, ce
+  qui sortait le propriétaire de ses jeux en plein écran toutes les 30 minutes.
+  En `--headless` la console naît sans fenêtre, et Python et git en héritent.
+  Vérifié le 15 septembre 2026 : aucune fenêtre visible pendant un passage ;
 - **le cron GitHub Actions est débranché.** Il ne voyait que 13 annonces sur 82,
   et surtout il écrivait dans le même fichier que la tâche locale : deux
   écrivains sur un fichier réécrit en entier à chaque passage, c'est un conflit
