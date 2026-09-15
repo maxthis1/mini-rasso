@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-15T14:24:48+00:00",
+ "genere_le": "2026-09-15T14:54:49+00:00",
  "sources": {
   "leParking": "ok (216)",
-  "lesAnciennes": "ok (41)",
+  "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (22)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 136,
-  "nouvelles": 0,
+  "total": 137,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -448,6 +448,28 @@
    "nouvelle": false
   },
   {
+   "id": "c7f5e82c88a7a676",
+   "titre": "mini rover mk ii",
+   "description": "mini rover mk ii Année 1988 Kilomètre(s) 88000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 2900,
+   "annee": 1988,
+   "km": 88000,
+   "lieu": "SACHSEN 09232",
+   "pays": "Allemagne",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-rover-mk-ii/OLNHROBS.html",
+   "image": "https://cloud.leparking.fr/2026/08/01/12/01/rover-mini-mini-rover-mk-ii-schwarz_9638803394.jpg",
+   "source": "leParking",
+   "score": 54,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 69,
+   "tag_budget": "a financer",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-15T14:54:49+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "06a9a2768ac5da26",
    "titre": "mini rover mk ii",
    "description": "mini rover mk ii Année 1988 Kilomètre(s) 88000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -467,7 +489,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-15T14:54:49+00:00"
   },
   {
    "id": "6bf7d0fb19f98732",
@@ -1126,28 +1150,6 @@
    "nouvelle": false
   },
   {
-   "id": "f5b10492b557fe25",
-   "titre": "austin mini",
-   "description": "austin mini Année 1989 Kilomètre(s) 110000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 6000,
-   "annee": 1989,
-   "km": 110000,
-   "lieu": "AUVERGNE-RHONE-ALPES 01550",
-   "pays": "France",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/3A3UABK1.html",
-   "image": "https://cloud.leparking.fr/2026/09/14/11/10/austin-mini-austin-mini-rouge_9669780120.jpg",
-   "source": "leParking",
-   "score": 47,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 37,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-14T17:03:18+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "74246b5cc1731751",
    "titre": "rover mini special",
    "description": "rover mini special Année 1990 Kilomètre(s) 39000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1168,6 +1170,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T17:54:54+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "f5b10492b557fe25",
+   "titre": "austin mini",
+   "description": "austin mini Année 1989 Kilomètre(s) 110000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6000,
+   "annee": 1989,
+   "km": 110000,
+   "lieu": "AUVERGNE-RHONE-ALPES 01550",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/3A3UABK1.html",
+   "image": "https://cloud.leparking.fr/2026/09/14/11/10/austin-mini-austin-mini-rouge_9669780120.jpg",
+   "source": "leParking",
+   "score": 47,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 37,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-14T17:03:18+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-15T14:54:49+00:00"
   },
   {
    "id": "ee607eb9fe563742",
@@ -2038,28 +2064,6 @@
    "disparue_le": "2026-09-09T16:52:07+00:00"
   },
   {
-   "id": "3a249b7093de16a2",
-   "titre": "mini austin 1000",
-   "description": "mini austin 1000 Année 1991 Kilomètre(s) 91000 Energie ESSENCE Couleur BLEU Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 7000,
-   "annee": 1991,
-   "km": 91000,
-   "lieu": "ILE-DE-FRANCE 77250",
-   "pays": "France",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin-1000/1SNWSOGW.html",
-   "image": "https://cloud.leparking.fr/2026/09/14/11/03/austin-mini-mini-austin-1000-bleu_9669772941.jpg",
-   "source": "leParking",
-   "score": 41,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 26,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-14T17:03:18+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "323314ad89ed840a",
    "titre": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Ré",
    "description": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro vous propose: Austin Mini 8 000 € 1ère immatriculation : 17/10/1972. 19162 kms au compteur. Vert Anglais. Volant bois. Grosse révi... 7 000 €",
@@ -2080,6 +2084,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "3a249b7093de16a2",
+   "titre": "mini austin 1000",
+   "description": "mini austin 1000 Année 1991 Kilomètre(s) 91000 Energie ESSENCE Couleur BLEU Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 7000,
+   "annee": 1991,
+   "km": 91000,
+   "lieu": "ILE-DE-FRANCE 77250",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin-1000/1SNWSOGW.html",
+   "image": "https://cloud.leparking.fr/2026/09/14/11/03/austin-mini-mini-austin-1000-bleu_9669772941.jpg",
+   "source": "leParking",
+   "score": 41,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 26,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-14T17:03:18+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-15T14:54:49+00:00"
   },
   {
    "id": "a5a35031a0fd9ec7",
@@ -2488,7 +2516,9 @@
    ],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-14T17:03:18+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-15T14:54:49+00:00"
   },
   {
    "id": "91d95d4a5d348a7c",
