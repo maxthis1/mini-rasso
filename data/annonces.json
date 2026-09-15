@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-15T16:24:54+00:00",
+ "genere_le": "2026-09-15T20:05:19+00:00",
  "sources": {
   "leParking": "ok (216)",
-  "lesAnciennes": "ok (41)",
+  "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (22)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 137,
-  "nouvelles": 0,
+  "total": 138,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1974,28 +1974,6 @@
    "disparue_le": "2026-09-12T14:55:38+00:00"
   },
   {
-   "id": "38762107368dcc8b",
-   "titre": "mini minor 850",
-   "description": "mini minor 850 Année 1971 Kilomètre(s) 62897 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
-   "prix": 6500,
-   "annee": 1971,
-   "km": 62897,
-   "lieu": "EMILIA-ROMAGNA 40100",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/innocenti-mini/mini-minor-850/Y36HR3GS.html",
-   "image": "https://cloud.leparking.fr/2026/03/17/19/39/innocenti-mini-mini-minor-850-grigio_9547270244.jpg",
-   "source": "leParking",
-   "score": 43,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 32,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "bed97bfe2b8f7224",
    "titre": "innocenti mini 850cc",
    "description": "innocenti mini 850cc Année 1970 Kilomètre(s) 63000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
@@ -2016,6 +1994,52 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "e16be85f5c89aca2",
+   "titre": "mk3",
+   "description": "mk3 Année 1971 Kilomètre(s) 60000 Energie ESSENCE Couleur VERT Boite Inconnu Portes 2 PORTES Catégorie COLLECTION",
+   "prix": 6500,
+   "annee": 1971,
+   "km": 60000,
+   "lieu": "PIEMONTE 10044",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/innocenti-mini/mk3/B1X5AYIP.html",
+   "image": "https://cloud.leparking.fr/2026/09/08/18/01/innocenti-mini-mk3-verde_9665466192.jpg",
+   "source": "leParking",
+   "score": 43,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-15T20:05:19+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "38762107368dcc8b",
+   "titre": "mini minor 850",
+   "description": "mini minor 850 Année 1971 Kilomètre(s) 62897 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
+   "prix": 6500,
+   "annee": 1971,
+   "km": 62897,
+   "lieu": "EMILIA-ROMAGNA 40100",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/innocenti-mini/mini-minor-850/Y36HR3GS.html",
+   "image": "https://cloud.leparking.fr/2026/03/17/19/39/innocenti-mini-mini-minor-850-grigio_9547270244.jpg",
+   "source": "leParking",
+   "score": 43,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-02T22:03:20+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-15T20:05:19+00:00"
   },
   {
    "id": "63cd6e37154d4336",
