@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-14T22:24:49+00:00",
+ "genere_le": "2026-09-15T07:24:51+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (40)",
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 133,
-  "nouvelles": 0,
+  "total": 134,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -2951,7 +2951,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-15T07:24:51+00:00"
   },
   {
    "id": "cf7763f141cef780",
@@ -3000,6 +3002,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-12T13:53:29+00:00"
+  },
+  {
+   "id": "6773b0b00573de1c",
+   "titre": "1983 | austin mini 1000",
+   "description": "1983 | austin mini 1000 Année 1983 Kilomètre(s) Inconnu Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1983,
+   "km": 0,
+   "lieu": "PROVINCIE NOORD-BRABANT 5140",
+   "pays": "Pays-Bas",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1983-austin-mini-1000/1SNWZ9QW.html",
+   "image": "https://cloud.leparking.fr/2026/09/15/03/37/austin-mini-1983-austin-mini-1000-inconnu_9670211421.jpg",
+   "source": "leParking",
+   "score": 8,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-15T07:24:51+00:00",
+   "nouvelle": true
   },
   {
    "id": "4dcd55603de01970",
