@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-15T11:24:49+00:00",
+ "genere_le": "2026-09-15T11:54:48+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (40)",
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 134,
-  "nouvelles": 0,
+  "total": 136,
+  "nouvelles": 2,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1668,6 +1668,28 @@
    "nouvelle": false
   },
   {
+   "id": "f71d0ba1394c4d8a",
+   "titre": "AUSTIN MINI",
+   "description": "Année 1980 Kilomètre(s) 50000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1980,
+   "km": 50000,
+   "lieu": "GRAND EST 88000",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini//CO4E7I7L.html",
+   "image": "",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-15T11:54:48+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "740dd91b71da7096",
    "titre": "mini rover 1000 cc",
    "description": "mini rover 1000 cc Année 1992 Kilomètre(s) 70000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -2319,6 +2341,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-12T13:53:29+00:00"
+  },
+  {
+   "id": "4c85735392e897ba",
+   "titre": "mini mini austin rover 1000 hl bj 1985 britischer mini",
+   "description": "mini mini austin rover 1000 hl bj 1985 britischer mini Année 1985 Kilomètre(s) 99999 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5900,
+   "annee": 1985,
+   "km": 99999,
+   "lieu": "POLITISCHER BEZIRK AMSTETTEN 4300",
+   "pays": "Autriche",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-mini-austin-rover-1000-hl-bj-1985-britischer-mini/3A3UOV41.html",
+   "image": "https://cloud.leparking.fr/2026/09/15/10/44/austin-mini-mini-mini-austin-rover-1000-hl-bj-1985-britischer-mini_9670505592.jpg",
+   "source": "leParking",
+   "score": 36,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 38,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-15T11:54:48+00:00",
+   "nouvelle": true
   },
   {
    "id": "fdf6afd9f699367c",
