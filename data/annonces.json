@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-17T18:54:43+00:00",
+ "genere_le": "2026-09-17T19:24:49+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (41)",
@@ -33,7 +33,7 @@
  },
  "stats": {
   "total": 142,
-  "nouvelles": 9,
+  "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -241,7 +241,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "c6ccd84a304c536b",
@@ -399,7 +399,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "827dcc7f067fd7a6",
@@ -869,7 +869,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "9476fbf798ea2ae4",
@@ -1031,7 +1031,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "7479a25e40718c6c",
@@ -1421,7 +1421,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "93645fbe886222d7",
@@ -2091,7 +2091,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "38762107368dcc8b",
@@ -2519,7 +2519,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "43894fce1edaa5fb",
@@ -2541,7 +2541,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "b9bbf4fb3e33695c",
@@ -2917,7 +2917,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "d45490910b6754a8",
