@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-17T19:54:49+00:00",
+ "genere_le": "2026-09-17T20:24:49+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (41)",
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 142,
-  "nouvelles": 0,
+  "total": 143,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -2986,6 +2986,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-08T16:59:28+00:00"
+  },
+  {
+   "id": "15aac65b4724171e",
+   "titre": "austin mini myfair de 1985 à vendre - voiture ancienne de collection",
+   "description": "austin mini myfair de 1985 à vendre - voiture ancienne de collection Année 1985 Kilomètre(s) 62630 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1985,
+   "km": 62630,
+   "lieu": "NOUVELLE-AQUITAINE 64000",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-myfair-de-1985-a-vendre-voiture-ancienne-de-collection/B1XU6BLP.html",
+   "image": "https://cloud.leparking.fr/2026/09/17/18/02/austin-mini-austin-mini-myfair-de-1985-a-vendre-voiture-ancienne-de-collection-gris_9672536952.jpg",
+   "source": "leParking",
+   "score": 12,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-17T20:24:49+00:00",
+   "nouvelle": true
   },
   {
    "id": "71c5444396f2f94f",
