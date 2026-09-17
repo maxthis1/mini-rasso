@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-15T22:24:55+00:00",
+ "genere_le": "2026-09-17T18:54:43+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (41)",
-  "ParuVendu": "ok (22)",
+  "ParuVendu": "ok (21)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 138,
-  "nouvelles": 0,
+  "total": 142,
+  "nouvelles": 9,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -222,6 +222,28 @@
    "nouvelle": false
   },
   {
+   "id": "991a8c3a30ec2a3a",
+   "titre": "austin mini moke 1967",
+   "description": "austin mini moke 1967 Année 1967 Kilomètre(s) 467827 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 4500,
+   "annee": 1967,
+   "km": 467827,
+   "lieu": "PAYS DE LA LOIRE 49100",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-moke-1967/Y38WQG5S.html",
+   "image": "https://cloud.leparking.fr/2026/09/16/14/03/austin-mini-austin-mini-moke-1967-gris_9671549480.jpg",
+   "source": "leParking",
+   "score": 63,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 53,
+   "tag_budget": "a financer",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-17T18:54:43+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "c6ccd84a304c536b",
    "titre": "austin mini 1000",
    "description": "austin mini 1000 Année 1990 Kilomètre(s) 142000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -358,28 +380,26 @@
    "disparue_le": "2026-09-09T20:54:50+00:00"
   },
   {
-   "id": "23ef34bbd26dfdcd",
-   "titre": "mini 1.0 mayfair my85",
-   "description": "mini 1.0 mayfair my85 Année 1985 Kilomètre(s) 84000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 4500,
-   "annee": 1985,
-   "km": 84000,
-   "lieu": "LOMBARDIA 20090",
+   "id": "2a144f68e02f0258",
+   "titre": "un pezzo di cuore che va via",
+   "description": "un pezzo di cuore che va via Année 1982 Kilomètre(s) 137000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 3500,
+   "annee": 1982,
+   "km": 137000,
+   "lieu": "CAMPANIA 80100",
    "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-1-0-mayfair-my85/B1XAGJ9P.html",
-   "image": "https://cloud.leparking.fr/2026/08/14/19/31/austin-mini-mini-1-0-mayfair-my85-grigio_9648059832.jpg",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/un-pezzo-di-cuore-che-va-via/SADUQB24.html",
+   "image": "https://cloud.leparking.fr/2026/09/17/08/23/austin-mini-un-pezzo-di-cuore-che-va-via_9672102088.jpg",
    "source": "leParking",
-   "score": 60,
+   "score": 58,
    "etat": "bon_etat",
    "cote_estimee": 9500,
-   "ecart_cote": 53,
+   "ecart_cote": 63,
    "tag_budget": "a financer",
    "drapeaux": [],
    "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-06T18:34:15+00:00"
+   "vue_le": "2026-09-17T18:54:43+00:00",
+   "nouvelle": true
   },
   {
    "id": "827dcc7f067fd7a6",
@@ -467,7 +487,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-15T14:54:49+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "06a9a2768ac5da26",
@@ -828,6 +850,28 @@
    "nouvelle": false
   },
   {
+   "id": "bc94127b86b65356",
+   "titre": "mini rover 1300cc",
+   "description": "mini rover 1300cc Année 1993 Kilomètre(s) 62000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5000,
+   "annee": 1993,
+   "km": 62000,
+   "lieu": "PUGLIA 76123",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-rover-1300cc/LXLPUGE8.html",
+   "image": "https://cloud.leparking.fr/2026/08/21/22/06/rover-mini-mini-rover-1300cc_9652677330.jpg",
+   "source": "leParking",
+   "score": 49,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 47,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-17T18:54:43+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "9476fbf798ea2ae4",
    "titre": "mini 1.0 35th anniversario",
    "description": "mini 1.0 35th anniversario Année 1991 Kilomètre(s) 5000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -850,30 +894,6 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-12T13:53:29+00:00"
-  },
-  {
-   "id": "f5ff18d96a55c025",
-   "titre": "mini rover 1300 cc",
-   "description": "mini rover 1300 cc Année 1994 Kilomètre(s) 70000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
-   "prix": 5000,
-   "annee": 1994,
-   "km": 70000,
-   "lieu": "LAZIO 04100",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-rover-1300-cc/I90HQXWH.html",
-   "image": "https://cloud.leparking.fr/2025/09/01/05/04/rover-mini-mini-rover-1300-cc_9418770567.jpg",
-   "source": "leParking",
-   "score": 49,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 47,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-04T17:24:55+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-06T18:34:15+00:00"
   },
   {
    "id": "91a2476b7200cc20",
@@ -992,6 +1012,28 @@
    "disparue_le": "2026-09-09T16:52:07+00:00"
   },
   {
+   "id": "1f9a6ce1ff14e2ba",
+   "titre": "rover mini 1.3 cat british open classic",
+   "description": "rover mini 1.3 cat british open classic Année 1992 Kilomètre(s) 73000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5700,
+   "annee": 1992,
+   "km": 73000,
+   "lieu": "CALABRIA 89052",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-1-3-cat-british-open-classic/8VHWZXS4.html",
+   "image": "",
+   "source": "leParking",
+   "score": 48,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 40,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-17T18:54:43+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "7479a25e40718c6c",
    "titre": "rover mini 1.3 cat british open classic",
    "description": "rover mini 1.3 cat british open classic Année 1992 Kilomètre(s) 73000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1011,7 +1053,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "570218ad2611548f",
@@ -1336,6 +1380,50 @@
    "nouvelle": false
   },
   {
+   "id": "062f171cf7ed9a3b",
+   "titre": "mini rover studio2",
+   "description": "mini rover studio2 Année 1993 Kilomètre(s) 60000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5500,
+   "annee": 1993,
+   "km": 60000,
+   "lieu": "CAMPANIA 82016",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-rover-studio2/MELWJALM.html",
+   "image": "https://cloud.leparking.fr/2026/08/10/08/37/rover-mini-mini-rover-studio2_9644673163.jpg",
+   "source": "leParking",
+   "score": 46,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 42,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-02T22:03:20+00:00",
+   "nouvelle": false
+  },
+  {
+   "id": "1c78170f494658c5",
+   "titre": "mini mille",
+   "description": "mini mille Année 1990 Kilomètre(s) 95000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5500,
+   "annee": 1990,
+   "km": 95000,
+   "lieu": "SICILIA 95020",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-mille/0J4XC048.html",
+   "image": "https://cloud.leparking.fr/2026/09/16/20/02/rover-mini-mini-mille_9671706428.jpg",
+   "source": "leParking",
+   "score": 46,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 42,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-17T18:54:43+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "93645fbe886222d7",
    "titre": "austin mini",
    "description": "austin mini Année 1988 Kilomètre(s) 81000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -1355,7 +1443,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "e3469c4b4ade7c12",
@@ -1377,29 +1467,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
-  },
-  {
-   "id": "062f171cf7ed9a3b",
-   "titre": "mini rover studio2",
-   "description": "mini rover studio2 Année 1993 Kilomètre(s) 60000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
-   "prix": 5500,
-   "annee": 1993,
-   "km": 60000,
-   "lieu": "CAMPANIA 82016",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-rover-studio2/MELWJALM.html",
-   "image": "https://cloud.leparking.fr/2026/08/10/08/37/rover-mini-mini-rover-studio2_9644673163.jpg",
-   "source": "leParking",
-   "score": 46,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 42,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "908fde6422b9174d",
@@ -1625,7 +1695,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "196a2a2e70139dab",
@@ -1713,7 +1785,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-15T11:54:48+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "740dd91b71da7096",
@@ -1735,7 +1809,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-14T17:03:18+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "98a5eb6fa9952ead",
@@ -1858,30 +1934,6 @@
    "disparue_le": "2026-09-08T16:59:28+00:00"
   },
   {
-   "id": "81ea4740b0717940",
-   "titre": "mini austin",
-   "description": "mini austin Année 1989 Kilomètre(s) 96335 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 6500,
-   "annee": 1989,
-   "km": 96335,
-   "lieu": "OCCITANIE 65800",
-   "pays": "France",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/ZWSL1HH4.html",
-   "image": "https://cloud.leparking.fr/2026/09/03/18/33/austin-mini-mini-austin-gris_9662188329.jpg",
-   "source": "leParking",
-   "score": 45,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 32,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-03T20:54:49+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-06T18:34:15+00:00"
-  },
-  {
    "id": "5dd337b4eed81584",
    "titre": "mini italian job 1.3 del 1993 (iscritta asi)",
    "description": "mini italian job 1.3 del 1993 (iscritta asi) Année 1993 Kilomètre(s) 90000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1923,7 +1975,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-09T17:54:56+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "f83f9e4c47d184dd",
@@ -2016,6 +2070,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-15T20:05:19+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "b883d1c1f0c5d647",
+   "titre": "1971 innocenti mini",
+   "description": "1971 innocenti mini Année 1971 Kilomètre(s) 50000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
+   "prix": 6500,
+   "annee": 1971,
+   "km": 50000,
+   "lieu": "PIEMONTE 10044",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/innocenti-mini/1971-innocenti-mini/URAB4V4Y.html",
+   "image": "https://cloud.leparking.fr/2026/09/16/16/03/innocenti-mini-1971-innocenti-mini-grigio_9671606370.jpg",
+   "source": "leParking",
+   "score": 43,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-17T18:54:43+00:00",
+   "nouvelle": true
   },
   {
    "id": "38762107368dcc8b",
@@ -2320,30 +2396,6 @@
    "disparue_le": "2026-09-08T16:59:28+00:00"
   },
   {
-   "id": "690348911412c5e5",
-   "titre": "1.0 city e saloon 2dr petrol manual (39 bhp)",
-   "description": "1.0 city e saloon 2dr petrol manual (39 bhp) Année 1985 Kilomètre(s) 150474 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 3952,
-   "annee": 1985,
-   "km": 150474,
-   "lieu": "KENT DA1",
-   "pays": "Royaume-Uni",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1-0-city-e-saloon-2dr-petrol-manual-39-bhp/ZWS6IQ94.html",
-   "image": "https://cloud.leparking.fr/2026/08/28/18/03/austin-mini-1-0-city-e-saloon-2dr-petrol-manual-39-bhp-vert_9657714069.jpg",
-   "source": "leParking",
-   "score": 38,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 58,
-   "tag_budget": "a financer",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-06T18:34:15+00:00"
-  },
-  {
    "id": "41cabe6a5b6c680a",
    "titre": "1998 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Co",
    "description": "1998 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Cooper 1.3 MPI Look Mk1 ! Restaurée intégralement et préparée Stage 4, une obsession totale du détail pour recréer une véritable Coope... POA",
@@ -2414,7 +2466,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-15T11:54:48+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "fdf6afd9f699367c",
@@ -2446,28 +2500,48 @@
    "disparue_le": "2026-09-08T16:59:28+00:00"
   },
   {
-   "id": "95a4c68f758c2597",
-   "titre": "1989 austin mini 1000 city e restomod",
-   "description": "1989 austin mini 1000 city e restomod Année 1989 Kilomètre(s) 79738 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 5001,
+   "id": "a79b4cfbec263300",
+   "titre": "rover, mini, saloon, 1989, manual, 998 (cc), 2 doors",
+   "description": "rover, mini, saloon, 1989, manual, 998 (cc), 2 doors Année 1989 Kilomètre(s) 114486 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 4657,
    "annee": 1989,
-   "km": 79738,
-   "lieu": "BERKSHIRE RG14",
+   "km": 114486,
+   "lieu": "DORSET BH23",
    "pays": "Royaume-Uni",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1989-austin-mini-1000-city-e-restomod/GSG9EKS5.html",
-   "image": "https://cloud.leparking.fr/2026/07/28/03/02/austin-mini-1989-austin-mini-1000-city-e-restomod-gris_9635357091.jpg",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-saloon-1989-manual-998-cc-2-doors/Y38NENWS.html",
+   "image": "https://cloud.leparking.fr/2026/09/16/02/36/rover-mini-rover-mini-saloon-1989-manual-998-cc-2-doors_9670946336.jpg",
+   "source": "leParking",
+   "score": 33,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 51,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-17T18:54:43+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "43894fce1edaa5fb",
+   "titre": "rover, mini, 1989, 998 (cc)",
+   "description": "rover, mini, 1989, 998 (cc) Année 1989 Kilomètre(s) 53108 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 4948,
+   "annee": 1989,
+   "km": 53108,
+   "lieu": "BUCKINGHAMSHIRE HP21",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-1989-998-cc/T60RLGJ2.html",
+   "image": "https://cloud.leparking.fr/2026/09/17/02/35/rover-mini-rover-mini-1989-998-cc-rouge_9671864381.jpg",
    "source": "leParking",
    "score": 32,
    "etat": "bon_etat",
    "cote_estimee": 9500,
-   "ecart_cote": 47,
+   "ecart_cote": 48,
    "tag_budget": "hors budget court terme",
    "drapeaux": [],
    "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-06T18:34:15+00:00"
+   "vue_le": "2026-09-17T18:54:43+00:00",
+   "nouvelle": true
   },
   {
    "id": "b9bbf4fb3e33695c",
@@ -2588,7 +2662,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-06T18:34:15+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "6c1a43be5d241117",
@@ -2820,6 +2896,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "c95a2dd888fb06d5",
+   "titre": "1985 Mini Classic Cooper 64 / Publiée le 17/09/2026 NOUVEAU 62 630 km Manuel Essence Gris ",
+   "description": "1985 Mini Classic Cooper 64 / Publiée le 17/09/2026 NOUVEAU 62 630 km Manuel Essence Gris Remise en état il y a onze ans lors de l'achat : échange des rotules ,roulements des bras arrières ,freins ar ,amortisseurs . nous avons effectuer une... POA",
+   "prix": 0,
+   "annee": 1985,
+   "km": 62630,
+   "lieu": "",
+   "pays": "France",
+   "url": "https://www.lesanciennes.com/annonce/austin-mini-myfair-1985-a913344",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2193541/1985-mini-mini-6aabf69518528.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=bf9ef73fc2bf72d6b15ea20561fda8ca",
+   "source": "lesAnciennes",
+   "score": 14,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-17T18:54:43+00:00",
+   "nouvelle": true
   },
   {
    "id": "d45490910b6754a8",
@@ -3123,7 +3221,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-15T07:24:51+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-17T18:54:43+00:00"
   },
   {
    "id": "4dcd55603de01970",
