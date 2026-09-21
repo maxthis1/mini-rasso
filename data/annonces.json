@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-21T19:55:06+00:00",
+ "genere_le": "2026-09-21T20:24:52+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (42)",
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 128,
-  "nouvelles": 0,
+  "total": 130,
+  "nouvelles": 2,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -706,7 +706,7 @@
    "lieu": "GRAND EST 10400",
    "pays": "France",
    "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/HC8V9MGC.html",
-   "image": "ext/https://img.leboncoin.fr/api/v1/lbcpb1/images/90/c5/e3/90c5e363d6e0c1daf5e780e947b57b19936e376d.jpg%3Frule%3Dad-large",
+   "image": "https://cloud.leparking.fr/2026/09/21/16/53/austin-mini-mini-austin-bleu_9675266512.jpg",
    "source": "leParking",
    "score": 50,
    "etat": "bon_etat",
@@ -728,7 +728,7 @@
    "lieu": "AUVERGNE-RHONE-ALPES 26260",
    "pays": "France",
    "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/SA4TZ3R4.html",
-   "image": "ext/https://img.leboncoin.fr/api/v1/lbcpb1/images/38/33/f1/3833f19db0efaa9086223dcfdf36821bfe122475.jpg%3Frule%3Dad-large",
+   "image": "https://cloud.leparking.fr/2026/09/21/16/53/austin-mini-austin-mini-blanc_9675266596.jpg",
    "source": "leParking",
    "score": 50,
    "etat": "bon_etat",
@@ -962,7 +962,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-21T20:24:52+00:00"
   },
   {
    "id": "91a2476b7200cc20",
@@ -1259,6 +1261,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-12T13:53:29+00:00"
+  },
+  {
+   "id": "4cc5dac13f9b8a3a",
+   "titre": "sprite",
+   "description": "sprite Année 1993 Kilomètre(s) 55000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1993,
+   "km": 55000,
+   "lieu": "HAUTS-DE-FRANCE 60000",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/sprite/3AYXY1A1.html",
+   "image": "https://cloud.leparking.fr/2026/09/21/20/08/rover-mini-sprite_9675350364.jpg",
+   "source": "leParking",
+   "score": 47,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-21T20:24:52+00:00",
+   "nouvelle": true
   },
   {
    "id": "e222c30f3bec452e",
@@ -1978,7 +2002,7 @@
    "lieu": "PAYS DE LA LOIRE 85300",
    "pays": "France",
    "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/Y39Y7HSS.html",
-   "image": "ext/https://img.leboncoin.fr/api/v1/lbcpb1/images/6c/65/f5/6c65f56a602ddb0378d13323a6371c2f3f10e86f.jpg%3Frule%3Dad-large",
+   "image": "https://cloud.leparking.fr/2026/09/21/17/27/austin-mini-mini-austin-noir_9675283112.jpg",
    "source": "leParking",
    "score": 42,
    "etat": "bon_etat",
@@ -2224,6 +2248,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-17T18:54:43+00:00"
+  },
+  {
+   "id": "13a7669546928c1e",
+   "titre": "austin rover mini mk2 classic mini",
+   "description": "austin rover mini mk2 classic mini Année 1990 Kilomètre(s) 53000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6800,
+   "annee": 1990,
+   "km": 53000,
+   "lieu": "NORDRHEIN-WESTFALEN 47475",
+   "pays": "Allemagne",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-rover-mini-mk2-classic-mini/DFTV3BDZ.html",
+   "image": "https://cloud.leparking.fr/2026/09/21/18/02/austin-mini-austin-rover-mini-mk2-classic-mini-schwarz_9675301223.jpg",
+   "source": "leParking",
+   "score": 36,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 28,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-21T20:24:52+00:00",
+   "nouvelle": true
   },
   {
    "id": "a79b4cfbec263300",
