@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-21T18:03:39+00:00",
+ "genere_le": "2026-09-21T18:24:51+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (42)",
@@ -33,7 +33,7 @@
  },
  "stats": {
   "total": 128,
-  "nouvelles": 7,
+  "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -112,7 +112,7 @@
    ],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "0a6365465582c6b4",
@@ -694,7 +694,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "c09bdb19f789fb18",
@@ -716,7 +716,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "ec6aa9ab3c199000",
@@ -738,7 +738,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "14f0c39cfdc845a7",
@@ -892,8 +892,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "baisse_prix": 500
+   "nouvelle": false
   },
   {
    "id": "bc94127b86b65356",
@@ -963,7 +962,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "91a2476b7200cc20",
@@ -1989,7 +1988,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "323314ad89ed840a",
@@ -2389,7 +2388,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "c6db5dbc00eb5b11",
