@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-26T09:52:13+00:00",
+ "genere_le": "2026-09-26T09:54:48+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (42)",
@@ -33,7 +33,7 @@
  },
  "stats": {
   "total": 124,
-  "nouvelles": 10,
+  "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -334,7 +334,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "0654ff83f18a690b",
@@ -1824,7 +1824,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "63cd6e37154d4336",
@@ -2072,7 +2072,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "41cabe6a5b6c680a",
@@ -2198,7 +2198,7 @@
    ],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "a79b4cfbec263300",
@@ -2288,7 +2288,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "d53d25ad8a8092c9",
@@ -2660,7 +2660,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "4214623e3021abb8",
@@ -2728,7 +2728,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "f07e6d0914534ce9",
@@ -2750,7 +2750,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "015362d9ec073b2a",
@@ -2796,7 +2796,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "700e2ff814a26254",
@@ -2818,7 +2818,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "2225d349e84e1781",
