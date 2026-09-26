@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-26T10:24:49+00:00",
+ "genere_le": "2026-09-26T17:40:47+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (42)",
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 124,
-  "nouvelles": 0,
+  "total": 126,
+  "nouvelles": 2,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -938,7 +938,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-24T16:54:52+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-26T17:40:47+00:00"
   },
   {
    "id": "91a2476b7200cc20",
@@ -1162,7 +1164,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-24T16:54:52+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-26T17:40:47+00:00"
   },
   {
    "id": "74246b5cc1731751",
@@ -1235,6 +1239,28 @@
    "disparue_le": "2026-09-26T09:52:13+00:00"
   },
   {
+   "id": "3a0098bf9b3788ee",
+   "titre": "1.0 e my82",
+   "description": "1.0 e my82 Année 1982 Kilomètre(s) 34000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5500,
+   "annee": 1982,
+   "km": 34000,
+   "lieu": "LOMBARDIA 24125",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1-0-e-my82/LX518SQ8.html",
+   "image": "https://cloud.leparking.fr/2024/09/12/23/19/austin-mini-1-0-e-my82-rosso_9024300462.jpg",
+   "source": "leParking",
+   "score": 46,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 42,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-02T22:03:20+00:00",
+   "nouvelle": false
+  },
+  {
    "id": "1c78170f494658c5",
    "titre": "mini mille",
    "description": "mini mille Année 1990 Kilomètre(s) 95000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1255,30 +1281,6 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
    "nouvelle": false
-  },
-  {
-   "id": "3a0098bf9b3788ee",
-   "titre": "1.0 e my82",
-   "description": "1.0 e my82 Année 1982 Kilomètre(s) 34000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 5500,
-   "annee": 1982,
-   "km": 34000,
-   "lieu": "LOMBARDIA 24125",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1-0-e-my82/LX518SQ8.html",
-   "image": "https://cloud.leparking.fr/2024/09/12/23/19/austin-mini-1-0-e-my82-rosso_9024300462.jpg",
-   "source": "leParking",
-   "score": 46,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 42,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-24T17:24:48+00:00"
   },
   {
    "id": "d7e436819661442a",
@@ -1595,6 +1597,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "ffc61987fad49820",
+   "titre": "mini 1300cc",
+   "description": "mini 1300cc Année 1994 Kilomètre(s) 114000 Energie ESSENCE Couleur BLEU Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1994,
+   "km": 114000,
+   "lieu": "GRAND EST 57100",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-1300cc/VP0EC0Q8.html",
+   "image": "https://cloud.leparking.fr/2026/09/26/16/02/rover-mini-mini-1300cc-bleu_9679508407.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-26T17:40:47+00:00",
+   "nouvelle": true
   },
   {
    "id": "006853c753cd452b",
@@ -2124,6 +2148,33 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-17T18:54:43+00:00"
+  },
+  {
+   "id": "d6b0aad49b199dc4",
+   "titre": "mini rover",
+   "description": "mini rover Année 1989 Kilomètre(s) 68000 Energie ESSENCE Couleur Inconnu Boite AUTOMATIQUE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1989,
+   "km": 68000,
+   "lieu": "SICILIA 92026",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-rover/T61VZJI2.html",
+   "image": "https://cloud.leparking.fr/2026/09/26/09/05/rover-mini-mini-rover_9679268393.jpg",
+   "source": "leParking",
+   "score": 36,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [
+    {
+     "type": "info",
+     "texte": "boite auto (AP suffix) : moins recherchee, pieces rares"
+    }
+   ],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-26T17:40:47+00:00",
+   "nouvelle": true
   },
   {
    "id": "92ffccc96920ec78",
