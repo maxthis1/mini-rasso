@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-27T16:55:15+00:00",
+ "genere_le": "2026-09-27T17:24:53+00:00",
  "sources": {
   "leParking": "ok (216)",
   "lesAnciennes": "ok (42)",
-  "ParuVendu": "ok (10)",
+  "ParuVendu": "ok (20)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 128,
-  "nouvelles": 0,
+  "total": 133,
+  "nouvelles": 5,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -88,6 +88,28 @@
    "nouvelle": false
   },
   {
+   "id": "ba83205c8425ee40",
+   "titre": "austin mini mayfair 1989 – 998 cm³ d'origine – carte grise collection",
+   "description": "austin mini mayfair 1989 – 998 cm³ d'origine – carte grise collection Année 1988 Kilomètre(s) 106000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 4500,
+   "annee": 1988,
+   "km": 106000,
+   "lieu": "PROVENCE-ALPES-COTE D'AZUR 83440",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-mayfair-1989-998-cm3-d&#039;origine-carte-grise-collection/DFTCI7IZ.html",
+   "image": "https://cloud.leparking.fr/2026/09/27/15/58/austin-mini-austin-mini-mayfair-1989-998-cm-dorigine-carte-grise-collection-gris_9680075759.jpg",
+   "source": "leParking",
+   "score": 67,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 53,
+   "tag_budget": "a financer",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-27T17:24:53+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "709b4a9318186a9f",
    "titre": "austin mini 1000 de 1987, ct ok, éligible carte grise collection",
    "description": "austin mini 1000 de 1987, ct ok, éligible carte grise collection Année 1987 Kilomètre(s) 79000 Energie ESSENCE Couleur BLANC Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -136,9 +158,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-27T16:55:15+00:00"
+   "nouvelle": false
   },
   {
    "id": "6c42abcb633cfe67",
@@ -160,9 +180,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-27T16:55:15+00:00"
+   "nouvelle": false
   },
   {
    "id": "017d639d79765d80",
@@ -563,6 +581,72 @@
    "nouvelle": false
   },
   {
+   "id": "d3d6d8f3e05c5f13",
+   "titre": "austin mini",
+   "description": "austin mini Année 1988 Kilomètre(s) 60900 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5000,
+   "annee": 1988,
+   "km": 60900,
+   "lieu": "NOUVELLE-AQUITAINE 40110",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/XSHQOBB7.html",
+   "image": "https://cloud.leparking.fr/2026/09/27/15/23/austin-mini-austin-mini-vert_9680065567.jpg",
+   "source": "leParking",
+   "score": 53,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 47,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-27T17:24:53+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "546c2a76a8aba757",
+   "titre": "mini austin",
+   "description": "mini austin Année 1985 Kilomètre(s) 99000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5200,
+   "annee": 1985,
+   "km": 99000,
+   "lieu": "HAUTS-DE-FRANCE 59230",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/8V0UKSV4.html",
+   "image": "https://cloud.leparking.fr/2026/09/27/15/53/austin-mini-mini-austin_9680074295.jpg",
+   "source": "leParking",
+   "score": 52,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 45,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-27T17:24:53+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "f7e3322ed1c3c06b",
+   "titre": "mini austin",
+   "description": "mini austin Année 1988 Kilomètre(s) 121501 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5300,
+   "annee": 1988,
+   "km": 121501,
+   "lieu": "AUVERGNE-RHONE-ALPES 01300",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/7JNLPW09.html",
+   "image": "https://cloud.leparking.fr/2026/09/27/15/23/austin-mini-mini-austin-noir_9680065510.jpg",
+   "source": "leParking",
+   "score": 51,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 44,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-27T17:24:53+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "d1a6324520cbe6b4",
    "titre": "austin mini 1000",
    "description": "austin mini 1000 Année 1982 Kilomètre(s) 40000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -670,7 +754,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-24T17:24:48+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-27T17:24:53+00:00"
   },
   {
    "id": "c09bdb19f789fb18",
@@ -1061,28 +1147,6 @@
    "nouvelle": false
   },
   {
-   "id": "d0a5c6057fe78a4f",
-   "titre": "mini rover 1.0 asi crs",
-   "description": "mini rover 1.0 asi crs Année 1990 Kilomètre(s) 60000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 5400,
-   "annee": 1990,
-   "km": 60000,
-   "lieu": "LAZIO 00100",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-rover-1-0-asi-crs/K53FYKJQ.html",
-   "image": "https://cloud.leparking.fr/2026/01/13/08/01/austin-mini-mini-rover-1-0-asi-crs_9504069689.jpg",
-   "source": "leParking",
-   "score": 47,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 43,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "f8f8f315ab0837b6",
    "titre": "rover xl mini 10 catalyst",
    "description": "rover xl mini 10 catalyst Année 1992 Kilomètre(s) 117000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1103,6 +1167,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "d0a5c6057fe78a4f",
+   "titre": "mini rover 1.0 asi crs",
+   "description": "mini rover 1.0 asi crs Année 1990 Kilomètre(s) 60000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5400,
+   "annee": 1990,
+   "km": 60000,
+   "lieu": "LAZIO 00100",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-rover-1-0-asi-crs/K53FYKJQ.html",
+   "image": "https://cloud.leparking.fr/2026/01/13/08/01/austin-mini-mini-rover-1-0-asi-crs_9504069689.jpg",
+   "source": "leParking",
+   "score": 47,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 43,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-02T22:03:20+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-27T17:24:53+00:00"
   },
   {
    "id": "bb5feb4624a35664",
@@ -1146,7 +1234,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-24T17:24:48+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-27T17:24:53+00:00"
   },
   {
    "id": "83b77d917087baa4",
@@ -1245,28 +1335,6 @@
    "disparue_le": "2026-09-26T09:52:13+00:00"
   },
   {
-   "id": "3a0098bf9b3788ee",
-   "titre": "1.0 e my82",
-   "description": "1.0 e my82 Année 1982 Kilomètre(s) 34000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 5500,
-   "annee": 1982,
-   "km": 34000,
-   "lieu": "LOMBARDIA 24125",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1-0-e-my82/LX518SQ8.html",
-   "image": "https://cloud.leparking.fr/2024/09/12/23/19/austin-mini-1-0-e-my82-rosso_9024300462.jpg",
-   "source": "leParking",
-   "score": 46,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 42,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "1c78170f494658c5",
    "titre": "mini mille",
    "description": "mini mille Année 1990 Kilomètre(s) 95000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1287,6 +1355,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "3a0098bf9b3788ee",
+   "titre": "1.0 e my82",
+   "description": "1.0 e my82 Année 1982 Kilomètre(s) 34000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5500,
+   "annee": 1982,
+   "km": 34000,
+   "lieu": "LOMBARDIA 24125",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1-0-e-my82/LX518SQ8.html",
+   "image": "https://cloud.leparking.fr/2024/09/12/23/19/austin-mini-1-0-e-my82-rosso_9024300462.jpg",
+   "source": "leParking",
+   "score": 46,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 42,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-02T22:03:20+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-27T17:24:53+00:00"
   },
   {
    "id": "d7e436819661442a",
@@ -2104,7 +2196,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-27T17:24:53+00:00"
   },
   {
    "id": "41cabe6a5b6c680a",
@@ -2325,7 +2419,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T20:54:55+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-27T17:24:53+00:00"
   },
   {
    "id": "0ee7572d3cd08c00",
@@ -2445,6 +2541,33 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-26T09:52:13+00:00"
+  },
+  {
+   "id": "2737cd25ce1f6a92",
+   "titre": "mini austin 1300 inj monopoint 1996 à finir de restaurer",
+   "description": "mini austin 1300 inj monopoint 1996 à finir de restaurer Année 1996 Kilomètre(s) 37703 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6000,
+   "annee": 1996,
+   "km": 37703,
+   "lieu": "PROVENCE-ALPES-COTE D'AZUR 13500",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin-1300-inj-monopoint-1996-a-finir-de-restaurer/8V0UK6K4.html",
+   "image": "https://cloud.leparking.fr/2026/09/27/15/58/austin-mini-mini-austin-1300-inj-monopoint-1996-a-finir-de-restaurer-rouge_9680075771.jpg",
+   "source": "leParking",
+   "score": 23,
+   "etat": "projet_sain",
+   "cote_estimee": 4800,
+   "ecart_cote": -25,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [
+    {
+     "type": "bon",
+     "texte": "restaure"
+    }
+   ],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-27T17:24:53+00:00",
+   "nouvelle": true
   },
   {
    "id": "e16a5a05dab6376c",
@@ -2969,7 +3092,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-27T15:48:34+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-27T17:24:53+00:00"
   }
  ]
 }
