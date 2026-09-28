@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-27T22:24:50+00:00",
+ "genere_le": "2026-09-28T21:25:53+00:00",
  "sources": {
-  "leParking": "ok (216)",
-  "lesAnciennes": "ok (42)",
-  "ParuVendu": "ok (20)",
+  "leParking": "ok (208)",
+  "lesAnciennes": "ok (38)",
+  "ParuVendu": "ok (21)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 122,
-  "nouvelles": 0,
+  "total": 126,
+  "nouvelles": 4,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1258,9 +1258,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-27T15:48:34+00:00"
+   "nouvelle": false
   },
   {
    "id": "4cc5dac13f9b8a3a",
@@ -1533,6 +1531,28 @@
    "nouvelle": false
   },
   {
+   "id": "9e4940fb03e03543",
+   "titre": "innocenti mini mille 1974",
+   "description": "innocenti mini mille 1974 Année 1970 Kilomètre(s) 93951 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
+   "prix": 6000,
+   "annee": 1970,
+   "km": 93951,
+   "lieu": "TOSCANA 53045",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/innocenti-mini/innocenti-mini-mille-1974/JY46HR4F.html",
+   "image": "https://cloud.leparking.fr/2026/06/01/08/56/innocenti-mini-innocenti-mini-mille-1974_9596608372.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 37,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-28T21:25:53+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "c3ca6f0ae66b45a7",
    "titre": "mini innocenti 1001",
    "description": "mini innocenti 1001 Année 1970 Kilomètre(s) 59000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
@@ -1575,6 +1595,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "fca892e8f5aa6e83",
+   "titre": "rover mini ancienne",
+   "description": "rover mini ancienne Année 1993 Kilomètre(s) 87000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1993,
+   "km": 87000,
+   "lieu": "NOUVELLE-AQUITAINE 33700",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-ancienne/3A3HZUD1.html",
+   "image": "https://cloud.leparking.fr/2026/08/28/16/03/rover-mini-rover-mini-ancienne-noir_9657648408.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-28T21:25:53+00:00",
+   "nouvelle": true
   },
   {
    "id": "ffc61987fad49820",
@@ -2227,7 +2269,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-27T15:48:34+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-28T21:25:53+00:00"
   },
   {
    "id": "1ba4d23b7904745d",
@@ -2271,7 +2315,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-28T21:25:53+00:00"
   },
   {
    "id": "498b4bfebc1007f8",
@@ -2357,16 +2403,16 @@
    "nouvelle": false
   },
   {
-   "id": "0620b1ef50a346c6",
-   "titre": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Or",
-   "description": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origines de la Mini Cooper Sportspack “Brooklands” À la fin des années 90, la Cooper Sportspack s’impose comme la version la plus aboutie de la Mini c... POA",
+   "id": "b43a3bf14ed0605d",
+   "titre": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin ",
+   "description": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de série mythique dans un état de conservation clinique ! Nous avons le plaisir de proposer à la vente cette magnifique Mini 1.3 MPI Cooper Sp... POA",
    "prix": 0,
-   "annee": 1998,
-   "km": 55000,
+   "annee": 2000,
+   "km": 40600,
    "lieu": "",
    "pays": "France",
-   "url": "https://www.lesanciennes.com/annonce/rover-mini-mpi-brooklands-1998-a874407",
-   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2075612/1998-mini-mini-6a155ccb902b0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fa861ad38a176246179afa87cfcfe3ed",
+   "url": "https://www.lesanciennes.com/annonce/rover-mini-cooper-sport-2000-a882999",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2101665/2000-mini-mini-6a42797ee3add.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0a49e3c229f7907e9c3d1b803bd4e5f1",
    "source": "lesAnciennes",
    "score": 18,
    "etat": "bon_etat",
@@ -2379,16 +2425,16 @@
    "nouvelle": false
   },
   {
-   "id": "b43a3bf14ed0605d",
-   "titre": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin ",
-   "description": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de série mythique dans un état de conservation clinique ! Nous avons le plaisir de proposer à la vente cette magnifique Mini 1.3 MPI Cooper Sp... POA",
+   "id": "0620b1ef50a346c6",
+   "titre": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Or",
+   "description": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origines de la Mini Cooper Sportspack “Brooklands” À la fin des années 90, la Cooper Sportspack s’impose comme la version la plus aboutie de la Mini c... POA",
    "prix": 0,
-   "annee": 2000,
-   "km": 40600,
+   "annee": 1998,
+   "km": 55000,
    "lieu": "",
    "pays": "France",
-   "url": "https://www.lesanciennes.com/annonce/rover-mini-cooper-sport-2000-a882999",
-   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2101665/2000-mini-mini-6a42797ee3add.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0a49e3c229f7907e9c3d1b803bd4e5f1",
+   "url": "https://www.lesanciennes.com/annonce/rover-mini-mpi-brooklands-1998-a874407",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2075612/1998-mini-mini-6a155ccb902b0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fa861ad38a176246179afa87cfcfe3ed",
    "source": "lesAnciennes",
    "score": 18,
    "etat": "bon_etat",
@@ -2420,7 +2466,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-28T21:25:53+00:00"
   },
   {
    "id": "1c82c9fdf6d0fbbf",
@@ -2491,6 +2539,28 @@
    "nouvelle": false
   },
   {
+   "id": "9ee3375a97df3e70",
+   "titre": "innocenti mini cooper 1300 (m2447336459) — mini — 2ememain",
+   "description": "innocenti mini cooper 1300 (m2447336459) — mini — 2ememain Année 1974 Kilomètre(s) Inconnu Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
+   "prix": 0,
+   "annee": 1974,
+   "km": 0,
+   "lieu": "FLANDRE-OCCIDENTALE 8800",
+   "pays": "Belgique",
+   "url": "https://www.leparking.be/voiture-occasion-detail/innocenti-mini/innocenti-mini-cooper-1300-m2447336459-mini-2ememain/LXODRSP8.html",
+   "image": "https://cloud.leparking.fr/2026/09/28/00/01/innocenti-mini-innocenti-mini-cooper-1300-m2447336459-mini-2ememain_9680190294.jpg",
+   "source": "leParking",
+   "score": 14,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-28T21:25:53+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "1864d0fd918b3cac",
    "titre": "1964 AUSTIN Mini Cooper S 75 / Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vo",
    "description": "1964 AUSTIN Mini Cooper S 75 / Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vous proposons à la vente cette exceptionnelle Austin Mini Cooper S Mk1 dans sa ravissante teinte Almond Green. Livrée neuve en France le 28 mars... POA",
@@ -2513,16 +2583,16 @@
    "nouvelle": false
   },
   {
-   "id": "24b853362a1705ad",
-   "titre": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe 78 / Publiée le 11/06/2026 128 000 km Manuel E",
-   "description": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe 78 / Publiée le 11/06/2026 128 000 km Manuel Essence Noir Voici l’une des plus belles Arc de Triomphe passées entre nos mains depuis près de 20 ans. En 1994, un propriétaire entre dans la concession parisienn... POA",
+   "id": "d45490910b6754a8",
+   "titre": "1999 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40t",
+   "description": "1999 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40th Anniversaire Island Blue avec seulement 23 000 miles d’origine ! Sortie en 1999 pour célébrer les 40 années de production, cette v... POA",
    "prix": 0,
-   "annee": 1994,
+   "annee": 1999,
    "km": 0,
    "lieu": "",
    "pays": "France",
-   "url": "https://www.lesanciennes.com/annonce/mini-1-3-spi-cabriolet-arc-de-triomphe-1994-a878433",
-   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2086794/1994-mini-13-spi-cabriolet-6a2a918f75b7e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=096a10ac821692308e8537c7b07ce081",
+   "url": "https://www.lesanciennes.com/annonce/rover-mini-40th-anniversaire-1999-a881126",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2097009/1999-mini-mini-6a39007f99762.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1ef1afa9d89cd6b0565ba9fe84c6f9fc",
    "source": "lesAnciennes",
    "score": 14,
    "etat": "bon_etat",
@@ -2535,16 +2605,16 @@
    "nouvelle": false
   },
   {
-   "id": "d45490910b6754a8",
-   "titre": "1999 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40t",
-   "description": "1999 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40th Anniversaire Island Blue avec seulement 23 000 miles d’origine ! Sortie en 1999 pour célébrer les 40 années de production, cette v... POA",
+   "id": "24b853362a1705ad",
+   "titre": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe 78 / Publiée le 11/06/2026 128 000 km Manuel E",
+   "description": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe 78 / Publiée le 11/06/2026 128 000 km Manuel Essence Noir Voici l’une des plus belles Arc de Triomphe passées entre nos mains depuis près de 20 ans. En 1994, un propriétaire entre dans la concession parisienn... POA",
    "prix": 0,
-   "annee": 1999,
+   "annee": 1994,
    "km": 0,
    "lieu": "",
    "pays": "France",
-   "url": "https://www.lesanciennes.com/annonce/rover-mini-40th-anniversaire-1999-a881126",
-   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2097009/1999-mini-mini-6a39007f99762.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=1ef1afa9d89cd6b0565ba9fe84c6f9fc",
+   "url": "https://www.lesanciennes.com/annonce/mini-1-3-spi-cabriolet-arc-de-triomphe-1994-a878433",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2086794/1994-mini-13-spi-cabriolet-6a2a918f75b7e.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=096a10ac821692308e8537c7b07ce081",
    "source": "lesAnciennes",
    "score": 14,
    "etat": "bon_etat",
@@ -2760,7 +2830,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-28T21:25:53+00:00"
   },
   {
    "id": "700e2ff814a26254",
@@ -2809,6 +2881,28 @@
    "nouvelle": true,
    "disparue": true,
    "disparue_le": "2026-09-24T17:24:48+00:00"
+  },
+  {
+   "id": "2e75a278b87b870a",
+   "titre": "1990 rover mini mayfair",
+   "description": "1990 rover mini mayfair Année Inconnu Kilomètre(s) Inconnu Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1990,
+   "km": 0,
+   "lieu": "NORTHAMPTONSHIRE",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1990-rover-mini-mayfair/URZVJKSY.html",
+   "image": "https://cloud.leparking.fr/2026/09/28/12/26/rover-mini-1990-rover-mini-mayfair-rouge_9680636682.jpg",
+   "source": "leParking",
+   "score": 7,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-28T21:25:53+00:00",
+   "nouvelle": true
   },
   {
    "id": "f2bdf92634293426",
