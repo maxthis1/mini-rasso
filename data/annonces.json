@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-28T22:24:51+00:00",
+ "genere_le": "2026-09-29T20:24:52+00:00",
  "sources": {
-  "leParking": "ok (208)",
+  "leParking": "ok (212)",
   "lesAnciennes": "ok (41)",
-  "ParuVendu": "ok (21)",
+  "ParuVendu": "ok (20)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 126,
-  "nouvelles": 0,
+  "total": 133,
+  "nouvelles": 7,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -620,7 +620,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-27T17:24:53+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-29T20:24:52+00:00"
   },
   {
    "id": "d1a6324520cbe6b4",
@@ -1487,6 +1489,28 @@
    "nouvelle": false
   },
   {
+   "id": "76c92fffdb31e06c",
+   "titre": "1.3i british open",
+   "description": "1.3i british open Année 1994 Kilomètre(s) 107874 Energie ESSENCE Couleur MARRON Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6000,
+   "annee": 1994,
+   "km": 107874,
+   "lieu": "LIMBOURG 3500",
+   "pays": "Belgique",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1-3i-british-open/5DOV9974.html",
+   "image": "https://cloud.leparking.fr/2026/09/29/06/46/rover-mini-1-3i-british-open-marron_9681162320.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 37,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-29T20:24:52+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "196a2a2e70139dab",
    "titre": "mini del 71",
    "description": "mini del 71 Année 1971 Kilomètre(s) 80000 Energie ESSENCE Couleur Inconnu Boite Inconnu Portes 2 PORTES Catégorie COLLECTION",
@@ -1616,7 +1640,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-28T21:25:53+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-29T20:24:52+00:00"
   },
   {
    "id": "ffc61987fad49820",
@@ -1638,7 +1664,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T17:40:47+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-29T20:24:52+00:00"
   },
   {
    "id": "006853c753cd452b",
@@ -1663,6 +1691,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-26T09:52:13+00:00"
+  },
+  {
+   "id": "84de7da93d8858ef",
+   "titre": "austin rover mini",
+   "description": "austin rover mini Année 1990 Kilomètre(s) 51000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5999,
+   "annee": 1990,
+   "km": 51000,
+   "lieu": "SICILIA 97014",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-rover-mini/CO8CEU3L.html",
+   "image": "https://cloud.leparking.fr/2026/09/29/08/11/austin-mini-austin-rover-mini_9681212422.jpg",
+   "source": "leParking",
+   "score": 44,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 37,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-29T20:24:52+00:00",
+   "nouvelle": true
   },
   {
    "id": "5dd337b4eed81584",
@@ -2102,7 +2152,9 @@
    ],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T17:40:47+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-29T20:24:52+00:00"
   },
   {
    "id": "92ffccc96920ec78",
@@ -2373,7 +2425,9 @@
    ],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-27T17:24:53+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-29T20:24:52+00:00"
   },
   {
    "id": "e16a5a05dab6376c",
@@ -2743,16 +2797,16 @@
    "disparue_le": "2026-09-21T18:03:39+00:00"
   },
   {
-   "id": "c643527106965881",
-   "titre": "rover - mini - 1.3 british open - voiture - 1994",
-   "description": "rover - mini - 1.3 british open - voiture - 1994 Année 1994 Kilomètre(s) 89929 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "id": "430e9031409f06c4",
+   "titre": "1999 rover mini cooper mpi à vendre par enchère",
+   "description": "1999 rover mini cooper mpi à vendre par enchère Année 1999 Kilomètre(s) 69202 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
    "prix": 0,
-   "annee": 1994,
-   "km": 89929,
-   "lieu": "PROVINCIE OVERIJSSEL 8061",
-   "pays": "Pays-Bas",
-   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-1-3-british-open-voiture-1994/DFTE7MMZ.html",
-   "image": "https://cloud.leparking.fr/2026/09/26/02/11/rover-mini-rover-mini-1-3-british-open-voiture-1994-vert_9679001807.jpg",
+   "annee": 1999,
+   "km": 69202,
+   "lieu": "",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1999-rover-mini-cooper-mpi-a-vendre-par-enchere/OLWKAJ3S.html",
+   "image": "https://cloud.leparking.fr/2026/09/29/10/01/rover-mini-1999-rover-mini-cooper-mpi-a-vendre-par-enchere-vert_9681263378.jpg",
    "source": "leParking",
    "score": 11,
    "etat": "bon_etat",
@@ -2761,8 +2815,8 @@
    "tag_budget": "hors budget",
    "drapeaux": [],
    "risque_rouille": "non annonce",
-   "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": false
+   "vue_le": "2026-09-29T20:24:52+00:00",
+   "nouvelle": true
   },
   {
    "id": "f07e6d0914534ce9",
@@ -2787,6 +2841,30 @@
    "nouvelle": false
   },
   {
+   "id": "c643527106965881",
+   "titre": "rover - mini - 1.3 british open - voiture - 1994",
+   "description": "rover - mini - 1.3 british open - voiture - 1994 Année 1994 Kilomètre(s) 89929 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1994,
+   "km": 89929,
+   "lieu": "PROVINCIE OVERIJSSEL 8061",
+   "pays": "Pays-Bas",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-1-3-british-open-voiture-1994/DFTE7MMZ.html",
+   "image": "https://cloud.leparking.fr/2026/09/26/02/11/rover-mini-rover-mini-1-3-british-open-voiture-1994-vert_9679001807.jpg",
+   "source": "leParking",
+   "score": 11,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-26T09:52:13+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-29T20:24:52+00:00"
+  },
+  {
    "id": "015362d9ec073b2a",
    "titre": "1.3 innocenti gruppo 2",
    "description": "1.3 innocenti gruppo 2 Année 1972 Kilomètre(s) 10 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
@@ -2809,6 +2887,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-21T18:03:39+00:00"
+  },
+  {
+   "id": "78077a5c43a49ef8",
+   "titre": "1995 rover mini cooper spi 1.3 à vendre par enchère",
+   "description": "1995 rover mini cooper spi 1.3 à vendre par enchère Année 1995 Kilomètre(s) 138886 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1995,
+   "km": 138886,
+   "lieu": "",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1995-rover-mini-cooper-spi-1-3-a-vendre-par-enchere/JYNJSFOF.html",
+   "image": "https://cloud.leparking.fr/2026/09/28/22/02/rover-mini-1995-rover-mini-cooper-spi-1-3-a-vendre-par-enchere-rouge_9680876560.jpg",
+   "source": "leParking",
+   "score": 10,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-29T20:24:52+00:00",
+   "nouvelle": true
   },
   {
    "id": "7ee0fc988d905edf",
@@ -2879,6 +2979,72 @@
    "nouvelle": true,
    "disparue": true,
    "disparue_le": "2026-09-24T17:24:48+00:00"
+  },
+  {
+   "id": "5316672861a76420",
+   "titre": "1988 austin mini mayfair",
+   "description": "1988 austin mini mayfair Année Inconnu Kilomètre(s) Inconnu Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1988,
+   "km": 0,
+   "lieu": "BUCKINGHAMSHIRE HP18",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1988-austin-mini-mayfair/DFTFKLKZ.html",
+   "image": "https://cloud.leparking.fr/2026/09/29/16/02/austin-mini-1988-austin-mini-mayfair-gris_9681556943.jpg",
+   "source": "leParking",
+   "score": 7,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-29T20:24:52+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "443010f2ec02045b",
+   "titre": "1988 austin mini mayfair à vendre par enchère",
+   "description": "1988 austin mini mayfair à vendre par enchère Année 1988 Kilomètre(s) 101305 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1988,
+   "km": 101305,
+   "lieu": "",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1988-austin-mini-mayfair-a-vendre-par-enchere/JYNYOMKF.html",
+   "image": "https://cloud.leparking.fr/2026/09/29/16/02/austin-mini-1988-austin-mini-mayfair-a-vendre-par-enchere-gris_9681559624.jpg",
+   "source": "leParking",
+   "score": 7,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-29T20:24:52+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "15363ee084e58a94",
+   "titre": "1990 rover mini mayfair à vendre par enchère",
+   "description": "1990 rover mini mayfair à vendre par enchère Année 1990 Kilomètre(s) 73520 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1990,
+   "km": 73520,
+   "lieu": "",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1990-rover-mini-mayfair-a-vendre-par-enchere/XSHQADN7.html",
+   "image": "https://cloud.leparking.fr/2026/09/29/00/02/rover-mini-1990-rover-mini-mayfair-a-vendre-par-enchere-rouge_9680883487.jpg",
+   "source": "leParking",
+   "score": 7,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-29T20:24:52+00:00",
+   "nouvelle": true
   },
   {
    "id": "2e75a278b87b870a",
