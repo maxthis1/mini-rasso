@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-29T21:54:58+00:00",
+ "genere_le": "2026-09-30T15:11:55+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (41)",
-  "ParuVendu": "ok (20)",
+  "ParuVendu": "ok (21)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 133,
-  "nouvelles": 0,
+  "total": 135,
+  "nouvelles": 2,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -378,7 +378,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-30T15:11:55+00:00"
   },
   {
    "id": "827dcc7f067fd7a6",
@@ -2128,6 +2130,28 @@
    "nouvelle": false
   },
   {
+   "id": "4f07b70c554aa0ee",
+   "titre": "mini mini austin rover 1000 hl bj 1985 britischer mini",
+   "description": "mini mini austin rover 1000 hl bj 1985 britischer mini Année 1985 Kilomètre(s) 99999 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5900,
+   "annee": 1985,
+   "km": 99999,
+   "lieu": "POLITISCHER BEZIRK AMSTETTEN 4300",
+   "pays": "Autriche",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-mini-austin-rover-1000-hl-bj-1985-britischer-mini/JYNYQQEF.html",
+   "image": "https://cloud.leparking.fr/2026/09/30/11/07/austin-mini-mini-mini-austin-rover-1000-hl-bj-1985-britischer-mini_9682170940.jpg",
+   "source": "leParking",
+   "score": 36,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 38,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-30T15:11:55+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "d6b0aad49b199dc4",
    "titre": "mini rover",
    "description": "mini rover Année 1989 Kilomètre(s) 68000 Energie ESSENCE Couleur Inconnu Boite AUTOMATIQUE Portes 3 PORTES Catégorie CITADINE",
@@ -2297,9 +2321,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T20:54:55+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-27T17:24:53+00:00"
+   "nouvelle": false
   },
   {
    "id": "0ee7572d3cd08c00",
@@ -2457,16 +2479,16 @@
    "nouvelle": false
   },
   {
-   "id": "b43a3bf14ed0605d",
-   "titre": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin ",
-   "description": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de série mythique dans un état de conservation clinique ! Nous avons le plaisir de proposer à la vente cette magnifique Mini 1.3 MPI Cooper Sp... POA",
+   "id": "0620b1ef50a346c6",
+   "titre": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Or",
+   "description": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origines de la Mini Cooper Sportspack “Brooklands” À la fin des années 90, la Cooper Sportspack s’impose comme la version la plus aboutie de la Mini c... POA",
    "prix": 0,
-   "annee": 2000,
-   "km": 40600,
+   "annee": 1998,
+   "km": 55000,
    "lieu": "",
    "pays": "France",
-   "url": "https://www.lesanciennes.com/annonce/rover-mini-cooper-sport-2000-a882999",
-   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2101665/2000-mini-mini-6a42797ee3add.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0a49e3c229f7907e9c3d1b803bd4e5f1",
+   "url": "https://www.lesanciennes.com/annonce/rover-mini-mpi-brooklands-1998-a874407",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2075612/1998-mini-mini-6a155ccb902b0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fa861ad38a176246179afa87cfcfe3ed",
    "source": "lesAnciennes",
    "score": 18,
    "etat": "bon_etat",
@@ -2479,16 +2501,16 @@
    "nouvelle": false
   },
   {
-   "id": "0620b1ef50a346c6",
-   "titre": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Or",
-   "description": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origines de la Mini Cooper Sportspack “Brooklands” À la fin des années 90, la Cooper Sportspack s’impose comme la version la plus aboutie de la Mini c... POA",
+   "id": "b43a3bf14ed0605d",
+   "titre": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin ",
+   "description": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de série mythique dans un état de conservation clinique ! Nous avons le plaisir de proposer à la vente cette magnifique Mini 1.3 MPI Cooper Sp... POA",
    "prix": 0,
-   "annee": 1998,
-   "km": 55000,
+   "annee": 2000,
+   "km": 40600,
    "lieu": "",
    "pays": "France",
-   "url": "https://www.lesanciennes.com/annonce/rover-mini-mpi-brooklands-1998-a874407",
-   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2075612/1998-mini-mini-6a155ccb902b0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fa861ad38a176246179afa87cfcfe3ed",
+   "url": "https://www.lesanciennes.com/annonce/rover-mini-cooper-sport-2000-a882999",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2101665/2000-mini-mini-6a42797ee3add.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0a49e3c229f7907e9c3d1b803bd4e5f1",
    "source": "lesAnciennes",
    "score": 18,
    "etat": "bon_etat",
@@ -2593,28 +2615,6 @@
    "nouvelle": false
   },
   {
-   "id": "9ee3375a97df3e70",
-   "titre": "innocenti mini cooper 1300 (m2447336459) — mini — 2ememain",
-   "description": "innocenti mini cooper 1300 (m2447336459) — mini — 2ememain Année 1974 Kilomètre(s) Inconnu Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
-   "prix": 0,
-   "annee": 1974,
-   "km": 0,
-   "lieu": "FLANDRE-OCCIDENTALE 8800",
-   "pays": "Belgique",
-   "url": "https://www.leparking.be/voiture-occasion-detail/innocenti-mini/innocenti-mini-cooper-1300-m2447336459-mini-2ememain/LXODRSP8.html",
-   "image": "https://cloud.leparking.fr/2026/09/28/00/01/innocenti-mini-innocenti-mini-cooper-1300-m2447336459-mini-2ememain_9680190294.jpg",
-   "source": "leParking",
-   "score": 14,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": null,
-   "tag_budget": "hors budget",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-28T21:25:53+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "1864d0fd918b3cac",
    "titre": "1964 AUSTIN Mini Cooper S 75 / Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vo",
    "description": "1964 AUSTIN Mini Cooper S 75 / Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vous proposons à la vente cette exceptionnelle Austin Mini Cooper S Mk1 dans sa ravissante teinte Almond Green. Livrée neuve en France le 28 mars... POA",
@@ -2679,6 +2679,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "9ee3375a97df3e70",
+   "titre": "innocenti mini cooper 1300 (m2447336459) — mini — 2ememain",
+   "description": "innocenti mini cooper 1300 (m2447336459) — mini — 2ememain Année 1974 Kilomètre(s) Inconnu Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie COLLECTION",
+   "prix": 0,
+   "annee": 1974,
+   "km": 0,
+   "lieu": "FLANDRE-OCCIDENTALE 8800",
+   "pays": "Belgique",
+   "url": "https://www.leparking.be/voiture-occasion-detail/innocenti-mini/innocenti-mini-cooper-1300-m2447336459-mini-2ememain/LXODRSP8.html",
+   "image": "https://cloud.leparking.fr/2026/09/28/00/01/innocenti-mini-innocenti-mini-cooper-1300-m2447336459-mini-2ememain_9680190294.jpg",
+   "source": "leParking",
+   "score": 14,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-28T21:25:53+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-30T15:11:55+00:00"
   },
   {
    "id": "a914c3bcbbc06795",
@@ -2889,28 +2913,6 @@
    "disparue_le": "2026-09-21T18:03:39+00:00"
   },
   {
-   "id": "78077a5c43a49ef8",
-   "titre": "1995 rover mini cooper spi 1.3 à vendre par enchère",
-   "description": "1995 rover mini cooper spi 1.3 à vendre par enchère Année 1995 Kilomètre(s) 138886 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
-   "prix": 0,
-   "annee": 1995,
-   "km": 138886,
-   "lieu": "",
-   "pays": "Royaume-Uni",
-   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1995-rover-mini-cooper-spi-1-3-a-vendre-par-enchere/JYNJSFOF.html",
-   "image": "https://cloud.leparking.fr/2026/09/28/22/02/rover-mini-1995-rover-mini-cooper-spi-1-3-a-vendre-par-enchere-rouge_9680876560.jpg",
-   "source": "leParking",
-   "score": 10,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": null,
-   "tag_budget": "hors budget",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-29T20:24:52+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "7ee0fc988d905edf",
    "titre": "1973 AUSTIN Mini Pick Up 78 / Publiée le 26/05/2026 Manuel Essence Blanc Voici un superbe ",
    "description": "1973 AUSTIN Mini Pick Up 78 / Publiée le 26/05/2026 Manuel Essence Blanc Voici un superbe Mini Pick-Up en Glacier White, cette teinte lumineuse qui n’appartient qu’à une certaine époque. Soixante ans plus tard, il se présen... POA",
@@ -2931,6 +2933,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "78077a5c43a49ef8",
+   "titre": "1995 rover mini cooper spi 1.3 à vendre par enchère",
+   "description": "1995 rover mini cooper spi 1.3 à vendre par enchère Année 1995 Kilomètre(s) 138886 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1995,
+   "km": 138886,
+   "lieu": "",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1995-rover-mini-cooper-spi-1-3-a-vendre-par-enchere/JYNJSFOF.html",
+   "image": "https://cloud.leparking.fr/2026/09/28/22/02/rover-mini-1995-rover-mini-cooper-spi-1-3-a-vendre-par-enchere-rouge_9680876560.jpg",
+   "source": "leParking",
+   "score": 10,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-29T20:24:52+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-30T15:11:55+00:00"
   },
   {
    "id": "700e2ff814a26254",
@@ -2979,6 +3005,28 @@
    "nouvelle": true,
    "disparue": true,
    "disparue_le": "2026-09-24T17:24:48+00:00"
+  },
+  {
+   "id": "50e33ddbf3ad8e94",
+   "titre": "1990 rover mini cooper rsp - 680 miles à vendre par enchère",
+   "description": "1990 rover mini cooper rsp - 680 miles à vendre par enchère Année 1990 Kilomètre(s) 1094 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1990,
+   "km": 1094,
+   "lieu": "",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1990-rover-mini-cooper-rsp-680-miles-a-vendre-par-enchere/5DOD68G4.html",
+   "image": "https://cloud.leparking.fr/2026/09/30/08/01/rover-mini-1990-rover-mini-cooper-rsp-680-miles-a-vendre-par-enchere-vert_9682047128.jpg",
+   "source": "leParking",
+   "score": 8,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-30T15:11:55+00:00",
+   "nouvelle": true
   },
   {
    "id": "5316672861a76420",
@@ -3044,7 +3092,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-29T20:24:52+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-30T15:11:55+00:00"
   },
   {
    "id": "2e75a278b87b870a",
@@ -3066,7 +3116,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-28T21:25:53+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-09-30T15:11:55+00:00"
   },
   {
    "id": "f2bdf92634293426",
