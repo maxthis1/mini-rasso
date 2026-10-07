@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-06T22:54:52+00:00",
+ "genere_le": "2026-10-07T16:54:59+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (41)",
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 128,
-  "nouvelles": 0,
+  "total": 129,
+  "nouvelles": 2,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1004,6 +1004,29 @@
    "disparue_le": "2026-10-05T18:54:00+00:00"
   },
   {
+   "id": "f8f8f315ab0837b6",
+   "titre": "rover xl mini 10 catalyst",
+   "description": "rover xl mini 10 catalyst Année 1992 Kilomètre(s) 117000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5250,
+   "annee": 1992,
+   "km": 117000,
+   "lieu": "LOMBARDIA 20025",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-xl-mini-10-catalyst/I91MAJQH.html",
+   "image": "https://cloud.leparking.fr/2026/01/19/21/01/rover-mini-rover-xl-mini-10-catalyst_9508404267.jpg",
+   "source": "leParking",
+   "score": 48,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 45,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-02T22:03:20+00:00",
+   "nouvelle": false,
+   "baisse_prix": 150
+  },
+  {
    "id": "91a2476b7200cc20",
    "titre": "1991 rover mini mayfair 1000 | car & classic",
    "description": "1991 rover mini mayfair 1000 | car & classic Année 1991 Kilomètre(s) 68036 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -1067,28 +1090,6 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-13T14:13:18+00:00",
-   "nouvelle": false
-  },
-  {
-   "id": "f8f8f315ab0837b6",
-   "titre": "rover xl mini 10 catalyst",
-   "description": "rover xl mini 10 catalyst Année 1992 Kilomètre(s) 117000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
-   "prix": 5400,
-   "annee": 1992,
-   "km": 117000,
-   "lieu": "LOMBARDIA 20025",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-xl-mini-10-catalyst/I91MAJQH.html",
-   "image": "https://cloud.leparking.fr/2026/01/19/21/01/rover-mini-rover-xl-mini-10-catalyst_9508404267.jpg",
-   "source": "leParking",
-   "score": 47,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 43,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
   },
   {
@@ -1565,7 +1566,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-07T16:54:59+00:00"
   },
   {
    "id": "d7dfb7c3e5dd4345",
@@ -1662,6 +1665,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-29T20:24:52+00:00"
+  },
+  {
+   "id": "a7e6a4379da7f8de",
+   "titre": "cooper",
+   "description": "cooper Année 1991 Kilomètre(s) 65000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 7000,
+   "annee": 1991,
+   "km": 65000,
+   "lieu": "AUVERGNE-RHONE-ALPES 63000",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/cooper/MEQ34UQM.html",
+   "image": "https://cloud.leparking.fr/2026/10/07/08/50/rover-mini-cooper_9687463231.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 26,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-07T16:54:59+00:00",
+   "nouvelle": true
   },
   {
    "id": "95448a46bb1a551b",
@@ -1914,6 +1939,28 @@
    "disparue_le": "2026-10-05T19:54:51+00:00"
   },
   {
+   "id": "5849c6935f5cace7",
+   "titre": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Ré",
+   "description": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro vous propose: Austin Mini 8 000 € 1ère immatriculation : 17/10/1972. 19162 kms au compteur. Vert Anglais. Volant bois. Grosse révi... 7 000 €",
+   "prix": 7000,
+   "annee": 1972,
+   "km": 19162,
+   "lieu": "",
+   "pays": "France",
+   "url": "https://www.lesanciennes.com/annonce/1972-austin-mini-a920679",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2050858/1972-mini-mini-6a6536a5c2697.jpg?h=600&ixlib=php-4.1.0&q=85&w=800&s=8851ea9ef3229a67fccfa204df6dfb0d",
+   "source": "lesAnciennes",
+   "score": 41,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 26,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-07T16:54:59+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "323314ad89ed840a",
    "titre": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Ré",
    "description": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro vous propose: Austin Mini 8 000 € 1ère immatriculation : 17/10/1972. 19162 kms au compteur. Vert Anglais. Volant bois. Grosse révi... 7 000 €",
@@ -1933,7 +1980,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-07T16:54:59+00:00"
   },
   {
    "id": "ecdf148f6f886b27",
@@ -1958,30 +2007,6 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-10-05T19:54:51+00:00"
-  },
-  {
-   "id": "341bbfcd4b08302b",
-   "titre": "mini 1000 spécial",
-   "description": "mini 1000 spécial Année 1988 Kilomètre(s) 3588 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 7000,
-   "annee": 1988,
-   "km": 3588,
-   "lieu": "ILE-DE-FRANCE 95740",
-   "pays": "France",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-1000-special/HC8PBRCC.html",
-   "image": "https://cloud.leparking.fr/2026/09/24/15/42/austin-mini-mini-1000-special-noir_9677830900.jpg",
-   "source": "leParking",
-   "score": 41,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 26,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-24T17:24:48+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-27T15:48:34+00:00"
   },
   {
    "id": "c896c42a7ed16f26",
@@ -2069,7 +2094,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-24T16:54:52+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-07T16:54:59+00:00"
   },
   {
    "id": "63d19b2168274b27",
@@ -2222,7 +2249,9 @@
    ],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-05T19:54:51+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-07T16:54:59+00:00"
   },
   {
    "id": "cb7058e286204370",
@@ -2763,7 +2792,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-07T16:54:59+00:00"
   },
   {
    "id": "78077a5c43a49ef8",
