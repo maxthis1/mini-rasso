@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-07T16:54:59+00:00",
+ "genere_le": "2026-10-07T17:24:50+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (41)",
@@ -32,9 +32,9 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 129,
-  "nouvelles": 2,
-  "pepites": 0,
+  "total": 130,
+  "nouvelles": 1,
+  "pepites": 1,
   "sous_2k": 1
  },
  "annonces": [
@@ -130,6 +130,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-27T17:24:53+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "a0e7dd517aeed3df",
+   "titre": "mini austin",
+   "description": "mini austin Année 1990 Kilomètre(s) 180000 Energie ESSENCE Couleur BLEU Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 2500,
+   "annee": 1990,
+   "km": 180000,
+   "lieu": "BRETAGNE 29600",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/2XM4WSVB.html",
+   "image": "ext/https://img.leboncoin.fr/api/v1/lbcpb1/images/58/8c/da/588cdad805d325bf62cc26df54cbb187ebae59c2.jpg%3Frule%3Dad-large",
+   "source": "leParking",
+   "score": 63,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 74,
+   "tag_budget": "a financer",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-07T17:24:50+00:00",
+   "nouvelle": true
   },
   {
    "id": "0a6365465582c6b4",
@@ -505,7 +527,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-07T17:24:50+00:00"
   },
   {
    "id": "6bf7d0fb19f98732",
@@ -1023,8 +1047,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "baisse_prix": 150
+   "nouvelle": false
   },
   {
    "id": "91a2476b7200cc20",
@@ -1544,7 +1567,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-05T19:54:51+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-07T17:24:50+00:00"
   },
   {
    "id": "98a5eb6fa9952ead",
@@ -1686,7 +1711,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-07T16:54:59+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "95448a46bb1a551b",
@@ -1958,7 +1983,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-07T16:54:59+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "323314ad89ed840a",
