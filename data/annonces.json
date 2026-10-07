@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-07T19:24:48+00:00",
+ "genere_le": "2026-10-07T21:03:41+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (41)",
@@ -33,7 +33,7 @@
  },
  "stats": {
   "total": 124,
-  "nouvelles": 0,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -141,7 +141,7 @@
    "lieu": "BRETAGNE 29600",
    "pays": "France",
    "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/2XM4WSVB.html",
-   "image": "ext/https://img.leboncoin.fr/api/v1/lbcpb1/images/58/8c/da/588cdad805d325bf62cc26df54cbb187ebae59c2.jpg%3Frule%3Dad-large",
+   "image": "https://cloud.leparking.fr/2026/10/07/17/07/austin-mini-mini-austin-bleu_9687825898.jpg",
    "source": "leParking",
    "score": 63,
    "etat": "bon_etat",
@@ -1841,7 +1841,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-07T21:03:41+00:00"
   },
   {
    "id": "0bf348c5183907b0",
@@ -2230,6 +2232,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-10-05T18:54:00+00:00"
+  },
+  {
+   "id": "9b01e90ce54f0643",
+   "titre": "ROVER MINI 1.0 4X2",
+   "description": "Année 1990 Kilomètre(s) 144841 Energie ESSENCE Couleur VIOLET Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5296,
+   "annee": 1990,
+   "km": 144841,
+   "lieu": "LEICESTER LE1",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini//0JNHRGY8.html",
+   "image": "https://cloud.leparking.fr/2026/10/07/18/28/rover-mini-violet_9687886160.jpg",
+   "source": "leParking",
+   "score": 31,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 44,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-07T21:03:41+00:00",
+   "nouvelle": true
   },
   {
    "id": "0ee7572d3cd08c00",
@@ -2724,30 +2748,6 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-30T15:11:55+00:00"
-  },
-  {
-   "id": "700e2ff814a26254",
-   "titre": "austin - mini - 1990",
-   "description": "austin - mini - 1990 Année 1990 Kilomètre(s) 2000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 0,
-   "annee": 1990,
-   "km": 2000,
-   "lieu": "",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-1990/ETQVLV4B.html",
-   "image": "https://cloud.leparking.fr/2026/09/26/05/01/austin-mini-austin-mini-1990-rosso_9679117105.jpg",
-   "source": "leParking",
-   "score": 9,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": null,
-   "tag_budget": "hors budget",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-09-27T20:24:51+00:00"
   },
   {
    "id": "b55003e5710efb5a",
