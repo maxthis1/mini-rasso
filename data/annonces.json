@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-10-07T22:24:52+00:00",
+ "genere_le": "2026-10-08T17:05:09+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (41)",
+  "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (19)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -283,7 +283,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-08T17:05:09+00:00"
   },
   {
    "id": "ba711f0418eeca01",
@@ -527,9 +529,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-12T13:53:29+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-10-07T17:24:50+00:00"
+   "nouvelle": false
   },
   {
    "id": "6bf7d0fb19f98732",
@@ -823,7 +823,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-06T17:03:12+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-08T17:05:09+00:00"
   },
   {
    "id": "e222c30f3bec452e",
@@ -1797,7 +1799,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-17T18:54:43+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-08T17:05:09+00:00"
   },
   {
    "id": "426f33ee84353084",
@@ -1819,7 +1823,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-08T17:05:09+00:00"
   },
   {
    "id": "63cd6e37154d4336",
@@ -1872,7 +1878,7 @@
   {
    "id": "5849c6935f5cace7",
    "titre": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Ré",
-   "description": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro vous propose: Austin Mini 8 000 € 1ère immatriculation : 17/10/1972. 19162 kms au compteur. Vert Anglais. Volant bois. Grosse révi... 7 000 €",
+   "description": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro vous propose: Austin Mini 8 000 € 1ère immatriculation : 17/10/1972. 19162 kms au compteur. Vert Anglais. Volant bois. Grosse révi... 7 000 € Mis en avant",
    "prix": 7000,
    "annee": 1972,
    "km": 19162,
@@ -2769,7 +2775,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-05T19:54:51+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-08T17:05:09+00:00"
   },
   {
    "id": "50e33ddbf3ad8e94",
