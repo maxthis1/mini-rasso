@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-10-09T15:54:52+00:00",
+ "genere_le": "2026-10-09T18:03:30+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (40)",
+  "lesAnciennes": "ok (39)",
   "ParuVendu": "ok (19)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 124,
-  "nouvelles": 0,
+  "total": 125,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -198,28 +198,6 @@
    "nouvelle": false
   },
   {
-   "id": "017d639d79765d80",
-   "titre": "austin mini",
-   "description": "austin mini Année 1984 Kilomètre(s) 117500 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 4500,
-   "annee": 1984,
-   "km": 117500,
-   "lieu": "OCCITANIE 82290",
-   "pays": "France",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/Y38M5U9S.html",
-   "image": "https://cloud.leparking.fr/2026/08/22/22/16/austin-mini-austin-mini-noir_9653326568.jpg",
-   "source": "leParking",
-   "score": 63,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 53,
-   "tag_budget": "a financer",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "d93de1248d1b97eb",
    "titre": "mini austin",
    "description": "mini austin Année 1990 Kilomètre(s) 40000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -262,6 +240,52 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "34b2444d524dfda2",
+   "titre": "austin mini 1000 spécial 1990",
+   "description": "austin mini 1000 spécial 1990 Année 1990 Kilomètre(s) 68000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 4500,
+   "annee": 1990,
+   "km": 68000,
+   "lieu": "BRETAGNE 22800",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-1000-special-1990/R2VQ4CJ8.html",
+   "image": "ext/https://img.leboncoin.fr/api/v1/lbcpb1/images/7a/c6/42/7ac642e670ba6ef764a21865bab15a803dae734f.jpg%3Frule%3Dad-large",
+   "source": "leParking",
+   "score": 63,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 53,
+   "tag_budget": "a financer",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-09T18:03:30+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "017d639d79765d80",
+   "titre": "austin mini",
+   "description": "austin mini Année 1984 Kilomètre(s) 117500 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 4500,
+   "annee": 1984,
+   "km": 117500,
+   "lieu": "OCCITANIE 82290",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini/Y38M5U9S.html",
+   "image": "https://cloud.leparking.fr/2026/08/22/22/16/austin-mini-austin-mini-noir_9653326568.jpg",
+   "source": "leParking",
+   "score": 63,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 53,
+   "tag_budget": "a financer",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-02T22:03:20+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-09T18:03:30+00:00"
   },
   {
    "id": "991a8c3a30ec2a3a",
@@ -2635,7 +2659,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-09T18:03:30+00:00"
   },
   {
    "id": "430e9031409f06c4",
