@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-10-08T22:54:47+00:00",
+ "genere_le": "2026-10-09T08:53:08+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (37)",
+  "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (19)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 121,
-  "nouvelles": 0,
+  "total": 122,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1091,7 +1091,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-13T14:13:18+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-09T08:53:07+00:00"
   },
   {
    "id": "bb5feb4624a35664",
@@ -2058,6 +2060,28 @@
    "nouvelle": false
   },
   {
+   "id": "3111b52a990b644b",
+   "titre": "mini minor",
+   "description": "mini minor Année 1989 Kilomètre(s) 1000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 7000,
+   "annee": 1989,
+   "km": 1000,
+   "lieu": "SICILIA 92100",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-minor/OLW2HJTS.html",
+   "image": "https://cloud.leparking.fr/2026/10/08/22/07/rover-mini-mini-minor_9688681862.jpg",
+   "source": "leParking",
+   "score": 38,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 26,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-09T08:53:07+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "41cabe6a5b6c680a",
    "titre": "1998 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Co",
    "description": "1998 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Cooper 1.3 MPI Look Mk1 ! Restaurée intégralement et préparée Stage 4, une obsession totale du détail pour recréer une véritable Coope... POA",
@@ -2340,16 +2364,16 @@
    "nouvelle": false
   },
   {
-   "id": "b43a3bf14ed0605d",
-   "titre": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin ",
-   "description": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de série mythique dans un état de conservation clinique ! Nous avons le plaisir de proposer à la vente cette magnifique Mini 1.3 MPI Cooper Sp... POA",
+   "id": "0620b1ef50a346c6",
+   "titre": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Or",
+   "description": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origines de la Mini Cooper Sportspack “Brooklands” À la fin des années 90, la Cooper Sportspack s’impose comme la version la plus aboutie de la Mini c... POA",
    "prix": 0,
-   "annee": 2000,
-   "km": 40600,
+   "annee": 1998,
+   "km": 55000,
    "lieu": "",
    "pays": "France",
-   "url": "https://www.lesanciennes.com/annonce/rover-mini-cooper-sport-2000-a882999",
-   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2101665/2000-mini-mini-6a42797ee3add.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0a49e3c229f7907e9c3d1b803bd4e5f1",
+   "url": "https://www.lesanciennes.com/annonce/rover-mini-mpi-brooklands-1998-a874407",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2075612/1998-mini-mini-6a155ccb902b0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fa861ad38a176246179afa87cfcfe3ed",
    "source": "lesAnciennes",
    "score": 18,
    "etat": "bon_etat",
@@ -2362,16 +2386,16 @@
    "nouvelle": false
   },
   {
-   "id": "0620b1ef50a346c6",
-   "titre": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Or",
-   "description": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origines de la Mini Cooper Sportspack “Brooklands” À la fin des années 90, la Cooper Sportspack s’impose comme la version la plus aboutie de la Mini c... POA",
+   "id": "b43a3bf14ed0605d",
+   "titre": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin ",
+   "description": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de série mythique dans un état de conservation clinique ! Nous avons le plaisir de proposer à la vente cette magnifique Mini 1.3 MPI Cooper Sp... POA",
    "prix": 0,
-   "annee": 1998,
-   "km": 55000,
+   "annee": 2000,
+   "km": 40600,
    "lieu": "",
    "pays": "France",
-   "url": "https://www.lesanciennes.com/annonce/rover-mini-mpi-brooklands-1998-a874407",
-   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2075612/1998-mini-mini-6a155ccb902b0.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=fa861ad38a176246179afa87cfcfe3ed",
+   "url": "https://www.lesanciennes.com/annonce/rover-mini-cooper-sport-2000-a882999",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2101665/2000-mini-mini-6a42797ee3add.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=0a49e3c229f7907e9c3d1b803bd4e5f1",
    "source": "lesAnciennes",
    "score": 18,
    "etat": "bon_etat",
