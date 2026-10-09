@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-09T10:54:48+00:00",
+ "genere_le": "2026-10-09T11:24:47+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (40)",
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 122,
-  "nouvelles": 0,
+  "total": 124,
+  "nouvelles": 2,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1735,7 +1735,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-05T18:54:00+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-09T11:24:47+00:00"
   },
   {
    "id": "5c4c513df3b554e3",
@@ -2189,6 +2191,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-10-07T16:54:59+00:00"
+  },
+  {
+   "id": "78a4503c9aad028e",
+   "titre": "rover, mini, saloon, 1989, manual, 1275 (cc), 2 doors",
+   "description": "rover, mini, saloon, 1989, manual, 1275 (cc), 2 doors Année 1989 Kilomètre(s) 149011 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 5296,
+   "annee": 1989,
+   "km": 149011,
+   "lieu": "BRISTOL BS1",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/rover-mini-saloon-1989-manual-1275-cc-2-doors/K5PBP3VQ.html",
+   "image": "https://cloud.leparking.fr/2026/10/09/02/37/rover-mini-rover-mini-saloon-1989-manual-1275-cc-2-doors_9688788533.jpg",
+   "source": "leParking",
+   "score": 34,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 44,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-09T11:24:47+00:00",
+   "nouvelle": true
   },
   {
    "id": "cb7058e286204370",
@@ -2852,6 +2876,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-09-30T15:11:55+00:00"
+  },
+  {
+   "id": "2f79f929bacc0bf2",
+   "titre": "1988 austin mini moke",
+   "description": "1988 austin mini moke Année 1988 Kilomètre(s) 19313 Energie Inconnu Couleur Inconnu Boite Inconnu Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1988,
+   "km": 19313,
+   "lieu": "BERKSHIRE GU47",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1988-austin-mini-moke/DFTUM28Z.html",
+   "image": "https://cloud.leparking.fr/2026/10/09/10/01/austin-mini-1988-austin-mini-moke_9689039651.jpg",
+   "source": "leParking",
+   "score": 6,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-09T11:24:47+00:00",
+   "nouvelle": true
   }
  ]
 }
