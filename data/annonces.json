@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-11T15:19:46+00:00",
+ "genere_le": "2026-10-11T15:25:39+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (37)",
-  "ParuVendu": "ok (21)",
+  "lesAnciennes": "ok (40)",
+  "ParuVendu": "ok (10)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -33,7 +33,7 @@
  },
  "stats": {
   "total": 119,
-  "nouvelles": 2,
+  "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -175,7 +175,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-11T15:25:39+00:00"
   },
   {
    "id": "6c42abcb633cfe67",
@@ -197,7 +199,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-11T15:25:39+00:00"
   },
   {
    "id": "017d639d79765d80",
@@ -799,7 +803,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-11T15:19:46+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "ddd2c3603c8eb497",
@@ -2101,7 +2105,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-11T15:19:46+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "3111b52a990b644b",
