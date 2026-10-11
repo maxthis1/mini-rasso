@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-10T22:54:50+00:00",
+ "genere_le": "2026-10-11T15:19:46+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (40)",
-  "ParuVendu": "ok (19)",
+  "lesAnciennes": "ok (37)",
+  "ParuVendu": "ok (21)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 117,
-  "nouvelles": 0,
+  "total": 119,
+  "nouvelles": 2,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -778,6 +778,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "756c34998aa3bb84",
+   "titre": "austin mini cooper d'epoca pronta all'uso",
+   "description": "austin mini cooper d'epoca pronta all'uso Année 1983 Kilomètre(s) 1000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5500,
+   "annee": 1983,
+   "km": 1000,
+   "lieu": "LAZIO 00065",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-cooper-d&#039;epoca-pronta-all&#039;uso/OLW2TO2S.html",
+   "image": "",
+   "source": "leParking",
+   "score": 50,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 42,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-11T15:19:46+00:00",
+   "nouvelle": true
   },
   {
    "id": "ddd2c3603c8eb497",
@@ -2060,6 +2082,28 @@
    "disparue_le": "2026-10-10T21:14:03+00:00"
   },
   {
+   "id": "6d23088b4d6d9b7a",
+   "titre": "mini 1000 anno 1981",
+   "description": "mini 1000 anno 1981 Année 1981 Kilomètre(s) 69000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6900,
+   "annee": 1981,
+   "km": 69000,
+   "lieu": "LIGURIA 16100",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-1000-anno-1981/4V0O1PKT.html",
+   "image": "https://cloud.leparking.fr/2026/10/11/08/07/rover-mini-mini-1000-anno-1981_9690365533.jpg",
+   "source": "leParking",
+   "score": 39,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 27,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-11T15:19:46+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "3111b52a990b644b",
    "titre": "mini minor",
    "description": "mini minor Année 1989 Kilomètre(s) 1000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -2079,7 +2123,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-09T08:53:07+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-11T15:19:46+00:00"
   },
   {
    "id": "41cabe6a5b6c680a",
