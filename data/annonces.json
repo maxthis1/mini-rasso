@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-12T19:54:47+00:00",
+ "genere_le": "2026-10-12T20:24:48+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (40)",
@@ -889,7 +889,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-11T15:19:46+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-12T20:24:48+00:00"
   },
   {
    "id": "ddd2c3603c8eb497",
