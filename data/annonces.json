@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-11T21:54:51+00:00",
+ "genere_le": "2026-10-12T17:10:17+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (40)",
-  "ParuVendu": "ok (21)",
+  "ParuVendu": "ok (18)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 119,
-  "nouvelles": 0,
+  "total": 123,
+  "nouvelles": 4,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -197,7 +197,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-12T17:10:17+00:00"
   },
   {
    "id": "017d639d79765d80",
@@ -532,6 +534,28 @@
    "nouvelle": false
   },
   {
+   "id": "fea10ebe0cd1d72c",
+   "titre": "austin mini sprite 1300 1993",
+   "description": "austin mini sprite 1300 1993 Année 1993 Kilomètre(s) 114000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5000,
+   "annee": 1993,
+   "km": 114000,
+   "lieu": "PAYS DE LA LOIRE 44260",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-sprite-1300-1993/QC8FZ3LG.html",
+   "image": "https://cloud.leparking.fr/2026/10/01/11/40/austin-mini-austin-mini-sprite-1300-1993-rouge_9683154950.jpg",
+   "source": "leParking",
+   "score": 55,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 47,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-12T17:10:17+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "6bf7d0fb19f98732",
    "titre": "austin mini 1000 série limitée",
    "description": "austin mini 1000 série limitée Année 1987 Kilomètre(s) 105868 Energie ESSENCE Couleur BLANC Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -642,6 +666,50 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "0da7c16e33333853",
+   "titre": "austin min 1000",
+   "description": "austin min 1000 Année 1990 Kilomètre(s) 160000 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5000,
+   "annee": 1990,
+   "km": 160000,
+   "lieu": "OCCITANIE 34600",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-min-1000/URZ7GIPY.html",
+   "image": "https://cloud.leparking.fr/2026/10/12/13/13/austin-mini-austin-min-1000-gris_9691036974.jpg",
+   "source": "leParking",
+   "score": 53,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 47,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-12T17:10:17+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "bc238a8ee0a9cd4b",
+   "titre": "mini austin",
+   "description": "mini austin Année 1986 Kilomètre(s) 96000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5000,
+   "annee": 1986,
+   "km": 96000,
+   "lieu": "NOUVELLE-AQUITAINE 19100",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin/OLWPQWLS.html",
+   "image": "https://cloud.leparking.fr/2026/10/12/10/30/austin-mini-mini-austin_9690845354.jpg",
+   "source": "leParking",
+   "score": 53,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 47,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-12T17:10:17+00:00",
+   "nouvelle": true
   },
   {
    "id": "d3d6d8f3e05c5f13",
@@ -778,6 +846,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-21T18:03:39+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "0ae0f982a90df531",
+   "titre": "austin mini 1000",
+   "description": "austin mini 1000 Année 1988 Kilomètre(s) 153000 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5500,
+   "annee": 1988,
+   "km": 153000,
+   "lieu": "PROVENCE-ALPES-COTE D'AZUR 84200",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-1000/4V0OFH5T.html",
+   "image": "https://cloud.leparking.fr/2026/10/12/13/13/austin-mini-austin-mini-1000-rouge_9691036969.jpg",
+   "source": "leParking",
+   "score": 50,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 42,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-12T17:10:17+00:00",
+   "nouvelle": true
   },
   {
    "id": "756c34998aa3bb84",
@@ -1385,7 +1475,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-05T18:54:00+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-12T17:10:17+00:00"
   },
   {
    "id": "76c92fffdb31e06c",
@@ -2077,9 +2169,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-05T18:54:00+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-10-10T21:14:03+00:00"
+   "nouvelle": false
   },
   {
    "id": "6d23088b4d6d9b7a",
