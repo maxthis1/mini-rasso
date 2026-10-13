@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-12T23:24:48+00:00",
+ "genere_le": "2026-10-13T17:09:27+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (40)",
-  "ParuVendu": "ok (18)",
+  "ParuVendu": "ok (17)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 123,
-  "nouvelles": 0,
+  "total": 131,
+  "nouvelles": 8,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -336,6 +336,28 @@
    "nouvelle": false
   },
   {
+   "id": "06cad85bbd43b663",
+   "titre": "1981 AUSTIN Mini clubman estate 45 / Publiée le 11/11/2025 Manuel Essence Blanc Spécialisé",
+   "description": "1981 AUSTIN Mini clubman estate 45 / Publiée le 11/11/2025 Manuel Essence Blanc Spécialisés dans l'entretien et l'import de véhicules de collection, nous vous proposons une Leyland clubman estate de 1981. -Complète -Moteur 1000 no... 3 000 €",
+   "prix": 3000,
+   "annee": 1981,
+   "km": 0,
+   "lieu": "",
+   "pays": "France",
+   "url": "https://www.lesanciennes.com/annonce/austin-mini-clubman-estate-1981-a785391",
+   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C1894589/1981-mini-mini-68453d4e930f5.jpg?h=600&ixlib=php-4.1.0&q=85&w=800&s=4158b1879ff23238a2477f98d1942dfb",
+   "source": "lesAnciennes",
+   "score": 61,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 68,
+   "tag_budget": "a financer",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-13T17:09:26+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "f8a7ae0e9a65546e",
    "titre": "mini british open",
    "description": "mini british open Année 1993 Kilomètre(s) 90000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -553,7 +575,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-12T17:10:17+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-13T17:09:27+00:00"
   },
   {
    "id": "6bf7d0fb19f98732",
@@ -687,7 +711,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-12T17:10:17+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-13T17:09:27+00:00"
   },
   {
    "id": "bc238a8ee0a9cd4b",
@@ -709,7 +735,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-12T17:10:17+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-13T17:09:27+00:00"
   },
   {
    "id": "d3d6d8f3e05c5f13",
@@ -780,6 +808,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "36c3c8dcea68fb85",
+   "titre": "austin rover mini 1000",
+   "description": "austin rover mini 1000 Année 1990 Kilomètre(s) 20570 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 4800,
+   "annee": 1990,
+   "km": 20570,
+   "lieu": "PIEMONTE 15076",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-rover-mini-1000/MENZBM1M.html",
+   "image": "https://cloud.leparking.fr/2025/12/09/12/17/austin-mini-austin-rover-mini-1000_9484365991.jpg",
+   "source": "leParking",
+   "score": 50,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 49,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-13T17:09:26+00:00",
+   "nouvelle": true
   },
   {
    "id": "3eb8c3d839846581",
@@ -1115,7 +1165,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-13T17:09:27+00:00"
   },
   {
    "id": "91a2476b7200cc20",
@@ -1181,7 +1233,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-10T21:14:03+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-13T17:09:27+00:00"
   },
   {
    "id": "c3f7bba6617f3c3e",
@@ -1203,7 +1257,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-10T21:14:03+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-13T17:09:27+00:00"
   },
   {
    "id": "87aa56c35dda368d",
@@ -1250,6 +1306,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "9c1601500727d199",
+   "titre": "mini 1000- austin",
+   "description": "mini 1000- austin Année 1995 Kilomètre(s) 88656 Energie ESSENCE Couleur VERT Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6000,
+   "annee": 1995,
+   "km": 88656,
+   "lieu": "HAUTS-DE-FRANCE 62123",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-1000-austin/PGRZCL22.html",
+   "image": "https://cloud.leparking.fr/2026/10/13/15/27/austin-mini-mini-1000-austin-vert_9691939007.jpg",
+   "source": "leParking",
+   "score": 47,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 37,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-13T17:09:26+00:00",
+   "nouvelle": true
   },
   {
    "id": "2cb1128fc4c65a51",
@@ -1847,9 +1925,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-05T18:54:00+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-10-09T11:24:47+00:00"
+   "nouvelle": false
   },
   {
    "id": "5c4c513df3b554e3",
@@ -1918,6 +1994,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-10-08T17:05:09+00:00"
+  },
+  {
+   "id": "f050c19d16705377",
+   "titre": "mini austin 88",
+   "description": "mini austin 88 Année 1988 Kilomètre(s) 18000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 6700,
+   "annee": 1988,
+   "km": 18000,
+   "lieu": "OCCITANIE 34300",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-austin-88/8V0EZQZ4.html",
+   "image": "https://cloud.leparking.fr/2026/10/13/15/28/austin-mini-mini-austin-88-noir_9691939427.jpg",
+   "source": "leParking",
+   "score": 43,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 29,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-13T17:09:26+00:00",
+   "nouvelle": true
   },
   {
    "id": "426f33ee84353084",
@@ -2740,6 +2838,94 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-10-07T16:54:59+00:00"
+  },
+  {
+   "id": "0a965aceaa47f0f5",
+   "titre": "1961 | austin mini 850",
+   "description": "1961 | austin mini 850 Année 1961 Kilomètre(s) Inconnu Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1961,
+   "km": 0,
+   "lieu": "PROVINCIE NOORD-BRABANT 5140",
+   "pays": "Pays-Bas",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1961-austin-mini-850/9XJSICBQ.html",
+   "image": "https://cloud.leparking.fr/2026/10/13/03/35/austin-mini-1961-austin-mini-850-inconnu_9691414656.jpg",
+   "source": "leParking",
+   "score": 8,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-13T17:09:26+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "ff9a7eefa69c4c95",
+   "titre": "1966 | austin mini cooper 998 mk1",
+   "description": "1966 | austin mini cooper 998 mk1 Année 1966 Kilomètre(s) 49256 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1966,
+   "km": 49256,
+   "lieu": "WARWICKSHIRE CV35",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1966-austin-mini-cooper-998-mk1/B1ILPDXP.html",
+   "image": "https://cloud.leparking.fr/2026/10/13/03/35/austin-mini-1966-austin-mini-cooper-998-mk1-inconnu_9691414668.jpg",
+   "source": "leParking",
+   "score": 8,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-13T17:09:26+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "8ecbd39d1eec5f33",
+   "titre": "1993 rover mini cooper swiftune 1.3i 5-speed à vendre par enchère",
+   "description": "1993 rover mini cooper swiftune 1.3i 5-speed à vendre par enchère Année 1993 Kilomètre(s) 33733 Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1993,
+   "km": 33733,
+   "lieu": "",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1993-rover-mini-cooper-swiftune-1-3i-5-speed-a-vendre-par-enchere/SA4EEWH4.html",
+   "image": "https://cloud.leparking.fr/2026/10/13/14/02/rover-mini-1993-rover-mini-cooper-swiftune-1-3i-5-speed-a-vendre-par-enchere-rouge_9691880236.jpg",
+   "source": "leParking",
+   "score": 8,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-13T17:09:26+00:00",
+   "nouvelle": true
+  },
+  {
+   "id": "d80a8447f8769cd2",
+   "titre": "1993 rover mini cooper swiftune 1.3i 5-speed",
+   "description": "1993 rover mini cooper swiftune 1.3i 5-speed Année Inconnu Kilomètre(s) Inconnu Energie ESSENCE Couleur ROUGE Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1993,
+   "km": 0,
+   "lieu": "WEST SUSSEX COUNTY BN99",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1993-rover-mini-cooper-swiftune-1-3i-5-speed/2XMVVJCB.html",
+   "image": "https://cloud.leparking.fr/2026/10/13/14/01/rover-mini-1993-rover-mini-cooper-swiftune-1-3i-5-speed-rouge_9691877878.jpg",
+   "source": "leParking",
+   "score": 8,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-13T17:09:26+00:00",
+   "nouvelle": true
   },
   {
    "id": "b55003e5710efb5a",
