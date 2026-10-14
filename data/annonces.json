@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-13T23:54:49+00:00",
+ "genere_le": "2026-10-14T17:24:51+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (41)",
-  "ParuVendu": "ok (17)",
+  "ParuVendu": "ok (18)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 131,
-  "nouvelles": 0,
+  "total": 134,
+  "nouvelles": 3,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1562,28 +1562,6 @@
    "disparue_le": "2026-10-12T17:10:17+00:00"
   },
   {
-   "id": "76c92fffdb31e06c",
-   "titre": "1.3i british open",
-   "description": "1.3i british open Année 1994 Kilomètre(s) 107874 Energie ESSENCE Couleur MARRON Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
-   "prix": 6000,
-   "annee": 1994,
-   "km": 107874,
-   "lieu": "LIMBOURG 3500",
-   "pays": "Belgique",
-   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1-3i-british-open/5DOV9974.html",
-   "image": "https://cloud.leparking.fr/2026/09/29/06/46/rover-mini-1-3i-british-open-marron_9681162320.jpg",
-   "source": "leParking",
-   "score": 45,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 37,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-29T20:24:52+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "196a2a2e70139dab",
    "titre": "mini del 71",
    "description": "mini del 71 Année 1971 Kilomètre(s) 80000 Energie ESSENCE Couleur Inconnu Boite Inconnu Portes 2 PORTES Catégorie COLLECTION",
@@ -1670,6 +1648,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "76c92fffdb31e06c",
+   "titre": "1.3i british open",
+   "description": "1.3i british open Année 1994 Kilomètre(s) 107874 Energie ESSENCE Couleur MARRON Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6000,
+   "annee": 1994,
+   "km": 107874,
+   "lieu": "LIMBOURG 3500",
+   "pays": "Belgique",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/1-3i-british-open/5DOV9974.html",
+   "image": "https://cloud.leparking.fr/2026/09/29/06/46/rover-mini-1-3i-british-open-marron_9681162320.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 37,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-29T20:24:52+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-14T17:24:51+00:00"
   },
   {
    "id": "28d490c386c5487d",
@@ -2039,9 +2041,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-10-08T17:05:09+00:00"
+   "nouvelle": false
   },
   {
    "id": "63cd6e37154d4336",
@@ -2160,6 +2160,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-10-05T19:54:51+00:00"
+  },
+  {
+   "id": "22b935ce61e7fa4e",
+   "titre": "mini mini austin rover xl2 mini mayfair 1000 'bastlerfahrzeug '",
+   "description": "mini mini austin rover xl2 mini mayfair 1000 'bastlerfahrzeug ' Année 1991 Kilomètre(s) 129300 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5200,
+   "annee": 1991,
+   "km": 129300,
+   "lieu": "POLITISCHER BEZIRK SALZBURG UMGEBUNG 5162",
+   "pays": "Autriche",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-mini-austin-rover-xl2-mini-mayfair-1000-&#039;bastlerfahrzeug-&#039;/8V0E17Q4.html",
+   "image": "https://cloud.leparking.fr/2026/10/14/11/12/austin-mini-mini-mini-austin-rover-xl2-mini-mayfair-1000-bastlerfahrzeug_9692592071.jpg",
+   "source": "leParking",
+   "score": 40,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 45,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-14T17:24:51+00:00",
+   "nouvelle": true
   },
   {
    "id": "c896c42a7ed16f26",
@@ -2293,7 +2315,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-11T15:19:46+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-14T17:24:51+00:00"
   },
   {
    "id": "3111b52a990b644b",
@@ -2322,7 +2346,7 @@
   {
    "id": "41cabe6a5b6c680a",
    "titre": "1998 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Co",
-   "description": "1998 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Cooper 1.3 MPI Look Mk1 ! Restaurée intégralement et préparée Stage 4, une obsession totale du détail pour recréer une véritable Coope... POA",
+   "description": "1998 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Gris Magnifique Mini Cooper 1.3 MPI Look Mk1 ! Restaurée intégralement et préparée Stage 4, une obsession totale du détail pour recréer une véritable Coope... Prix sur demande",
    "prix": 0,
    "annee": 1998,
    "km": 0,
@@ -2345,6 +2369,28 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "c0403d9198e18621",
+   "titre": "mini mini austin rover 1000 hl bj 1985 britischer mini",
+   "description": "mini mini austin rover 1000 hl bj 1985 britischer mini Année 1985 Kilomètre(s) 99999 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 5900,
+   "annee": 1985,
+   "km": 99999,
+   "lieu": "POLITISCHER BEZIRK AMSTETTEN 4300",
+   "pays": "Autriche",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/mini-mini-austin-rover-1000-hl-bj-1985-britischer-mini/VP0G3OY8.html",
+   "image": "https://cloud.leparking.fr/2026/10/14/11/12/austin-mini-mini-mini-austin-rover-1000-hl-bj-1985-britischer-mini_9692591995.jpg",
+   "source": "leParking",
+   "score": 36,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 38,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-14T17:24:51+00:00",
+   "nouvelle": true
   },
   {
    "id": "4f07b70c554aa0ee",
@@ -2424,7 +2470,7 @@
   {
    "id": "cb7058e286204370",
    "titre": "1969 MINI VENDUE/SOLD 75 / Publiée le 25/09/2026 86 900 km Manuel Essence Vert en vente ce",
-   "description": "1969 MINI VENDUE/SOLD 75 / Publiée le 25/09/2026 86 900 km Manuel Essence Vert en vente cette belle Mini 1000 Cooper MKII 1969 restaurée intégralement en 2017 tres belle livrée verte et blanche et ces jantes tôles équipées d'enjo... POA",
+   "description": "1969 MINI VENDUE/SOLD 75 / Publiée le 25/09/2026 86 900 km Manuel Essence Vert en vente cette belle Mini 1000 Cooper MKII 1969 restaurée intégralement en 2017 tres belle livrée verte et blanche et ces jantes tôles équipées d'enjo... Prix sur demande",
    "prix": 0,
    "annee": 1969,
    "km": 86900,
@@ -2541,7 +2587,7 @@
   {
    "id": "e16a5a05dab6376c",
    "titre": "1964 AUSTIN Mini Pick Up 78 / Publiée le 11/05/2026 Manuel Essence Gris Voici un splendide",
-   "description": "1964 AUSTIN Mini Pick Up 78 / Publiée le 11/05/2026 Manuel Essence Gris Voici un splendide Austin Mini pickup mk1 intégralement restauré ! Le 12 février 1964, cette auto quitte les chaînes de Longbridge. Cinq jours plus ta... POA",
+   "description": "1964 AUSTIN Mini Pick Up 78 / Publiée le 11/05/2026 Manuel Essence Gris Voici un splendide Austin Mini pickup mk1 intégralement restauré ! Le 12 février 1964, cette auto quitte les chaînes de Longbridge. Cinq jours plus ta... Prix sur demande",
    "prix": 0,
    "annee": 1964,
    "km": 0,
@@ -2568,7 +2614,7 @@
   {
    "id": "0620b1ef50a346c6",
    "titre": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Or",
-   "description": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origines de la Mini Cooper Sportspack “Brooklands” À la fin des années 90, la Cooper Sportspack s’impose comme la version la plus aboutie de la Mini c... POA",
+   "description": "1998 ROVER Mini MPI Brooklands 78 / Publiée le 29/07/2026 55 000 km Manuel Essence Gris Origines de la Mini Cooper Sportspack “Brooklands” À la fin des années 90, la Cooper Sportspack s’impose comme la version la plus aboutie de la Mini c... Prix sur demande",
    "prix": 0,
    "annee": 1998,
    "km": 55000,
@@ -2590,7 +2636,7 @@
   {
    "id": "b43a3bf14ed0605d",
    "titre": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin ",
-   "description": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de série mythique dans un état de conservation clinique ! Nous avons le plaisir de proposer à la vente cette magnifique Mini 1.3 MPI Cooper Sp... POA",
+   "description": "2000 Mini Classic Cooper 78 / Publiée le 29/06/2026 40 600 km Manuel Essence Gris Une fin de série mythique dans un état de conservation clinique ! Nous avons le plaisir de proposer à la vente cette magnifique Mini 1.3 MPI Cooper Sp... Prix sur demande",
    "prix": 0,
    "annee": 2000,
    "km": 40600,
@@ -2658,7 +2704,7 @@
   {
    "id": "1864d0fd918b3cac",
    "titre": "1964 AUSTIN Mini Cooper S 75 / Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vo",
-   "description": "1964 AUSTIN Mini Cooper S 75 / Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vous proposons à la vente cette exceptionnelle Austin Mini Cooper S Mk1 dans sa ravissante teinte Almond Green. Livrée neuve en France le 28 mars... POA",
+   "description": "1964 AUSTIN Mini Cooper S 75 / Publiée le 08/03/2026 37 390 km Manuel Essence Vert Nous vous proposons à la vente cette exceptionnelle Austin Mini Cooper S Mk1 dans sa ravissante teinte Almond Green. Livrée neuve en France le 28 mars... Prix sur demande",
    "prix": 0,
    "annee": 1964,
    "km": 37390,
@@ -2680,7 +2726,7 @@
   {
    "id": "24b853362a1705ad",
    "titre": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe 78 / Publiée le 11/06/2026 128 000 km Manuel E",
-   "description": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe 78 / Publiée le 11/06/2026 128 000 km Manuel Essence Noir Voici l’une des plus belles Arc de Triomphe passées entre nos mains depuis près de 20 ans. En 1994, un propriétaire entre dans la concession parisienn... POA",
+   "description": "1994 MINI 1.3 SPI Cabriolet Arc de Triomphe 78 / Publiée le 11/06/2026 128 000 km Manuel Essence Noir Voici l’une des plus belles Arc de Triomphe passées entre nos mains depuis près de 20 ans. En 1994, un propriétaire entre dans la concession parisienn... Prix sur demande",
    "prix": 0,
    "annee": 1994,
    "km": 0,
@@ -2702,7 +2748,7 @@
   {
    "id": "d45490910b6754a8",
    "titre": "1999 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40t",
-   "description": "1999 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40th Anniversaire Island Blue avec seulement 23 000 miles d’origine ! Sortie en 1999 pour célébrer les 40 années de production, cette v... POA",
+   "description": "1999 Mini Classic Cooper 78 / Publiée le 29/07/2026 Manuel Essence Bleu Rarissime Mini 40th Anniversaire Island Blue avec seulement 23 000 miles d’origine ! Sortie en 1999 pour célébrer les 40 années de production, cette v... Prix sur demande",
    "prix": 0,
    "annee": 1999,
    "km": 0,
@@ -2840,6 +2886,28 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-10-07T16:54:59+00:00"
+  },
+  {
+   "id": "bf118d614eae27a6",
+   "titre": "1966 austin mini cooper",
+   "description": "1966 austin mini cooper Année 1966 Kilomètre(s) Inconnu Energie Inconnu Couleur Inconnu Boite Inconnu Portes 2 PORTES Catégorie CITADINE",
+   "prix": 0,
+   "annee": 1966,
+   "km": 0,
+   "lieu": "WARWICKSHIRE CV35",
+   "pays": "Royaume-Uni",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/1966-austin-mini-cooper/3AY9OK21.html",
+   "image": "https://cloud.leparking.fr/2026/10/14/04/02/austin-mini-1966-austin-mini-cooper-inconnu_9692321412.jpg",
+   "source": "leParking",
+   "score": 8,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": null,
+   "tag_budget": "hors budget",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-14T17:24:51+00:00",
+   "nouvelle": true
   },
   {
    "id": "0a965aceaa47f0f5",
