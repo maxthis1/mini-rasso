@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-16T19:54:48+00:00",
+ "genere_le": "2026-10-16T20:36:58+00:00",
  "sources": {
   "leParking": "ok (212)",
   "lesAnciennes": "ok (41)",
@@ -1600,6 +1600,28 @@
    "disparue_le": "2026-10-14T17:24:51+00:00"
   },
   {
+   "id": "98a5eb6fa9952ead",
+   "titre": "mini 1.3 cat cooper",
+   "description": "mini 1.3 cat cooper Année 1991 Kilomètre(s) 118857 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
+   "prix": 6500,
+   "annee": 1991,
+   "km": 118857,
+   "lieu": "LAZIO 00060",
+   "pays": "Italie",
+   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-1-3-cat-cooper/COKB8VKL.html",
+   "image": "https://cloud.leparking.fr/2025/02/12/23/13/rover-mini-mini-1-3-cat-cooper-grigio_9127821538.jpg",
+   "source": "leParking",
+   "score": 45,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-09-08T16:59:28+00:00",
+   "nouvelle": false
+  },
+  {
    "id": "28d490c386c5487d",
    "titre": "mini austin",
    "description": "mini austin Année 1991 Kilomètre(s) 80000 Energie ESSENCE Couleur NOIR Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
@@ -1622,30 +1644,6 @@
    "nouvelle": false,
    "disparue": true,
    "disparue_le": "2026-10-07T17:24:50+00:00"
-  },
-  {
-   "id": "98a5eb6fa9952ead",
-   "titre": "mini 1.3 cat cooper",
-   "description": "mini 1.3 cat cooper Année 1991 Kilomètre(s) 118857 Energie ESSENCE Couleur GRIS Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
-   "prix": 6500,
-   "annee": 1991,
-   "km": 118857,
-   "lieu": "LAZIO 00060",
-   "pays": "Italie",
-   "url": "https://www.leparking.be/voiture-occasion-detail/rover-mini/mini-1-3-cat-cooper/COKB8VKL.html",
-   "image": "https://cloud.leparking.fr/2025/02/12/23/13/rover-mini-mini-1-3-cat-cooper-grigio_9127821538.jpg",
-   "source": "leParking",
-   "score": 45,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 32,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-08T16:59:28+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-10-07T16:54:59+00:00"
   },
   {
    "id": "a7e6a4379da7f8de",
@@ -1922,28 +1920,6 @@
    "nouvelle": false
   },
   {
-   "id": "acdc97f5e2eacf5a",
-   "titre": "austin mini 1000",
-   "description": "austin mini 1000 Année 1977 Kilomètre(s) 116000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
-   "prix": 7000,
-   "annee": 1977,
-   "km": 116000,
-   "lieu": "AUVERGNE-RHONE-ALPES 38160",
-   "pays": "France",
-   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-1000/R2VX0YV8.html",
-   "image": "https://cloud.leparking.fr/2026/10/14/16/37/austin-mini-austin-mini-1000-inconnu_9692867535.jpg",
-   "source": "leParking",
-   "score": 41,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": 26,
-   "tag_budget": "hors budget court terme",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-10-15T22:55:09+00:00",
-   "nouvelle": false
-  },
-  {
    "id": "5849c6935f5cace7",
    "titre": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Ré",
    "description": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro vous propose: Austin Mini 8 000 € 1ère immatriculation : 17/10/1972. 19162 kms au compteur. Vert Anglais. Volant bois. Grosse révi... 7 000 € Mis en avant",
@@ -1964,6 +1940,30 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-07T16:54:59+00:00",
    "nouvelle": false
+  },
+  {
+   "id": "acdc97f5e2eacf5a",
+   "titre": "austin mini 1000",
+   "description": "austin mini 1000 Année 1977 Kilomètre(s) 116000 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 2 PORTES Catégorie CITADINE",
+   "prix": 7000,
+   "annee": 1977,
+   "km": 116000,
+   "lieu": "AUVERGNE-RHONE-ALPES 38160",
+   "pays": "France",
+   "url": "https://www.leparking.be/voiture-occasion-detail/austin-mini/austin-mini-1000/R2VX0YV8.html",
+   "image": "https://cloud.leparking.fr/2026/10/14/16/37/austin-mini-austin-mini-1000-inconnu_9692867535.jpg",
+   "source": "leParking",
+   "score": 41,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 26,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [],
+   "risque_rouille": "non annonce",
+   "vue_le": "2026-10-15T22:55:09+00:00",
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-16T20:36:58+00:00"
   },
   {
    "id": "323314ad89ed840a",
@@ -2123,7 +2123,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-16T20:36:58+00:00"
   },
   {
    "id": "91143fb097bffab7",
