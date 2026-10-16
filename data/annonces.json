@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-10-16T17:04:25+00:00",
+ "genere_le": "2026-10-16T17:24:50+00:00",
  "sources": {
   "leParking": "ok (212)",
-  "lesAnciennes": "ok (41)",
+  "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (17)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -33,7 +33,7 @@
  },
  "stats": {
   "total": 125,
-  "nouvelles": 10,
+  "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -197,7 +197,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "6c42abcb633cfe67",
@@ -669,7 +669,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "0be616c112405880",
@@ -713,7 +713,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "b3289d2490c228d5",
@@ -1897,7 +1897,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "802da269e2eb659a",
@@ -1919,7 +1919,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "acdc97f5e2eacf5a",
@@ -2123,7 +2123,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "91143fb097bffab7",
@@ -2416,7 +2416,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "e16a5a05dab6376c",
@@ -2509,7 +2509,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "a4b15e4e54674a3e",
@@ -2531,7 +2531,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "772931f0fae8b04a",
@@ -2665,7 +2665,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": true
+   "nouvelle": false
   },
   {
    "id": "f07e6d0914534ce9",
