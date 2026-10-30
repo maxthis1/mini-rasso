@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-25T18:24:48+00:00",
+ "genere_le": "2026-10-30T22:24:48+00:00",
  "sources": {
   "leParking": "erreur : 8/8 requetes en echec — 403 Client Error: Forbidden for url: https://www.leparking.be/voiture-occasion/austin-mini.html?tri=prix_croissant",
   "lesAnciennes": "ok (40)",
-  "ParuVendu": "ok (18)",
+  "ParuVendu": "ok (20)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
  },
@@ -32,7 +32,7 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 124,
+  "total": 122,
   "nouvelles": 0,
   "pepites": 0,
   "sous_2k": 1
@@ -353,7 +353,9 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-10-13T17:09:26+00:00",
-   "nouvelle": false
+   "nouvelle": false,
+   "disparue": true,
+   "disparue_le": "2026-10-30T22:24:48+00:00"
   },
   {
    "id": "f8a7ae0e9a65546e",
@@ -2249,35 +2251,6 @@
    "nouvelle": false
   },
   {
-   "id": "cb7058e286204370",
-   "titre": "1969 MINI VENDUE/SOLD 75 / Publiée le 25/09/2026 86 900 km Manuel Essence Vert en vente ce",
-   "description": "1969 MINI VENDUE/SOLD 75 / Publiée le 25/09/2026 86 900 km Manuel Essence Vert en vente cette belle Mini 1000 Cooper MKII 1969 restaurée intégralement en 2017 tres belle livrée verte et blanche et ces jantes tôles équipées d'enjo... Prix sur demande",
-   "prix": 0,
-   "annee": 1969,
-   "km": 86900,
-   "lieu": "",
-   "pays": "France",
-   "url": "https://www.lesanciennes.com/annonce/mini-vendue-sold-1969-a816945",
-   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C1964880/1969-mini-1000-mkii-68ff2dee5e812.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=8568583dccf6472be3c74ef7326e1d8f",
-   "source": "lesAnciennes",
-   "score": 34,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": null,
-   "tag_budget": "hors budget",
-   "drapeaux": [
-    {
-     "type": "bon",
-     "texte": "restauree, restaure"
-    }
-   ],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-09-26T09:52:13+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-10-16T19:24:49+00:00"
-  },
-  {
    "id": "a79b4cfbec263300",
    "titre": "rover, mini, saloon, 1989, manual, 998 (cc), 2 doors",
    "description": "rover, mini, saloon, 1989, manual, 998 (cc), 2 doors Année 1989 Kilomètre(s) 114486 Energie ESSENCE Couleur Inconnu Boite MANUELLE Portes 3 PORTES Catégorie CITADINE",
@@ -2439,30 +2412,6 @@
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
    "nouvelle": false
-  },
-  {
-   "id": "06fae4ce44d347b5",
-   "titre": "1999 ROVER Mini 1.3 MPI Sportspack 78 / Publiée le 29/07/2026 64 500 km Manuel Essence Bla",
-   "description": "1999 ROVER Mini 1.3 MPI Sportspack 78 / Publiée le 29/07/2026 64 500 km Manuel Essence Blanc Voici la dernière évolution de la Mini classique dans une configuration profondément élégante ! Cette jolie Mini 1.3 MPI Cooper Sportspack arbore une... Prix sur demande",
-   "prix": 0,
-   "annee": 1999,
-   "km": 64500,
-   "lieu": "",
-   "pays": "France",
-   "url": "https://www.lesanciennes.com/annonce/rover-mini-1-3-mpi-sportspack-1999-a881101",
-   "image": "https://assets.lesanciennes.com/uploads/cars/mini/C2096982/1999-mini-mini-6a38f4de7b243.jpg?fit=crop&h=600&ixlib=php-4.1.0&q=85&w=800&s=c50ae51bc10aa42b46dee89f1fd67db9",
-   "source": "lesAnciennes",
-   "score": 18,
-   "etat": "bon_etat",
-   "cote_estimee": 9500,
-   "ecart_cote": null,
-   "tag_budget": "hors budget",
-   "drapeaux": [],
-   "risque_rouille": "non annonce",
-   "vue_le": "2026-10-16T17:04:25+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-10-19T17:07:08+00:00"
   },
   {
    "id": "a4b15e4e54674a3e",
