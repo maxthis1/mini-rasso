@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-11-20T18:26:03+00:00",
+ "genere_le": "2026-11-20T18:54:47+00:00",
  "sources": {
   "leParking": "erreur : 8/8 requetes en echec — 403 Client Error: Forbidden for url: https://www.leparking.be/voiture-occasion/austin-mini.html?tri=prix_croissant",
-  "lesAnciennes": "ok (21)",
+  "lesAnciennes": "ok (40)",
   "ParuVendu": "ok (21)",
   "eBay": "desactivee",
   "Car & Classic": "desactivee"
@@ -32,8 +32,8 @@
   "commentaire": "Estimation du rapatriement en euros : transport plus formalites d'immatriculation (quitus fiscal, carte grise). Ordres de grandeur pour comparer deux annonces, pas un devis. Les pays listes dans hors_ue ajoutent droits de douane et TVA a l'import, non comptes ici."
  },
  "stats": {
-  "total": 123,
-  "nouvelles": 0,
+  "total": 124,
+  "nouvelles": 1,
   "pepites": 0,
   "sous_2k": 1
  },
@@ -1907,6 +1907,33 @@
    "nouvelle": false
   },
   {
+   "id": "32c8897133bc9f81",
+   "titre": "1997 AUSTIN Mini COOPER 93 / Publiée le 21/07/2026 83 200 km Manuel Essence Gris Mini coop",
+   "description": "1997 AUSTIN Mini COOPER 93 / Publiée le 21/07/2026 83 200 km Manuel Essence Gris Mini cooper 1.3l injection du 02/1997 \"\"\"\"\"\"\"\"\"\"roulante mais il y a de la corrosion perforante\"\"\"\"\"\"\" 6 500 €",
+   "prix": 6500,
+   "annee": 1997,
+   "km": 83200,
+   "lieu": "",
+   "pays": "France",
+   "url": "https://www.lesanciennes.com/annonce/austin-mini-cooper-1997-a887651",
+   "image": "https://i.lesanciennes.com/wwCjJ0zZyRQ/pr:800x600/plain/uploads/cars/mini/C2116662/1997-mini-mini-6a5f3bb58ec33.jpg",
+   "source": "lesAnciennes",
+   "score": 42,
+   "etat": "bon_etat",
+   "cote_estimee": 9500,
+   "ecart_cote": 32,
+   "tag_budget": "hors budget court terme",
+   "drapeaux": [
+    {
+     "type": "rouille",
+     "texte": "rouille annoncee : corrosion"
+    }
+   ],
+   "risque_rouille": "moyen",
+   "vue_le": "2026-11-20T18:54:47+00:00",
+   "nouvelle": true
+  },
+  {
    "id": "5849c6935f5cace7",
    "titre": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Ré",
    "description": "1972 AUSTIN Mini 14 / Publiée le 24/08/2026 19 162 km Manuel Essence Vert Calvados Auto Rétro vous propose: Austin Mini 8 000 € 1ère immatriculation : 17/10/1972. 19162 kms au compteur. Vert Anglais. Volant bois. Grosse révi... 7 000 € Mis en avant",
@@ -2207,9 +2234,7 @@
    ],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-11-20T18:26:03+00:00"
+   "nouvelle": false
   },
   {
    "id": "c0403d9198e18621",
@@ -2396,9 +2421,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-11-20T18:26:03+00:00"
+   "nouvelle": false
   },
   {
    "id": "b43a3bf14ed0605d",
@@ -2420,9 +2443,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-11-20T18:26:03+00:00"
+   "nouvelle": false
   },
   {
    "id": "06fae4ce44d347b5",
@@ -2444,9 +2465,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-11-07T10:54:57+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-11-17T21:52:38+00:00"
+   "nouvelle": false
   },
   {
    "id": "a4b15e4e54674a3e",
@@ -2512,9 +2531,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-11-20T18:26:03+00:00"
+   "nouvelle": false
   },
   {
    "id": "d45490910b6754a8",
@@ -2536,9 +2553,7 @@
    "drapeaux": [],
    "risque_rouille": "non annonce",
    "vue_le": "2026-09-02T22:03:20+00:00",
-   "nouvelle": false,
-   "disparue": true,
-   "disparue_le": "2026-11-20T18:26:03+00:00"
+   "nouvelle": false
   },
   {
    "id": "772931f0fae8b04a",
